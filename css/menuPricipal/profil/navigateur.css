@@ -1,0 +1,21 @@
+#navProfil{
+	position: relative;
+	top: 40px;
+	left: 22px;
+}
+
+.rechercheProfil{
+	border: 2px #FF8400 solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 0px #FF8400;
+	width: 120px;
+	padding: 5px;
+	margin: 3px;
+	background-color: #FFA13F;
+	display: inline-block;
+}
+
+.rechercheProfil:hover{
+	background-color: #FFB568
+}
+

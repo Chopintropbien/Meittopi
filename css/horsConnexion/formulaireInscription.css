@@ -1,0 +1,134 @@
+td{
+	width: 400px;
+}
+				
+tr{
+	width: 400px;
+}						
+table{
+	width: 400px;
+}		
+
+h1{
+	font-size: xx-large;
+}
+#agauche{
+	display: inline-block;
+	width: 600px;
+	position: relative;
+	top: 35px;
+	left: 35px;
+}
+
+td{
+	width: 400px;
+}
+				
+tr{
+	width: 400px;
+}			
+
+h1{
+	size: xx-large;
+}			
+				
+table{
+	width: 400px;
+}		
+
+#inscription{
+	float: right;
+	position: relative;
+	right: 55px;
+	top: 35px;
+	display: inline-block;
+	
+}	
+	
+.grandChamp, .grandChamp:focus {
+	width: 350px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-indent: 5px;
+	
+}
+
+.grandChampErreur, .grandChampErreur:focus{
+	width: 350px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-indent: 5px;
+	border: 1px red inset;
+	box-shadow: 1px 1px 5px red;
+	
+}
+
+.petitChamp, .petitChamp:focus{
+	width: 170px; 
+	display: inline-block;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	text-indent: 5px;
+}
+.petitChampErreur, .petitChampErreur:focus{
+	width: 170px;
+	display: inline-block;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	text-indent: 5px;
+	border: 1px red inset;
+	box-shadow: 1px 1px 3px red;
+}
+.date, .date:focus{
+	display: inline-block;
+	margin-right: 5px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.dateErreur, .dateErreur:focus{
+	display: inline-block;
+	margin-right: 5px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px red inset;
+	box-shadow: 1px 1px 3px red;
+}
+
+.genre{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sexErreur{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: red;
+}
+
+
+#creerUnCompte{
+	padding: 2px;
+	height: 40px;
+	font-size: large;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #DAD6D2;
+	border: 1px #C7C2BF ridge;
+	box-shadow: 1px 1px 3px #A8A8A8;
+}
+
+#dateEtGenre{
+	position: relative;
+	top: 15px;
+}
+

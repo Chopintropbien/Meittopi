@@ -1,0 +1,63 @@
+article{
+	border: 1px #C9C2B4 solid;
+	border-radius: 5px;
+	position: relative;
+	top: 100px;
+	left: 300px; 
+	width: 450px;
+	padding: 20px 40px 20px 40px;
+
+}
+
+h3{
+	border-bottom: 1px #C9C2B4 solid;
+	padding-bottom: 15px;
+	font-size: large;
+}
+p{
+	border: 1px red solid;
+	border-radius: 3px;
+	margin: 20px;
+	background-color: #FFA594;
+	padding: 5px;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+ul{
+	margin: 10px;
+}
+li{
+	margin-top: 10px;
+	padding-left: 30px;
+
+}
+.champ{
+	height: 25px;
+	width: 300px;
+	text-indent: 10px;
+}
+
+#gardersection{
+	position: relative;
+	bottom: 5px;
+	left: 2px;
+}
+#connexionOuInscription{
+	font-size: 14px;
+}
+#connexion{
+	margin-right: 5px;
+	padding: 3px;
+
+}
+#inscription{
+	margin-left: 5px;
+	color: #FF5E02;
+
+	
+}
+#oublie:hover{
+	text-decoration: underline;
+}

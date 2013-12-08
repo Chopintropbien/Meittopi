@@ -1,0 +1,125 @@
+#contenueRecherche{
+	font-size: 32px;
+	text-decoration: underline;
+	margin: 20px;
+}
+
+#options{
+	margin: 15px;
+	margin-top: 30px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 165px;
+	display: inline-block;
+	float: left;
+}
+
+.titreOption{
+	margin-top: 5px;
+}
+
+.avance{
+	color: blue;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+.avance:hover{
+	text-decoration: underline;
+	
+}
+
+#carte{
+	float: right;
+	position: fixed;
+	top: 125px;
+	left: 875px;
+}
+
+.grandeListeRestau{
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 500px;
+	margin: 15px;
+	margin-top: 30px;
+	padding: 0px 15px 15px 15px;
+	display: inline-block;
+}
+.restau{
+	margin-top: 15px;
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+}
+
+.photoRestau{
+	display: inline-block; 
+	float: left;
+}
+
+.articleRestau{
+	display: inline-block; 
+	height: 90px;
+	margin-left: 10px;
+	width: 365px;
+}
+.titreRestau{
+	font-size: 16px;
+	margin-bottom: 3px;
+	color: blue;
+	font-weight: normal;
+}
+.noteRestau{
+}
+.descriptionRestau{
+	height: 35px;
+	margin-top: 5px;
+}
+.titreDescriptionRestau{
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.asideAmis{
+	width: 90px;
+	height: 35px;
+}
+.evenement{
+	margin-top: 5px;
+
+}
+.coordonnees{
+	float: right;
+	width: 170px;
+	margin-top: 5px;
+}
+
+adress{
+	display: block;
+}
+.tel{
+	margin-top: 2px;
+}
+
+.amisQuiAime{
+	margin-top: 7px;
+	color: #B12300;
+}
+.amisQuiAimePas{
+	margin-top: 2px;
+	color: #1A3277;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

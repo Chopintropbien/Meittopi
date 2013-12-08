@@ -1,0 +1,61 @@
+.caseVide, .draggableBox {
+	width: 181px;
+}
+
+.draggableBox {
+	text-align: top;
+	position: absolute;
+	user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.grosseLigne{
+	width: 181px;
+	height: 100px;
+}
+.ligneFine{
+	height: 35px;
+}
+
+p, h3{
+	display: inline-block;
+	text-align: left;
+}
+.croix{
+	cursor: move;
+}
+select{
+	user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+
+.genre{
+	width: 20px;
+}
+textarea{
+	width: 180px;
+	max-width: 180px;
+	max-height: 70px;
+	height: 70px;  
+}
+textarea::selection{
+	background: #FFFFFF ;
+}
+textarea::-moz-selection {
+	background: #FFFFFF; /* Firefox */
+}
+#cadre{
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 800px;	
+}
+
+
+
+
