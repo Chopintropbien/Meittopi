@@ -1,6 +1,7 @@
 <img src="../../../image/logoSweetTable.png" alt="SweetTable" id="logo"/>
-		<form action="../../controleur/horsConnexion/connexion.php" method="post">
-			<table id="tableau">
+		<form action="../../controleur/horsConnexion/connexion.php" method="post"  id="tableau">
+			
+			<table>
 				<tr>
 					<td> Adresse e-mail </td>
 					<td> Mot de passe</td>
@@ -17,4 +18,5 @@
 					<td> Mot de passe oublié? </td>
 				</tr>
 			</table>
+			
 		</form>

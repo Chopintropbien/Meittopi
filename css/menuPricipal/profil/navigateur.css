@@ -1,14 +1,19 @@
 #navProfil{
-	position: relative;
-	top: 40px;
-	left: 22px;
+	display: inline-block;
+	width: 13%;
+	margin: 3%;
+	margin-right: 5.5%;
+	margin-top: 8%;
+	vertical-align: top;
 }
 
 .rechercheProfil{
+	display: inline-block;
 	border: 2px #FF8400 solid;
 	border-radius: 5px;
 	box-shadow: 1px 1px 0px #FF8400;
-	width: 120px;
+	width: 85%;
+	min-width: 120px;
 	padding: 5px;
 	margin: 3px;
 	background-color: #FFA13F;

@@ -1,0 +1,14 @@
+.grandeListe li p{
+	margin: 1%;
+	text-indent: 12px;
+}
+
+.grandeListe li h2{
+	font-size: 20px;
+	margin-bottom: 1.8%;
+}
+.grandeListe li h3{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 2%;
+}

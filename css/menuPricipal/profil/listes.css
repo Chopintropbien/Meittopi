@@ -1,3 +1,4 @@
+
 #ajous{
 	font-size: 14px;
 	color: blue;
@@ -8,93 +9,6 @@
 	text-decoration: underline;
 }
 
-#listeDeListe{
-	margin: 20px;
-	margin-bottom: 40px;
-}
-
-.listeDeListe{
-	display: inline-block;
-	border: 2px #EBEAEB outset; 
-	background-color: #F4F4F4;
-	padding: 4px 12px 4px  12px;
-	margin-left: 3px;
-	margin-top: 3px;
-	
-}
-
-.grandeListeRestau{
-	border: 2px #EBEAEB outset; 
-	background-color: #F4F4F4;
-	width: 370px;
-	margin-left: 30px;
-	margin-bottom: 30px;
-	padding: 0px 15px 15px 15px;
-	float: left;
-	vertical-align: top;
-	
-
-}
-
-.titreListeRestau{
-	text-align: center;
-	font-weight: blod;
-	font-size: 18px;
-	margin: 7px; 
-	font-weight: bold;
-}
-
-.ligneListeRestau{
-	
-
-}
-
-
-.restau{
-	margin-top: 15px;
-	border: 1px #EBEAEB outset; 
-	background-color: #F4F4F4; 
-}
-
-.titreRestau{
-	margin-top: 3px;
-}
-
-.photoRestau{
-	display: inline-block; 
-	float: left;
-}
-
-.articleRestau{
-	display: inline-block; 
-	height: 90px;
-	margin-left: 10px;
-}
-
-.titreDescriptionRestau{
-	float: left;
-	margin-right: 5px;
-}
-
-.descriptionRestau{
-	height: 45px;
-}
-.corpsListeRestau{
-	min-height: 100px;
-}
-
-.etoile{
-
-}
-.noteRestau{
-}
-
-.evenementRestau{
-}
-
-strong{
-	
-}
 
 .footerListeRestau{
 

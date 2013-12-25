@@ -1,0 +1,72 @@
+.restau{
+	width: 100%;
+	margin-top: 15px;
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+}
+
+.photoRestau{
+	width: 25%;
+	display: inline-block; 
+	float: left;
+}
+
+.articleRestau{
+	display: inline-block;
+	width: 72.5%;
+	height: 90px;
+	margin-left: 2.5%;;
+}
+.titreRestau{
+	font-size: 16px;
+	margin-bottom: 3px;
+	color: blue;
+	font-weight: normal;
+}
+.noteRestau{
+}
+.commantaireRestau{
+	margin-top: 7px;
+}
+
+.descriptionRestau{
+	height: 35px;
+}
+.titreDescriptionRestau{
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.asideAmis{
+	width: 90px;
+	height: 35px;
+	
+}
+.evenement{
+	margin-top: 5px;
+
+}
+.coordonnees{
+	font-size: 10px;
+	text-align: right;
+	float: right;
+	max-width: 53%;
+	margin-top: 5px;
+}
+
+adress{
+	display: block;
+}
+.tel{
+	margin-top: 2px;
+}
+
+.amisQuiAime{
+	margin-top: 7px;
+	color: #B12300;
+}
+.amisQuiAimePas{
+	margin-top: 2px;
+	color: #1A3277;
+
+}

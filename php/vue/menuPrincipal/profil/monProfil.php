@@ -16,11 +16,13 @@
 					<?php include("../navigateur.php"); ?>
 				</nav>
 				
-				<aside class="gauche">
-					<?php include("navigateur.php"); ?>
-				</aside>
+					
 			
 				<section id="partiePrincipale">
+					
+					<?php include("navigateur.php"); ?>
+					
+					
 					<article id="profil_profil"> 
 						<h2> Lauriane Mollier </h2>
 						<h5> Alias: <strong> DarkChopin </strong></h5>
@@ -58,23 +60,24 @@
 							</article>
 					</article> 
 					
-					<article  class="aDroite">
-						<h2 id="changerLeSite"> Quelque chose à améliorer?  </h2>
-						<p>
-							Meittopi vous offre la possibilité de </br>
-							<strong> changer son site! </strong> changer son site!
-						</p>
-					</article>
-				
-					<article  class="aDroite"> 
-						<h2 id="suggestion"> Vous vous sentez seul? </h2>
-						<strong> Invitez des amis! </strong> 
-					</article>
+					<aside id="blocDeDroite">
+						<article  class="aDroite">
+							<h2 id="changerLeSite"> Quelque chose à améliorer?  </h2>
+							<p>
+								Meittopi vous offre la possibilité de </br>
+								<strong> changer son site! </strong> changer son site!
+							</p>
+						</article>
 					
-					<article class="aDroite"> 
-						<h2 id="appreciation"> Avez-vous <strong>aimer les restaurants</strong> que meittopi vous a suggerer? </h2>
-					</article>
-					
+						<article  class="aDroite"> 
+							<h2 id="suggestion"> Vous vous sentez seul? </h2>
+							<strong> Invitez des amis! </strong> 
+						</article>
+						
+						<article class="aDroite"> 
+							<h2 id="appreciation"> Avez-vous <strong>aimer les restaurants</strong> que meittopi vous a suggerer? </h2>
+						</article>
+					</aside>
 				</section>
 
 		</body>

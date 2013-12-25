@@ -37,12 +37,7 @@ table{
 }		
 
 #inscription{
-	float: right;
-	position: relative;
-	right: 55px;
-	top: 35px;
-	display: inline-block;
-	
+	margin-top: 7%;
 }	
 	
 .grandChamp, .grandChamp:focus {

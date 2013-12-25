@@ -6,6 +6,8 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/rechercher.css"/>
+			
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/restaurantComplet.class.css"/>
 			<title> Acceuil </title>
 		</head>
 		
@@ -17,7 +19,7 @@
 				
 				<section id="partiePrincipale">
 					
-					<h1 id="contenueRecherche">La recheche a Lausanne</h1>
+					<h1 id="titreRecherche">Notre selection personnalisé pour Lausanne</h1>
 
 					<ul id="options">
 						<li> <h2 class = "titreOption">Distance :</h2> </li>
@@ -149,9 +151,10 @@
 				</section>	
 				
 				
-				<script src = "http://localhost/Meittopi/php/javascript/liste.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/restaurant.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/javascript/class/listeRestauComplet.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/javascript/class/restaurantComplet.class.js"> </script>
 				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/rechercher.js"> </script>
+				
 			</section>
 		</body>
 	</html>

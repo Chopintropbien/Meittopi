@@ -1,0 +1,11 @@
+.grandeListe{
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+	width: 28%;
+	display: inline-block; 
+	vertical-align: top;
+	float: left;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	padding: 0px 0px 0px 0px;
+}

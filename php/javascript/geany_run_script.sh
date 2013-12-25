@@ -2,7 +2,7 @@
 
 rm $0
 
-./restaurant.class
+./ami.class
 
 echo "
 

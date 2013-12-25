@@ -1,0 +1,43 @@
+.grandeListe li{
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+	margin: 3%;
+}
+
+.grandeListe h2{
+	text-align: center;
+	font-size: 16px;
+	margin: 1%;
+}
+
+.grandeListe img, .grandeListe h4, .grandeListe aside{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.grandeListe img{
+	width: 30%;
+	margin-right: 2%;
+}
+.grandeListe h4{
+	width: 55%;
+
+}
+.grandeListe aside{
+	width: 10%;
+	float: right;
+	text-align: right;
+}
+.grandeListe aside img{
+	margin: 1%;
+	width: 85%;
+}
+.grandeListe aside p{
+	position: relative;
+	bottom: 3px;
+	font-size: x-small;
+}
+
+.grandeListe aside p:hover{
+	color: blue;
+}

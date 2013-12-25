@@ -5,10 +5,6 @@
 .draggableBox {
 	text-align: top;
 	position: absolute;
-	user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */	
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
 }
 .grosseLigne{
 	width: 181px;
@@ -25,12 +21,7 @@ p, h3{
 .croix{
 	cursor: move;
 }
-select{
-	user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */	
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-}
+
 
 .genre{
 	width: 20px;

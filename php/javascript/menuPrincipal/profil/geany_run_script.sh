@@ -2,7 +2,7 @@
 
 rm $0
 
-./listeDeListe.class
+./sortie
 
 echo "
 

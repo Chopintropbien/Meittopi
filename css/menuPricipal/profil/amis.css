@@ -1,0 +1,54 @@
+#section{
+	display: inline-block;
+	margin: 2%;
+	width: 72%;
+}
+
+#inviterAmis{
+	margin: 3%;
+	width: 50%;
+	margin: 0px auto;
+}
+
+
+#inviterAmis input{
+	margin:  auto;
+	width: 40%;
+	height: 40px;
+	margin: 3%;
+	background-color: #FF5726;
+	border: 2px #FF5726 outset;
+	margin-bottom: 10%;
+}
+ #activiteAmis li{
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+	padding: 1%;
+	margin: 3.5%;
+}
+
+#activiteAmis{
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	margin-left: 7%;
+}
+
+#activiteAmis img {
+	display: inline-block;
+	width: 18%;
+	vertical-align: top;
+}
+
+#activiteAmis article {
+	display: inline-block;
+	width: 80%;
+	margin-left: 1%;
+	margin-right: 0.5%;
+	vertical-align: top;
+}
+
+
+

@@ -1,0 +1,34 @@
+.restau{
+	margin-top: 15px;
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+}
+
+.titreRestau{
+	margin-top: 3px;
+}
+
+.photoRestau{
+	display: inline-block; 
+	float: left;
+	width: 33%;
+}
+
+.articleRestau{
+	display: inline-block; 
+	height: 90px;
+	margin-left: 10px;
+	width: 62%;
+}
+
+.titreDescriptionRestau{
+	float: left;
+	margin-right: 5px;
+}
+
+.descriptionRestau{
+	height: 45px;
+}
+.corpsListeRestau{
+	min-height: 100px;
+}

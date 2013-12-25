@@ -1,26 +1,26 @@
 #profil_profil{
-	/*border: 1px #292316 solid;*/
 	border: 2px #EBEAEB outset; 
 	border-radius: 10px;
-	width: 480px;
-	float: left;
+	width: 40%;
 	display: inline-block;
-	position: relative;
-	left: 30px;
-	top: 40px;
 	padding: 10px;
+	margin-top: 5%;
+	margin-right: 4.5%;
 	background-color: #F4F4F4;
 }
-
+#blocDeDroite{
+	display: inline-block;
+	width: 25%;
+}
 .aDroite{
-	width: 292px;
-	height: 65px;
-	margin-left: 555px;
-	margin-top: 40px; 
+	min-width: 250px;
+	vertical-align: top;
+	margin-top: 10%; 
 	text-align: center;
 	border-radius: 10px;
 	border: 2px #EBEAEB outset; 
 	background-color: #F4F4F4;
+	padding: 10px;
 	
 } 
 .aDroite:hover{
@@ -28,16 +28,13 @@
 }
 
 #changerLeSite{
-	margin: 5px;
-	margin-top: 6px;
+	margin-bottom: 5px;
 } 
 #suggestion{
-	margin: 5px;
-	margin-top: 12px;
+	margin-bottom: 5px;
 } 
 #appreciation{
-	margin: 5px;
-	margin-top: 13px;
+	margin-bottom: 5px;
 }
 
 

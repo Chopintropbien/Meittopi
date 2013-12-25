@@ -2,7 +2,7 @@
 					
 	(function() { // On utilise une IEF pour ne pas polluer l'espace global
 	
-	    var storage = {}; // Contient l'objet du div en cours de déplacement
+	    
 	    
 	    
 	    function addEvent(element, event, func) { // Une fonction pour gérer les événements sous tous les navigateurs
@@ -13,72 +13,71 @@
 	        }
 	    }
 	    
-	    function init() { // La fonction d'initialisation    
-			var transition = document.getElementsByTagName('p');
-	        var elements = [];
-				
-				//prends les elements parents des elements de transitions				
-			for(var i = 0; i<transition.length; ++i){
-				elements.push(transition[i].parentNode);
+	    // calcule la marge exterieur total de l'éléments
+	    function bordure(element){
+			var bordures = {};
+			var top = 0, left = 0;
+			var b = element;
+			
+		    while (b != null) {
+		        top += b.offsetTop;
+				left += b.offsetLeft;
+				b = b.offsetParent;
 			}
 			
-			var elementsLength = elements.length;
-	            
-	            function bordure(element){
-					var bordures = {};
-					var top = 0, left = 0;
-					var b = element;
-					
-				    while (b != null) {
-				        top += b.offsetTop;
-						left += b.offsetLeft;
-						b = b.offsetParent;
-					}
-					
-					bordures.top = top;
-					bordures.left = left;
-					
-					return bordures;
-					
-				}
-	            
-	            /*
+			bordures.top = top;
+			bordures.left = left;
+			
+			return bordures;
+			
+		}
+	    
+	    function init() { // La fonction d'initialisation   
+			
+			
+
+	           /*
 	        var text = document.getElementsByTagName('textarea');
 	        var textLength = text.length;
 	        
+	       
+				// donne le focus au texteare
+				// mais ca nemarche pas!!!!!!!
 	        for( var i = 0; i< textLength; ++i){
-				
-				if(text[i].className === 'textarea'){
-					var element = text[i];
 					addEvent(text[i], 'click', function(){
-						element.focus();
-						alert('focus');
+						this.focus();
 					});
-				}
-				
-				
-				
 			}*/
-			
-	            
-	          				        
-	        for (var i = 0 ; i < elementsLength ; i++) {
+					
+				// prends les crois sur lequel il faut cliquer pour deplacer l'element 
+			var transition = document.getElementsByTagName('p');
+			var transitionLength = transition.length;	
+				
+			var storage = {}; // Contient l'objet du div en cours de déplacement				
+							        
+	        for (var i = 0 ; i < transitionLength ; i++) {
 	            if (transition[i].className === 'croix') {
-	
-	        
+
+						//fait la norme du z-index 
+					transition[i].parentNode.style.zIndex = '1';
+					
+
 	                addEvent(transition[i], 'mousedown', function(e) { // Initialise le drag & drop
 	                    var s = storage;
+	                    // prends l'element parents c'est a dire le bloc que l'on veut déplacer
 	                    s.target = e.target.parentNode || event.srcElement.parentNode;
 	                    
 						var bordures = bordure(s.target);
 						
-	                    s.offsetX = e.clientX - bordures.left +100; // enlever la marge 
+	                    s.offsetX = e.clientX - bordures.left; // enlever la marge 
 	                    s.offsetY = e.clientY - bordures.top;
-	                    
-	                 
+						
+							//pour que l element deplace soit au dessus des autre
+						this.parentNode.style.zIndex = '2';
 	                });
 	        
-	                addEvent(elements[i], 'mouseup', function() { // Termine le drag & drop
+	                addEvent(transition[i], 'mouseup', function() { // Termine le drag & drop
+						this.parentNode.style.zIndex = '1';
 	                    storage = {};
 	                });
 	                
@@ -109,7 +108,7 @@
 	        addEvent(document, 'mousemove', function(e) { // Permet le suivi du drag & drop
 	            var target = storage.target;
 	            if (target) {
-					target.style.position = "absolute"
+					target.style.position = "absolute";
 	                target.style.top = e.clientY - storage.offsetY + 'px';
 	                target.style.left = e.clientX - storage.offsetX + 'px';
 	                
@@ -123,7 +122,7 @@
 	                var bordures = bordure(cadre);
 	                
 						// contition de perte de l' element
-					var conditionArret = 30;
+					var conditionArret = 50;
 						//pour le bas
 	                if((e.clientY - storage.offsetY + target.offsetHeight) > cadre.offsetHeight + bordures.top -pixelBordureCadreDroitBas){
 						target.style.top = cadre.offsetHeight - target.offsetHeight + bordures.top - pixelBordureCadreDroitBas + 'px';

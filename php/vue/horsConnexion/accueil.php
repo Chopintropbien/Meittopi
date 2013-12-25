@@ -4,9 +4,9 @@
 		<head>
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="../../../css/base.css"/>
-			<link rel="stylesheet" href="../../../css/horsConnexion/acceuil.css"/>
 			<link rel="stylesheet" href="../../../css/horsConnexion/navigateur.css"/>
 			<link rel="stylesheet" href="../../../css/horsConnexion/formulaireInscription.css"/>
+
 			<title> Acceuil </title>
 		</head>
 		

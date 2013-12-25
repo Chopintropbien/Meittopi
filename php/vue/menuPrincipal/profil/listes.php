@@ -3,11 +3,15 @@
 	<html>
 		<head>
 			<meta charset="utf-8"/>
-			<link rel="stylesheet" href="../../../../css/base.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/navigateur.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/navigateur.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/monProfil.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/listes.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/monProfil.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/listes.css"/>
+			
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeDeListe.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeRestau.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/restaurant.class.css"/>
 			<title> Acceuil </title>
 		</head>
 		
@@ -17,57 +21,65 @@
 					<?php include("../navigateur.php"); ?>
 				</nav>
 				
-				<aside class="gauche">
-					<?php include("navigateur.php"); ?>
-				</aside>
+					
 			
 				<section id="partiePrincipale">
-					<h6 id="ajous"> + Ajouter une liste </h6>
 					
-						<!-- entete des differentes listes -->
-					<ul id="listeDeListe">
-						
-					</ul>
+					<?php include("navigateur.php"); ?>
 					
-					<!-- il faut creer tout ca 
+					<section id="grossePartie">
+					
+						<h6 id="ajous"> + Ajouter une liste </h6>
 						
-					<ul class="grandeListeRestau">
-						<li class = "titreListeRestau" id = "titreListeRestau"> </li>
-						<li class = "corpsListeRestau" id = "corpsListeRestau" >
-						<!--	<ol class="restau">
-
-								<img src="http://localhost/Meittopi/image/restau.jpg" alt="photo" class="photoRestau"/>
+							<!-- entete des differentes listes -->
+						<ul id="listeDeListe">
+							
+						</ul>
+						<article id="affichageRestau">
+						
+						</article>
+						
+						<!-- il faut creer tout ca 
+							
+						<ul class="grandeListeRestau">
+							<li class = "titreListeRestau" id = "titreListeRestau"> </li>
+							<li class = "corpsListeRestau" id = "corpsListeRestau" >
+							<!--	<ol class="restau">
+	
+									<img src="http://localhost/Meittopi/image/restau.jpg" alt="photo" class="photoRestau"/>
+									
+									<article class="articleRestau">	
+											<h3 class="titreRestau">
+												La table du valoton
+											</h3>
+											<div class = "noteRestau">
+												<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
+												<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
+												<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
+												<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
+												<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
+											</div>
+											
+											<h4 class="titreDescriptionRestau">J'ai noté ca</h4>
+											<p class="descriptionRestau"> 
+												zkfbkbkvbqekvbdkvbfvk
+											fvqkfvbqdkvbdvkdjb</p>
+											<cite class="evenementRestau"> Evenements</cite>
+											
+										</article>
+								</ol> 
 								
-								<article class="articleRestau">	
-										<h3 class="titreRestau">
-											La table du valoton
-										</h3>
-										<div class = "noteRestau">
-											<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
-											<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
-											<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
-											<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
-											<img src="http://localhost/Meittopi/image/medaille.png" class="etoile"/>
-										</div>
-										
-										<h4 class="titreDescriptionRestau">J'ai noté ca</h4>
-										<p class="descriptionRestau"> 
-											zkfbkbkvbqekvbdkvbfvk
-										fvqkfvbqdkvbdvkdjb</p>
-										<cite class="evenementRestau"> Evenements</cite>
-										
-									</article>
-							</ol> 
-							
-							
-						</li>
-						<li class = "footerListeRestau"> </li>
-					</ul>
-					-->
+								
+							</li>
+							<li class = "footerListeRestau"> </li>
+						</ul>
+						-->
+					
+					</article>
 				</section>
-				<script src = "http://localhost/Meittopi/php/javascript/liste.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/restaurant.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/listeDeListe.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/javascript/class/listeRestau.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/javascript/class/restaurant.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/javascript/class/listeDeListe.class.js"> </script>
 				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/listes.js"> </script>  
 				
 		</body>

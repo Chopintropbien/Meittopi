@@ -1,0 +1,20 @@
+
+#activiteAmis img {
+	display: inline-block;
+	width: 18%;
+	vertical-align: top;
+}
+
+#activiteAmis article {
+	display: inline-block;
+	width: 80%;
+	margin-left: 1%;
+	margin-right: 0.5%;
+	vertical-align: top;
+}
+ #activiteAmis li{
+	border: 1px #EBEAEB outset; 
+	background-color: #F4F4F4; 
+	padding: 1%;
+	margin: 3.5%;
+}

@@ -3,10 +3,17 @@
 	<html>
 		<head>
 			<meta charset="utf-8"/>
-			<link rel="stylesheet" href="../../../../css/base.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/navigateur.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/navigateur.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/monProfil.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/suivis.css"/>
+			
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/ami.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeAmis.class.css"/>
+			
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/raconterSortie.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeRaconterSortie.class.css"/>
+			
 			<title> Acceuil </title>
 		</head>
 		
@@ -15,14 +22,42 @@
 				<nav id="nav">
 					<?php include("../navigateur.php"); ?>
 				</nav>
-				
-				<aside class="gauche">
-					<?php include("navigateur.php"); ?>
-				</aside>
 			
 				<section id="partiePrincipale">
+					<?php include("navigateur.php"); ?>
 					
-				</section>
+					<section id="section">
+						
+						<article id="inviterAmis">
+							<input type="text" id="inviter" name="inviter" placeholder="Rechercher des amis">
+							<input type="submit" value="rechercher" id="rechercherAmis">
+						</article>
+						
+						<ul id="listeAmis" class='grandeListe'>
+							
+						</ul>
+						
+						
+						<ul id="activiteAmis" >
 
+						
+						</ul>
+					
+					
+					</section>
+				</section>
+			</section>
+			
+			<script src="http://localhost/Meittopi/php/javascript/class/ami.class.js"> </script>
+			<script src="http://localhost/Meittopi/php/javascript/class/listeAmis.class.js"> </script>
+			
+			<script src="http://localhost/Meittopi/php/javascript/class/raconterSortie.class.js"> </script>
+			<script src="http://localhost/Meittopi/php/javascript/class/listeRaconterSortie.class.js"> </script>
+			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/profil/suivis.js"> </script>
+			
 		</body>
 	</html>
+
+
+
+
