@@ -38,7 +38,7 @@ function Sortie(nom, description){
 		}
 
 
-	}
+	};
 	
 	
-}
+};

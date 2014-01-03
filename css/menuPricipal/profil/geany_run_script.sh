@@ -2,7 +2,7 @@
 
 rm $0
 
-./amis
+./navigateur
 
 echo "
 

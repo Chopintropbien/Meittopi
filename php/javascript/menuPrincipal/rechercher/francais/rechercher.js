@@ -1,3 +1,7 @@
+	// a faire en fonction de la recherche
+	// si pas de recherche, mettre un truc du style: pas d'idéé? Voici ce aue meittopi poour propose!!!
+document.getElementById('titreRecherche').innerHTML = 'Notre selection personnalisé pour Lausanne';
+
 var liste = new Liste("x");
 
 
@@ -39,36 +43,43 @@ liste.afficheRestauComplet();
 
 
 	// partie d'affichage des options suplémentaire
+	
+	// cuisines
 var cuisine = document.getElementById('cuisinesAvancees');
 cuisine.onclick = function(){
-	var elementAAfficher = document.getElementById('cuisineCachees');
-	var elementACacher = document.getElementById('cuisineVisible');
+	var elementAAfficher = document.getElementsByClassName('cacheCuisine');
 	
-	if(elementAAfficher.style.display == 'none'){
-		elementAAfficher.style.display = 'block';
-		elementACacher.style.display = 'none';
+	var length = elementAAfficher.length;
+	if(this.innerHTML == '+ Plus de types de cuisine'){
+		for(var i = 0; i < length; ++i){
+			elementAAfficher[i].style.display = 'inline-block';
+		}
 		this.innerHTML = '- Moins de types de cuisine';
 	}
-	else if(elementAAfficher.style.display == 'block'){
-		elementAAfficher.style.display = 'none';
-		elementACacher.style.display = 'block';
+	else{
+		for(var i = 0; i < length; ++i){
+			elementAAfficher[i].style.display = 'none';
+		}
 		this.innerHTML = '+ Plus de types de cuisine';
 	}
 }
+
+	// options
 var fonction = document.getElementById('fonctionsAvancees');
-
-
 fonction.onclick = function(){
-	var elementAAfficher = document.getElementById('fonctionsCachees');
-	var elementACacher = document.getElementById('fonctionsVisible');
-	if(elementAAfficher.style.display == 'none'){
-		elementAAfficher.style.display = 'block';
-		elementACacher.style.display = 'none';
+	var elementAAfficher = document.getElementsByClassName('cacheFonction');
+	
+	var length = elementAAfficher.length;
+	if(this.innerHTML == '+ Plus de fonctionnalités'){
+		for(var i = 0; i < length; ++i){
+			elementAAfficher[i].style.display = 'inline-block';
+		}
 		this.innerHTML = '- Moins de fonctionnalités';
 	}
-	else if(elementAAfficher.style.display == 'block'){
-		elementAAfficher.style.display = 'none';
-		elementACacher.style.display = 'block';
+	else{
+		for(var i = 0; i < length; ++i){
+			elementAAfficher[i].style.display = 'none';
+		}
 		this.innerHTML = '+ Plus de fonctionnalités';
 	}
 }

@@ -7,7 +7,7 @@
 		<head>
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/modifierMonProfil.css"/>
 			<title> Acceuil </title>
 		</head>
@@ -15,7 +15,7 @@
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("../navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
 			
 				<section id="partiePrincipale">

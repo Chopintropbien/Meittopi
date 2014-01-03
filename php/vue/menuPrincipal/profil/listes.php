@@ -4,7 +4,8 @@
 		<head>
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/ajous.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/monProfil.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/listes.css"/>
@@ -18,7 +19,7 @@
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("../navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
 				
 					
@@ -29,7 +30,7 @@
 					
 					<section id="grossePartie">
 					
-						<h6 id="ajous"> + Ajouter une liste </h6>
+						<h6 class="ajous"> + Ajouter une liste </h6>
 						
 							<!-- entete des differentes listes -->
 						<ul id="listeDeListe">

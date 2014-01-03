@@ -1,0 +1,50 @@
+#propositionAmelioration > li {
+			border: 1px #EBEAEB outset; 
+			background-color: #F4F4F4;
+			padding: 1%;
+			margin: 2%;
+		
+		}
+			#propositionAmelioration li img {
+				display: inline-block;
+				vertical-align: bottom;
+				width: 18%;
+				
+			}
+			#propositionAmelioration li article {
+				display: inline-block;
+				vertical-align: top;
+				width: 51%;
+				margin-right: 2%;
+				margin-left: 1.3%;
+			}
+				#propositionAmelioration li article h2 {
+					text-align: center;
+					font-size: 140%;
+				
+				}
+				#propositionAmelioration li article p {
+					margin-top: 1%;
+					text-align: justify;
+					text-indent: 2%;
+					
+				}
+			
+			#propositionAmelioration li aside{
+				display: inline-block;
+				vertical-align: top;
+				width: 26%;
+			}
+				#propositionAmelioration li aside ul li {
+					margin-left: 2%;
+				}	
+					#propositionAmelioration li aside ul li p {
+						display: inline-block;
+						vertical-align: top;
+						
+					}
+					#propositionAmelioration li aside ul li input{
+						display: inline-block;
+						vertical-align: top;
+						width: 80%;
+					}

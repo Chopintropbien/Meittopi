@@ -1,0 +1,40 @@
+#partiePrincipale > article {
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 70%;
+	margin-top: 5%;
+	margin-left: 15%;
+	padding: 1.5%;
+}
+	#partiePrincipale > article section{
+		width: 15%;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 1%;
+	}
+		#partiePrincipale > article section img{
+			margin-top: 3%;
+			width: 100%; 
+		}
+	
+	#partiePrincipale > article article{
+		width: 59%;
+		display: inline-block;
+		vertical-align: top;
+	}
+		#partiePrincipale > article article h1{
+			font-size: 140%;
+			text-align: center;
+			margin: 1%;
+		} 
+		#partiePrincipale > article article p{
+			text-align: justify;
+			text-indent: 4%;
+		}
+	
+	#partiePrincipale > article aside{
+		width: 20%;
+		display: inline-block;
+		vertical-align: middle;
+		padding-left: 2%;
+	}

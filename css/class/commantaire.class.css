@@ -1,0 +1,50 @@
+#partiePrincipale > ul {
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 70%;
+	margin-top: 2.5%;
+	margin-left: 15%;
+	padding: 1.5%;
+}
+	#partiePrincipale > ul > li{
+		border: 1px #EBEAEB outset; 
+		background-color: #F4F4F4;
+		margin: 2%;
+	}
+		#partiePrincipale > ul li img{
+			width: 15%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		#partiePrincipale > ul li article{
+			width: 79%;
+			display: inline-block;
+			vertical-align: top;
+		}
+			#partiePrincipale > ul li article h6{
+				text-indent: 3%;
+				margin: 0.4%;
+
+			}
+			#partiePrincipale > ul li article p{
+				text-indent: 3%;
+				text-align: justify;
+
+			}
+		
+		#partiePrincipale > ul li section{
+			text-align: right;
+			margin-right: 2px;
+		}
+			#partiePrincipale > ul li section p{
+				display: inline-block;
+				margin-right: 0.7%;
+			}
+
+		#partiePrincipale > ul ul{
+			border: 1px #EBEAEB outset; 
+			width: 80%;
+			float: right;
+			margin: 1px;
+		}

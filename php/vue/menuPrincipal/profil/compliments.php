@@ -4,7 +4,7 @@
 		<head>
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="../../../../css/base.css"/>
-			<link rel="stylesheet" href="../../../../css/menuPricipal/navigateur.css"/>
+			<link rel="stylesheet" href="../../../../css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="../../../../css/menuPricipal/profil/monProfil.css"/>
 			<title> Acceuil </title>
@@ -13,7 +13,7 @@
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("../navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
 				
 				<aside class="gauche">

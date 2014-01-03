@@ -4,7 +4,7 @@
 		<head>
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/monProfil.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/sortie.css"/>
@@ -20,7 +20,7 @@
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("../navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
 				<section id="partiePrincipale">
 					
@@ -28,7 +28,7 @@
 					
 					<section id="grossePartie">
 				
-						<h6 id="ajous"> + Organiser une sortie </h6>
+						<h6 class="ajous"> + Organiser une sortie </h6>
 						
 						<ul id="listeDeListe">
 							

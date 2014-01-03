@@ -1,23 +1,29 @@
 <nav id="navProfil">
 	<ul>
-		<li class="rechercheProfil">
-			<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/monProfil.php"> Page d'accueil </a>
-		</li>
-		<li class="rechercheProfil">
-			<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/listes.php"> Mes listes </a>
-		</li>
-		<li class="rechercheProfil">
-			<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/amis.php"> Mes amis </a>
-		</li>
-		<li class="rechercheProfil">
-			<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/sortie.php"> Organiser une sortie </a>
-		</li>
-		<li class="rechercheProfil">
-			<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/suivis.php"> Suivis </a>
-		</li>
-		<li class="rechercheProfil">
-			<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/compliments.php"> Compliments </a>
-		</li>
+		<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/monProfil.php">
+			<li class="rechercheProfil"> Page d'accueil </li>
+		</a>
+		
+		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/listes.php"> 
+			<li class="rechercheProfil"> Mes listes </li> 
+		</a>
+		
+		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/amis.php"> 
+			<li class="rechercheProfil"> Mes amis </li>
+		</a>
+		
+		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/sortie.php"> 
+			<li class="rechercheProfil">Organiser une sortie </li>
+		</a>
+
+		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/suivis.php">
+			 <li class="rechercheProfil"> Suivis </li> 
+		</a>
+		
+		<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/compliments.php"> 
+			<li class="rechercheProfil"> Compliments  </li>
+		</a>
+		
 	</ul>
 
 </nav>

@@ -10,7 +10,6 @@
 .rechercheProfil{
 	display: inline-block;
 	border: 2px #FF8400 solid;
-	border-radius: 5px;
 	box-shadow: 1px 1px 0px #FF8400;
 	width: 85%;
 	min-width: 120px;

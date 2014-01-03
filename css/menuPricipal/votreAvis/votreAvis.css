@@ -1,0 +1,82 @@
+.ajous{
+	text-indent: 4%;
+}
+#droite, #gauche{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 3%;
+}
+#gauche{
+	width: 59%;
+}
+
+	#propositionAmelioration {
+		margin: 3%;
+		border: 1px red solid;
+		margin-top: 3%;
+		border: 2px #EBEAEB outset; 
+		background-color: #F4F4F4;
+		padding: 1%;
+	}
+		
+
+
+
+#droite{
+	width: 40%;
+}
+	#explication, #profil, #donnation{
+		margin: 3%;
+		border: 2px #EBEAEB outset; 
+		background-color: #F4F4F4;
+		padding: 3%;
+		margin-bottom: 5%;
+	}
+		#explication h1{
+			text-align: center;
+			font-size: 160%;
+			margin-bottom: 2%;
+		}
+		#explication p{
+			text-align: justify;
+			text-indent: 2%;
+			margin-bottom: 4%;
+			
+		
+		}
+		#explication a{
+			color: blue;
+			font-size: 80%;
+			float: right;
+			position: relative;
+			bottom: 10px;
+			
+		}
+		#explication a:hover{
+			text-decoration: underline;
+		}
+
+		#donnation h3{
+			text-align: center;
+			font-size: 160%;
+			margin-bottom: 2%;
+		}
+		#donnation p{
+			text-align: justify;
+			text-indent: 3%;
+			margin-bottom: 4%;
+		}
+			#donnation p a{
+				color: blue;
+				font-size: 85%;
+				float: right;
+				position: relative;
+				top: 15px;
+				
+			}
+			#donnation p a:hover{
+				text-decoration: underline;
+				
+			}
+		
+	

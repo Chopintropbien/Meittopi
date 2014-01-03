@@ -4,24 +4,18 @@
 		<head>
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
+
 			<title> Acceuil </title>
 		</head>
 		
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
-				
-				<aside class="gauche">
 
-				</aside>
-			
 				<section id="partiePrincipale">
-					
 				</section>
-
 		</body>
 	</html>

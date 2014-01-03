@@ -1,0 +1,18 @@
+#profil img, #profil aside{
+	display: inline-block;
+	vertical-align: top;
+}
+#profil img{
+	width: 29%;
+}
+#profil aside{
+	width: 68%;
+	padding-left: 2%;
+}
+
+	#profil aside p{
+		margin-left: 3%;
+	}
+	#profil aside p span{
+		text-decoration: underline;
+	}
