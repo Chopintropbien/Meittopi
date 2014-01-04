@@ -1,10 +1,10 @@
-<img src="../../../image/logoSweetTable.png" alt="SweetTable" id="logo"/>
+<img src="http://localhost/Meittopi/image/logoSweetTable.png" alt="SweetTable" id="logo"/>
 		<form action="../../controleur/horsConnexion/connexion.php" method="post"  id="tableau">
 			
 			<table>
 				<tr>
-					<td> Adresse e-mail </td>
-					<td> Mot de passe</td>
+					<td id="titreEmail">  </td>
+					<td id="titreMotDePasse"> </td>
 				</tr>
 				<tr>
 					<td> <input type="email" name="emailInscrit" id="emailC" /> </td>
@@ -15,8 +15,10 @@
 					<td> <input type="checkbox" name="sectionActive" id="sectionActive"/> 
 						 <label for="sectionActive" id="gardersection"> Garder votre section active</label>
 					</td>
-					<td> Mot de passe oublié? </td>
+					<td id="titreMotDePasseOubliee">  </td>
 				</tr>
 			</table>
 			
 		</form>
+
+<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/navigateur.js"> </script>

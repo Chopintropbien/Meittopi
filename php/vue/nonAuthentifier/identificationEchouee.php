@@ -3,24 +3,23 @@
 	<html>
 		<head>
 			<meta charset="utf-8"/>
-			<link rel="stylesheet" href="../../../css/base.css"/>
-			<link rel="stylesheet" href="../../../css/horsConnexion/acceuil.css"/>
-			<link rel="stylesheet" href="../../../css/horsConnexion/navigateur.css"/>
-			<link rel="stylesheet" href="../../../css/horsConnexion/identificationEchouee.css"/>
-			<title> Acceuil </title>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/horsConnexion/acceuil.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/horsConnexion/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/horsConnexion/identificationEchouee.css"/>
+			<title id="titre">  </title>
 		</head>
 		
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<img src="../../../image/logoSweetTable.png" alt="SweetTable" id="logo"/>
+					<img src="http://localhost/Meittopi/image/logoSweetTable.png" alt="SweetTable" id="logo"/>
 				</nav>
 			
 				<section id="pageConnection">
 					<article>
-						<h3> Connexion à Meittopi</h3>
-						
-						<p> Votre e-mail ou votre mot de passe n'est pas valide. </p>
+						<h3 id="connextionTitre"> </h3>
+						<p id="emailPAsBon">  </p>
 						<form action="../../modele/connexion.php" method="post">
 							<ul>
 								<li > 
@@ -31,13 +30,13 @@
 								</li>
 								<li>
 									<input type="checkbox" name="sectionActive" id="sectionActive" > 
-									<label for="sectionActive" id="gardersection"> Garder votre session active</label>
+									<label for="sectionActive" id="gardersection"> </label>
 								</li>
 								<li id="connexionOuInscription">
-									<input type="submit" value="Connexion" id="connexion"/> ou <a id="inscription"> Inscription à Meittopi </a>
+									<input type="submit" value="Connexion" id="connexion"/>  <a id="inscription">  </a>
 								</li>
 								<li id="oublie">
-									<a>mot de passe oublié?</a>
+									<a id="motDePasseOublie"></a>
 								</li>
 								
 							</ul>
@@ -46,6 +45,6 @@
 					</article>
 				</section>
 
-				
+				<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/identificationEchouee.js"> </script>
 		</body>
 	</html>

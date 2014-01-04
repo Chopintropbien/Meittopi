@@ -3,11 +3,11 @@
 	<html>
 		<head>
 			<meta charset="utf-8"/>
-			<link rel="stylesheet" href="../../../css/base.css"/>
-			<link rel="stylesheet" href="../../../css/horsConnexion/navigateur.css"/>
-			<link rel="stylesheet" href="../../../css/horsConnexion/formulaireInscription.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/horsConnexion/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/horsConnexion/formulaireInscription.css"/>
 
-			<title> Acceuil </title>
+			<title id="titre"> </title>
 		</head>
 		
 		<body>
@@ -21,6 +21,7 @@
 				</section>
 				
 				 <?php include("../../preverification/horsConnexion/inscription.php"); ?>
-				
+				 
+				<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/accueil.js"> </script>
 		</body>
 	</html>
