@@ -1,4 +1,13 @@
+		// texte 
 
+	// titre de la page dans l'onglet
+document.getElementById('titre').innerHTML = 'Mes Sorties';
+
+document.getElementById('ajous').innerHTML = '+ Organiser une sortie';
+	
+
+
+	// class
 var l = new ListeDeListe();
 
 

@@ -156,8 +156,8 @@
 					</form>
 				</section>
 				
-				<script src= "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/modifierMonProfil.js")> </script>
-				
+				<script src= "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/modifierMonProfil.js")> </script>
+				<script src= "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/modifierMonProfilDragAndDrop.js")> </script>
 		</body>
 	</html>
 

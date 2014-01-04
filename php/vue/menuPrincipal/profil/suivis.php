@@ -14,7 +14,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/raconterSortie.class.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeRaconterSortie.class.css"/>
 			
-			<title> Acceuil </title>
+			<title id = "titre">  </title>
 		</head>
 		
 		<body>
@@ -29,8 +29,8 @@
 					<section id="section">
 						
 						<article id="inviterAmis">
-							<input type="text" id="inviter" name="inviter" placeholder="Rechercher des amis">
-							<input type="submit" value="rechercher" id="rechercherAmis">
+							<input type="text" id="inviter" name="inviter" placeholder="">
+							<input type="submit" value="" id="rechercherAmis">
 						</article>
 						
 						<ul id="listeAmis" class='grandeListe'>
@@ -53,7 +53,7 @@
 			
 			<script src="http://localhost/Meittopi/php/javascript/class/raconterSortie.class.js"> </script>
 			<script src="http://localhost/Meittopi/php/javascript/class/listeRaconterSortie.class.js"> </script>
-			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/profil/suivis.js"> </script>
+			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/suivis.js"> </script>
 			
 		</body>
 	</html>

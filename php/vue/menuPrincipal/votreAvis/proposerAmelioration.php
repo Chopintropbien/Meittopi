@@ -8,23 +8,23 @@
 			
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/votreAvis/proposerAmelioration.css"/>
 
-			<title> Acceuil </title>
+			<title id="titre"></title>
 		</head>
 		
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("../../navigateur/navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
 
 				<section id="partiePrincipale">
-					<h1> Proposer une amelioration </h1>
+					<h1 id="proposerUneAmelioration">  </h1>
 					
-					<h2> Titre </h2>
-					<input type = "texte" id="titre"/>
-					<h2> Description </h2>
+					<h2 id="titreA"> </h2>
+					<input type = "texte" id="titreAmelioration"/>
+					<h2 id="descpription">  </h2>
 					<textarea></textarea>
-					<h2> Photo enventuelle</h2>
+					<h2 id="photos"> </h2>
 					<section>
 						<p> + </p>
 						<p> + </p>
@@ -32,12 +32,14 @@
 						<p> + </p>
 					</section>
 					
-					<input type = "button" value = 'Sauvegarder' class="submit">
-					<input type = "button" value = 'Proposer' class="submit">
+					<input type = "button" value = '' class="submit" id="sauvegarder">
+					<input type = "button" value = '' class="submit" id="proposer">
 					
 				</section>
 				
 			</section>
+			
+			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/votreAvis/francais/proposerAmelioration.js"></script>
 			
 		</body>
 	</html>

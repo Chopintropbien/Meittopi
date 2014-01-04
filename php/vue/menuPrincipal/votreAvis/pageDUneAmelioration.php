@@ -10,13 +10,13 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/commantaire.class.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/propositionAmeliorationComplete.class.css"/>
 
-			<title> Acceuil </title>
+			<title id="titre">  </title>
 		</head>
 		
 		<body>
 			<section class="global">
 				<nav id="nav">
-					<?php include("../../navigateur/navigateur.php"); ?>
+					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
 
 				<section id="partiePrincipale">
@@ -97,7 +97,7 @@
 			<script src = "http://localhost/Meittopi/php/javascript/class/commantaire.class.js"> </script>
 			<script src = "http://localhost/Meittopi/php/javascript/class/listeCommantaire.class.js"> </script>
 			
-			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/votreAvis/pageDUneAmelioration.js"> </script>
+			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/votreAvis/francais/pageDUneAmelioration.js"> </script>
 			
 			
 		</body>

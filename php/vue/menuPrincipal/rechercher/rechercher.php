@@ -8,7 +8,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/rechercher/rechercher.css"/>
 			
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/restaurantComplet.class.css"/>
-			<title> Acceuil </title>
+			<title id="titre"> </title>
 		</head>
 		
 		<body>

@@ -7,7 +7,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/monProfil.css"/>
-			<title> Acceuil </title>
+			<title id = "titre">  </title>
 		</head>
 		
 		<body>
@@ -70,26 +70,26 @@
 					
 					<aside id="blocDeDroite">
 						<article  class="aDroite">
-							<h2 id="changerLeSite"> Quelque chose à améliorer?  </h2>
-							<p>
-								Meittopi vous offre la possibilité de </br>
-								<strong> changer son site! </strong> changer son site!
+							<h2 id="changerLeSite">   </h2>
+							<p id="changerLeSiteP">
 							</p>
 						</article>
 					
 						<article  class="aDroite"> 
-							<h2 id="suggestion"> Vous vous sentez seul? </h2>
-							<strong> Invitez des amis! </strong> 
+							<h2 id="suggestion">  </h2>
+							<p id="suggestionP">
+								 
+							</p>
 						</article>
 						
 						<article class="aDroite"> 
-							<h2 id="appreciation"> Avez-vous <strong>aimer les restaurants</strong> que meittopi vous a suggerer? </h2>
+							<h2 id="appreciation"> </h2>
 						</article>
 					</aside>
 				</section>
 		
 		<script src = "http://localhost/Meittopi/php/javascript/class/profil.class.js"> </script>
-		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/monProfil.js"> </script>  
+		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/monProfil.js"> </script>  
 		
 		</body>
 	</html>

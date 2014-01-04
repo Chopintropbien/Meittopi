@@ -1,3 +1,13 @@
+	// texte 
+
+	// titre de la page dans l'onglet
+	//mettre le titre de l'amelioration ici
+document.getElementById('titre').innerHTML = 'Amelioration';
+
+
+	//class
+
+
 // affiche description de la propostion
 
 	//PropositionAmeliorationComplete(photo, titre, description, nbAvisPositif, nbAvisNegatif, dons, 

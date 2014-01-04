@@ -20,9 +20,12 @@
 	margin: 1%;
 	margin-left: 3%;
 }
-	#partiePrincipale ul li{
+	#partiePrincipale ul li a{
 		padding: 0.2%;
 		color: blue;
+	}
+	#partiePrincipale ul li a:hover{
+		text-decoration: underline;
 	}
 
 #partiePrincipale table{

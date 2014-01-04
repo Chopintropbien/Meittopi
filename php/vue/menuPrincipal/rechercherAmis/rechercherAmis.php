@@ -6,7 +6,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 
-			<title> Acceuil </title>
+			<title id="titre"></title>
 		</head>
 		
 		<body>

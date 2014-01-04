@@ -1,6 +1,9 @@
-	// a faire en fonction de la recherche
-	// si pas de recherche, mettre un truc du style: pas d'idéé? Voici ce aue meittopi poour propose!!!
-document.getElementById('titreRecherche').innerHTML = 'Notre selection personnalisé pour Lausanne';
+	// texte 
+
+	// titre de la page dans l'onglet
+document.getElementById('titre').innerHTML = 'Rechercher';
+
+
 
 var liste = new Liste("x");
 

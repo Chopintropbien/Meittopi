@@ -1,3 +1,13 @@
+	// texte 
+
+	// titre de la page dans l'onglet
+document.getElementById('titre').innerHTML = 'Mes suivis';
+
+	// input pour la recherche des amis
+document.getElementById('inviter').placeholder = 'Rechercher des amis';
+document.getElementById('rechercherAmis').value = 'rechercher';
+
+	// class
 
 	// affiche la liste d'amis
 var listeAmis = new ListeAmis('Mes suivis');

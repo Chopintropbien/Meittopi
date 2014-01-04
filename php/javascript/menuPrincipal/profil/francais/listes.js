@@ -1,4 +1,12 @@
+	// texte 
 
+	// titre de la page dans l'onglet
+document.getElementById('titre').innerHTML = 'Mes suivis';
+
+document.getElementById('ajous').innerHTML =  '+ Ajouter une liste';
+
+	
+	// class
 var vectorListe = new ListeDeListe();
 vectorListe.ajouteListe(new Liste('coucou'));
 
@@ -24,4 +32,4 @@ vectorListe.liste(0).ajouteRestau('lsdfsqdf', 'http://localhost/Meittopi/image/r
 		// faire les evenements pour afficher
 	vectorListe.faireEvenements('affichageRestau');
 	
-	
+

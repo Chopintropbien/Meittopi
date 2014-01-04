@@ -1,3 +1,13 @@
+// texte 
+
+	// titre de la page dans l'onglet
+document.getElementById('titre').innerHTML = 'Mes amis';
+
+document.getElementById('inviter').value =  'Inviter des amis';
+
+
+
+	//class
 
 	// affiche la liste d'amis
 var listeAmis = new ListeAmis('Mes suivis');

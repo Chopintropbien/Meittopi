@@ -14,7 +14,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/raconterSortie.class.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeRaconterSortie.class.css"/>
 			
-			<title> Acceuil </title>
+			<title id="titre"> Acceuil </title>
 		</head>
 		
 		<body>
@@ -30,14 +30,15 @@
 					<section id="section">
 						
 						<article id="inviterAmis">
-							<input type="button" value="Inviter des amis" id="inviter">
+							<input type="button" value="" id="inviter">
 						</article>
 						
+							<!-- liste des amis -->
 						<ul id="listeAmis" class="grandeListe">
 							
 						</ul>
 						
-						
+							<!-- liste des activité des amis -->
 						<ul id="activiteAmis">
 							
 						</ul>
@@ -56,7 +57,7 @@
 			<script src="http://localhost/Meittopi/php/javascript/class/listeAmis.class.js"> </script>
 			<script src="http://localhost/Meittopi/php/javascript/class/raconterSortie.class.js"> </script>
 			<script src="http://localhost/Meittopi/php/javascript/class/listeRaconterSortie.class.js"> </script>
-			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/profil/amis.js"> </script>
+			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/amis.js"> </script>
 
 		</body>
 	</html>

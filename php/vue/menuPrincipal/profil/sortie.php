@@ -14,7 +14,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/sortie.class.css"/>
 			
 			
-			<title> Acceuil </title>
+			<title id="titre"> </title>
 		</head>
 		
 		<body>
@@ -28,24 +28,15 @@
 					
 					<section id="grossePartie">
 				
-						<h6 class="ajous"> + Organiser une sortie </h6>
+						<h6 class="ajous" id="ajous">  </h6>
 						
+						<!-- la ou on affiche les entete des sorties -->
 						<ul id="listeDeListe">
-							
-							
+
 						</ul>
-						
+						<!-- La ou on affiche les sorties-->
 						<article id="affichageRestau">
-							<!--
-							<ul>
-								<li> <h2> Ce soir à l'arcadie</h2></li>
-								<li> <p> ALors je ne sais pas encore a quel heure, 
-										par contre, ce je sais, c'ets que ca sera à l'acadie, 
-										a l'epft 
-									</p></li>
-								<li> <h4> Participant : </h4></li>
-							</ul>
-							-->
+
 						</article>
 					
 					</section>
@@ -56,7 +47,7 @@
 			<script src = "http://localhost/Meittopi/php/javascript/class/ami.class.js"> </script>
 			<script src = "http://localhost/Meittopi/php/javascript/class/sortie.class.js"> </script>
 			<script src = "http://localhost/Meittopi/php/javascript/class/listeDeListe.class.js"> </script>
-			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/sortie.js"> </script>  
+			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/sortie.js"> </script>  
 			
 		</body>
 	</html>

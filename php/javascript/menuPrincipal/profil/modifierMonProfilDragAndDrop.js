@@ -1,9 +1,7 @@
 	
 					
 	(function() { // On utilise une IEF pour ne pas polluer l'espace global
-	
-	    
-	    
+
 	    
 	    function addEvent(element, event, func) { // Une fonction pour gérer les événements sous tous les navigateurs
 	        if (element.attachEvent) {

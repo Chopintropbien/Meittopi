@@ -7,7 +7,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/discution.css"/>
-			<title> Acceuil </title>
+			<title id="titre"> </title>
 		</head>
 		
 		<body>
@@ -17,15 +17,13 @@
 				</nav>
 
 				<section id="partiePrincipale">
-					<h1> Les conversations autour de Lausanne</h1>
-					<a class="ajous"> + Nouvelle conversation</a> 
-					<ul>
-						<li> Mes discutions</li>
-						<li> Toutes les conversations</li>
-						<li> Alimentation </li>
-						<li> Mes discutions</li>
-						<li> Toutes les conversations</li>
-						<li> Alimentation </li>
+					<h1 id="ouSePasseLesDiscutions"> </h1>
+					<a class="ajous" id="ajous"> </a> 
+					<ul id="typeDeDiscution">
+						<li> <a id="mesDiscution"></a> </li>
+						<li> <a id="toutes"> </a> </li>
+						<li> <a id="alimentation"></a> </li>
+
 					</ul>
 					<table id = "conversation">
 						
@@ -33,6 +31,6 @@
 				</section>
 			<script src = "http://localhost/Meittopi/php/javascript/class/listeConversation.class.js"></script>
 			<script src = "http://localhost/Meittopi/php/javascript/class/conversation.class.js"></script>
-			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/discution/discution.js"></script>
+			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/discution/francais/discution.js"></script>
 		</body>
 	</html>
