@@ -28,7 +28,7 @@
 					
 					<section id="grossePartie">
 				
-						<h6 class="ajous" id="ajous">  </h6>
+						<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/organiserUneSortie.php"> <h6 class="ajous" id="ajous">  </h6> </a>
 						
 						<!-- la ou on affiche les entete des sorties -->
 						<ul id="listeDeListe">

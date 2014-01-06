@@ -1,0 +1,18 @@
+odre des inforamations: 1) Prénom
+						2) Nom
+						3) Alias
+						4) photo
+						5) nombre d'amis qu'a la personne
+						6) nombre d'avis qu'a poster le personne
+						7) nombre de suivis qu'elle a des autres personne
+						8) une liste des caracteristiques avec une ligne pour le titre de la caracteristique et une ligne pour sa carateristique ex: 1° ligne: adresse, 2° ligne chemin de malley 12 /n 1007 Lausanne
+						
+Antre chaque information, il faut mettre ?--informationSuivante--? c'est ce qui me permet de faire la separation  entre chaque donnee dans mon code javascript 
+Et mon amour, il faut que tu me dise si tu modifie le code du haut car il faudra que je modifie aussi le mien. Le code du haut, c'est le code apres l'espece de balise infosuivante
+?--informationSuivante--?
+
+
+
+Lauriane?--informationSuivante--?Mollier?--informationSuivante--?DarkChopin?--informationSuivante--?http://localhost/Meittopi/image/restau.jpg?--informationSuivante--?5?--informationSuivante--?7?--informationSuivante--?4?--informationSuivante--?Adresse:?--informationSuivante--?2° ligne chemin de malley 12 /n 1007 Lausanne?--informationSuivante--?Age:?--informationSuivante--?20 ans?--informationSuivante--?Ce que j'aime faire:?--informationSuivante--?Etre avec mon copin que j'aime vraiment beaucoup beaucoup meme si on se chamaille sur le JSON Je t'aime mon Amour!!!!!!!!!		
+				
+				

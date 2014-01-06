@@ -2,7 +2,7 @@
 
 rm $0
 
-php "accueil.php"
+./objetXMLHttpRequest
 
 echo "
 

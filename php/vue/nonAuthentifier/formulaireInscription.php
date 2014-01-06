@@ -1,4 +1,4 @@
-<form action="../../controleur/horsConnexion/inscription.php" method="post" id="inscription" >
+<form action="../../javascript/nonAuthentifier/inscription.js" method="post" id="inscription" >
 	<table>
 		<tr>
 			<td> <h1 id="creerUnCompteTitre"></h1> </td>
@@ -66,4 +66,10 @@
 	</table>
 </form>
 
+<script src = "http://localhost/Meittopi/php/javascript/fonction/objetXMLHttpRequest.js"> </script>  
+<script src = "http://localhost/Meittopi/php/javascript/nonAuthentifier/inscription.js"> </script>  
 <script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/formulaireInscription.js"> </script>
+
+
+
+

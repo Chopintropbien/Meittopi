@@ -1,7 +1,7 @@
 	// dans tableauDeCaracteristique, mettre toutes les caracterisques que l'utilisateur a rentré
 	// ex: adresse
 	// peut etre faire une classe de se tableau, a voir avec Andrei
-function Profil(nom, prenom, photo, alias, tableauDeCaracteristique, nbAmis, nbAvis, nbFollowers){
+function Profil(prenom, nom, alias, photo, nbAmis, nbAvis, nbFollowers, tableauDeCaracteristique){
 	this.nom = nom;
 	this.prenom = prenom;
 	this.photo = photo;

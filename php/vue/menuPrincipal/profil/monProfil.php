@@ -90,6 +90,8 @@
 		
 		<script src = "http://localhost/Meittopi/php/javascript/class/profil.class.js"> </script>
 		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/monProfil.js"> </script>  
+		<script src = "http://localhost/Meittopi/php/javascript/fonction/objetXMLHttpRequest.js"> </script>  
+		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/monProfil.js"> </script>  
 		
 		</body>
 	</html>

@@ -30,8 +30,9 @@
 }
 
 #carte{
-	float: right;
-	width: 25%;
+	position: fixed;
+	margin-left: 61%;
+	width: 23%;
 	margin-right: 2.5%;
 }
 
@@ -47,15 +48,17 @@
 
 
 
+/*
 #cuisineCachees{
-	animation: 0.5s ease-in-out 2s;
+	animation: 0.5s ease-in-out 7s;
 }
+*/
 
-
-
+/*
 #cuisinesAvancees:active{
 	color: rgb(255,0,0);
 }
+*/
 
 
 

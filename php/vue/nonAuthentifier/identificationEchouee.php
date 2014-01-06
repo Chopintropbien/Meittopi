@@ -23,17 +23,17 @@
 						<form action="../../modele/connexion.php" method="post">
 							<ul>
 								<li > 
-									<input type="email" name="emailInscrit" id="emailC" class="champ" placeholder="Votre adresse e-mail"/>  
+									<input type="email" name="emailInscrit" id="emailC" class="champ" placeholder=""/>  
 								 </li>
 								<li >   
-									<input type="password" name="motdepasseInscrit"  id="motdepasseC" class="champ" placeholder="Votre mot de passe"/>
+									<input type="password" name="motdepasseInscrit"  id="motdepasseC" class="champ" placeholder=""/>
 								</li>
 								<li>
 									<input type="checkbox" name="sectionActive" id="sectionActive" > 
 									<label for="sectionActive" id="gardersection"> </label>
 								</li>
 								<li id="connexionOuInscription">
-									<input type="submit" value="Connexion" id="connexion"/>  <a id="inscription">  </a>
+									<input type="submit" value="Connexion" id="connexion"/> 
 								</li>
 								<li id="oublie">
 									<a id="motDePasseOublie"></a>

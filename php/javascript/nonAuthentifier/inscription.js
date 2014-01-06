@@ -1,4 +1,4 @@
-<script>
+
 			// rajouter les regex	
 	( function() {
 		var element = document.getElementById('creerUnCompte');
@@ -135,11 +135,59 @@
 				result = check[i](i) && result;
 			}
 			
-			if(result){			
-				formulaire.submit();
+			
+			  // si le formulaire ets bien remplis, alors faire l'envois des donne dans le fichier
+			if(result){		
+				  // recuperer toutes les donnees
+				var prenom = encodeURIComponent(document.getElementById('prenomjava').value);
+				var nom = encodeURIComponent(document.getElementById('nomjava').value);
+				var email = encodeURIComponent(document.getElementById('email').value);
+					// attention il faut encoder le mot de passe
+				var motdepasse = encodeURIComponent(document.getElementById('motdepasse').value);
+				
+				
+				var listeJour = document.getElementById('jour');
+				var jour = encodeURIComponent(listeJour[listeJour.selectedIndex].value);
+				
+				var listeMois = document.getElementById('mois');
+				var mois = encodeURIComponent(listeMois[listeMois.selectedIndex].value);
+
+				var listeAnnee = document.getElementById('annee');
+				var annee = encodeURIComponent(listeAnnee[listeAnnee.selectedIndex].value);
+				
+				
+				var femme = document.getElementById('femme');
+				var homme = document.getElementById('homme');
+				
+				
+
+				if(femme.checked){
+					var sexe = encodeURIComponent(femme.value);
+				}
+				else{
+					var sexe = encodeURIComponent(homme.value);
+				}
+				
+				  //envoyer les donner au fichier "http://localhost/Meittopi/php/controleur/nonAuthentifier/inscription.php"
+				  
+				var xhr = objet_XMLHttpRequest();
+					
+				xhr.onreadystatechange = function(){ 
+					if(xhr.readyState == 4 && xhr.status == 200){
+						formulaire.submit();
+					}
+				};
+
+				xhr.open("POST", "http://localhost/Meittopi/php/controleur/nonAuthentifier/inscription.php", true);
+					//On assigne un header 
+				xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded"); 
+					//On envoie 
+				xhr.send("prenom="+prenom+"&nom="+nom+"&email="+email+"&motdepasse="+motdepasse+"&email="+email+"&jour="+jour+"&mois="+mois+"&annee="+annee+"&sexe="+sexe); 
+
+
 			}
 		}
 	}
 	) ();
 	
-</script>
+

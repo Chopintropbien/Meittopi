@@ -19,9 +19,8 @@
 				<section id="pageConnection">
 					<?php include("formulaireInscription.php"); ?>
 				</section>
-				
-				 <?php include("../../preverification/horsConnexion/inscription.php"); ?>
 				 
 				<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/accueil.js"> </script>
+
 		</body>
 	</html>
