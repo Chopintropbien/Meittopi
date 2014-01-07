@@ -21,7 +21,8 @@
 
 				<section id="partiePrincipale">
 					<article id = "amelioration">
-						<!--
+						
+<!--
 						<section>
 							<img src = 'http://localhost/Meittopi/image/restau.jpg'/>
 							<img src = 'http://localhost/Meittopi/image/restau.jpg'/>
@@ -37,17 +38,39 @@
 							   coucou yemendja</p>
 						</article>
 						<aside>
-							<p>Pour</p>
-							<input type = "range"/>
+							<canvas id="pour" width="150" height="10"> 
 							
+							</canvas>
+							<canvas id="canvas" width="150" height="10"> 
+							
+							</canvas>
+							<p> 200 </p>
+							
+							<script>  
+								var canvas  = document.querySelector('#canvas');
+								var context = canvas.getContext('2d');
+								
+								context.fillStyle = "green";
+								context.fillRect(0, 0, 70, 10);
+								
+								context.fillStyle = "white";
+								context.fillRect(70, 0, 30, 10);
+								
+								context.lineWidth = "1";
+								context.strokeStyle = "silver";
+								context.strokeRect(0, 0, 100, 10);
+								
+							</script>
 							<p>Contre</p>
 							<input type = "range"/>
 							
 							<p>Dons</p>
 							<input type = "range"/>
 						</aside>
-						-->
+-->
+						
 					</article>
+				
 					
 					<ul id = "listeCommantaire"> 
 						<!--

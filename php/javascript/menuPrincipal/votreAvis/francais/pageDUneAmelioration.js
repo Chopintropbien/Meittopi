@@ -20,7 +20,7 @@
 	var photo = ['http://localhost/Meittopi/image/restau.jpg','http://localhost/Meittopi/image/restau.jpg'];
 	var amelioration = new PropositionAmeliorationComplete(photo, 'On devrais faire ca et ca',
 															'sdfggggwwwwwwxvdf v f iqf qfg fivyudqf iv fiv qfiuv qdfivuqb viuqsb kisbv qsivb',
-															5, 8, 6, 5,8 ,8);
+															5, 7, 6, 15 ,8 ,8);
 	
 	amelioration.affiche('amelioration');
 	

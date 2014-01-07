@@ -13,6 +13,5 @@ function load_file(file){
 	 xhr.send(null);
 }
 
-
 load_file('http://localhost/Meittopi/php/texte/reponse/menuPrincipal/profil/profil.txt');
 

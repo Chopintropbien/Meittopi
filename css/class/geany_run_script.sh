@@ -2,7 +2,7 @@
 
 rm $0
 
-./sortie.class
+./propositionAmeliorationComplete.class
 
 echo "
 

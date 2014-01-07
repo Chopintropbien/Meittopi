@@ -5,6 +5,7 @@
 	margin-top: 2.5%;
 	margin-left: 15%;
 	padding: 1.5%;
+	overflow: auto;
 }
 	#partiePrincipale > ul > li{
 		border: 1px #EBEAEB outset; 
