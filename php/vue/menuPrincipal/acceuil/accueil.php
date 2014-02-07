@@ -16,6 +16,13 @@
 				</nav>
 
 				<section id="partiePrincipale">
+					
+					<h1> jwdhfgoghoi </h1>
+					
+					<ul>
+						<li> 1</li>
+						<li> 1</li>
+					</ul>
 				</section>
 		</body>
 	</html>

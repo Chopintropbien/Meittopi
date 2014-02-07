@@ -7,14 +7,14 @@
 	margin-right: 4.5%;
 	vertical-align: top;
 	margin-top: 8%;
-	
+	overflow: auto;
 }
 #blocDeDroite{
 	display: inline-block;
 	width: 25%;
 	margin-top: 8%;
 }
-.aDroite{
+#blocDeDroite article{
 	min-width: 250px;
 	margin-bottom: 10%; 
 	text-align: center;
@@ -23,74 +23,15 @@
 	padding: 10px;
 	
 } 
-.aDroite:hover{
+#blocDeDroite article:hover{
 	background-color: #EFEFEF;
 }
 
-#changerLeSite{
+#blocDeDroite article h2{
 	margin-bottom: 5px;
 } 
-#suggestion{
-	margin-bottom: 5px;
-} 
-#appreciation{
-	margin-bottom: 5px;
-}
 
 
 
-#profil{
-	float: right;
-	position: relative; 
-	top: -90px;
-	padding: 5px;
-	text-align: center;
-	border-radius: 10px;
-	
-}
 
-#infoPersonnelles{
-	margin-top: 30px;
-	margin-left: 20px;
-}
-
-h6{
-	font-size: 16px;
-	text-decoration: underline;
-}
-
-
-.infoPersonnelles{
-	margin: 15px;
-}
-
-#notif{
-	margin-top: 5px;
-}
-
-#legendeProfil{
-	width: 150px;
-	font-size: small;
-
-}
-#tableauJeu{
-	margin-left: 27px;
-	
-}
-
-.colonneJeu{
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: center;
-}
-
-#mettreAJour{
-	
-	color: blue;
-	font-size: 14px;
-}
-
-#mettreAJour:hover{
-	text-decoration: underline;
-}
 

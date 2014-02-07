@@ -7,6 +7,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/monProfil.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/monProfil.class.css"/>
 			<title id = "titre">  </title>
 		</head>
 		
@@ -69,29 +70,31 @@
 					</article> 
 					
 					<aside id="blocDeDroite">
-						<article  class="aDroite">
+						<article>
 							<h2 id="changerLeSite">   </h2>
 							<p id="changerLeSiteP">
 							</p>
 						</article>
 					
-						<article  class="aDroite"> 
+						<article> 
 							<h2 id="suggestion">  </h2>
 							<p id="suggestionP">
 								 
 							</p>
 						</article>
 						
-						<article class="aDroite"> 
+						<article> 
 							<h2 id="appreciation"> </h2>
 						</article>
 					</aside>
-				</section>
+				</section> 
 		
 		<script src = "http://localhost/Meittopi/php/javascript/class/profil.class.js"> </script>
 		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/monProfil.js"> </script>  
 		<script src = "http://localhost/Meittopi/php/javascript/fonction/objetXMLHttpRequest.js"> </script>  
-		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/monProfil.js"> </script>  
+		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/monProfil.js"> </script> 
+		<script src = "http://localhost/Meittopi/php/JSON/reponse/menuPrincipal/profil/monProfil.php"> </script> 
+				
 		
 		</body>
 	</html>

@@ -14,7 +14,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/raconterSortie.class.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/listeRaconterSortie.class.css"/>
 			
-			<title id="titre"> Acceuil </title>
+			<title id="titre">  </title>
 		</head>
 		
 		<body>

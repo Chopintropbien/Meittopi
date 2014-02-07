@@ -1,7 +1,5 @@
 (function(){
 	
-	
-
 	// texte 
 	
 		// titre de la page dans l'onglet

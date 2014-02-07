@@ -1,0 +1,60 @@
+#profil{
+	float: right;
+	text-align: center;
+	
+}
+
+#infoPersonnelles{
+	margin-top: 10px;
+	margin-left: 5%;
+	border: 1px red solid;
+	width: 95%;
+	
+}
+
+#infoPersonnelles li{
+	margin: 1%;
+}
+
+#infoPersonnelles li h6{
+	font-size: 100%;
+	text-decoration: underline;
+}
+
+#infoPersonnelles li p{
+	text-indent: 2%;
+}
+
+#mettreAJour{
+	color: blue;
+	padding-top: 4%; 
+}
+
+
+
+
+#notif{
+	margin-top: 5px;
+}
+
+#legendeProfil{
+	width: 150px;
+	font-size: small;
+
+}
+#tableauJeu{
+	margin-left: 27px;
+	
+}
+
+.colonneJeu{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+
+
+#mettreAJour:hover{
+	text-decoration: underline;
+}

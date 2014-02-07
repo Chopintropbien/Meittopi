@@ -2,7 +2,7 @@
 
 rm $0
 
-./propositionAmeliorationComplete.class
+./monProfil.class
 
 echo "
 
