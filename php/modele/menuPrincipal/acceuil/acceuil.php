@@ -38,7 +38,7 @@ echo 'var listeRevueEtEvenement = {
 						"http://localhost/Meittopi/image/restau.jpg",
 						"Chez J\'aime ",
 						"14/02/2014",
-						"2.5",
+						"4.5",
 						"Oui, j\'ai vraime aimer. les pizza sont pas cher du tout!!!!! Et tres bonnes",
 						"trusdfe",
 						"falssdfe",
