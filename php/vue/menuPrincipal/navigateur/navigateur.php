@@ -25,4 +25,4 @@
 		</ul>
 	</section>
 	
-	<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/navigateur/francais/navigateur.js">  </script>
+	<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/navigateur/francais/navigateur.js">  </script>

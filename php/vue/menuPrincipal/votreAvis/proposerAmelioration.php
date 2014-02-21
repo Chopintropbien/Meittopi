@@ -39,7 +39,7 @@
 				
 			</section>
 			
-			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/votreAvis/francais/proposerAmelioration.js"></script>
+			<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/proposerAmelioration.js"></script>
 			
 		</body>
 	</html>

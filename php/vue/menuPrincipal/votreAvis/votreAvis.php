@@ -54,11 +54,11 @@
 					
 				</section>
 				
-		<script src = "http://localhost/Meittopi/php/javascript/class/propositionAmelioration.class.js"></script>
-		<script src = "http://localhost/Meittopi/php/javascript/class/listePropositionAmelioration.class.js"></script>
+		<script src = "http://localhost/Meittopi/php/controleur/class/propositionAmelioration.class.js"></script>
+		<script src = "http://localhost/Meittopi/php/controleur/class/listePropositionAmelioration.class.js"></script>
 		
-		<script src = "http://localhost/Meittopi/php/javascript/class/profilDeParticipation.class.js"></script>
-		<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/votreAvis/francais/votreAvis.js"></script>
+		<script src = "http://localhost/Meittopi/php/controleur/class/profilDeParticipation.class.js"></script>
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/votreAvis.js"></script>
 		
 	
 		

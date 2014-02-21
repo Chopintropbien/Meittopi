@@ -24,13 +24,14 @@ a:hover{
 	text-decoration: none;
 	color: black;
 }
-input, input:focus, select{
+input, input:focus, select, textarea{
 	outline: 0;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
 	border: 1px silver inset;
 	box-shadow: 1px 1px 5px silver;
+	border-radius: 0px;
 }
 
 @font-face {

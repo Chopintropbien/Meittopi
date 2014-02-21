@@ -335,12 +335,12 @@
 				</section>	
 				
 				
-				<script src = "http://localhost/Meittopi/php/javascript/class/listeRestauComplet.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/class/restaurantComplet.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/rechercher/francais/rechercher.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/rechercher/francais/optionNom.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/class/listeRestauComplet.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/class/restaurantComplet.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/rechercher/francais/rechercher.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/rechercher/francais/optionNom.js"> </script>
 				
-				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/rechercher/option.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/rechercher/option.js"> </script>
 				
 			</section>
 		</body>

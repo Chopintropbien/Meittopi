@@ -43,10 +43,15 @@
 					
 					</article>
 				</section>
-				<script src = "http://localhost/Meittopi/php/javascript/class/listeRestau.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/class/restaurant.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/class/listeDeListe.class.js"> </script>
-				<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/listes.js"> </script>  
+				
+				<script src = "http://localhost/Meittopi/php/controleur/class/listeRestau.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/class/restaurant.class.js"> </script>
+				<script src = "http://localhost/Meittopi/php/controleur/class/listeDeListe.class.js"> </script>
+				
+				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/francais/listes.js"> </script> 
+				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/listes.js"> </script>  
+				<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/profil/listes.php"> </script> 
+				
 				
 		</body>
 	</html>

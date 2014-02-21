@@ -53,11 +53,13 @@
 					
 				</section>
 				
-			<script src="http://localhost/Meittopi/php/javascript/class/ami.class.js"> </script>
-			<script src="http://localhost/Meittopi/php/javascript/class/listeAmis.class.js"> </script>
-			<script src="http://localhost/Meittopi/php/javascript/class/raconterSortie.class.js"> </script>
-			<script src="http://localhost/Meittopi/php/javascript/class/listeRaconterSortie.class.js"> </script>
-			<script src="http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/amis.js"> </script>
+			<script src="http://localhost/Meittopi/php/controleur/class/ami.class.js"> </script>
+			<script src="http://localhost/Meittopi/php/controleur/class/listeAmis.class.js"> </script>
+			<script src="http://localhost/Meittopi/php/controleur/class/raconterSortie.class.js"> </script>
+			<script src="http://localhost/Meittopi/php/controleur/class/listeRaconterSortie.class.js"> </script>
+			
+			
+			<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/profil/francais/amis.js"> </script>
 
 		</body>
 	</html>

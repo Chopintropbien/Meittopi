@@ -28,4 +28,4 @@
 
 </nav>
 
-<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/profil/francais/navigateur.js"></script>
+<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/francais/navigateur.js"></script>

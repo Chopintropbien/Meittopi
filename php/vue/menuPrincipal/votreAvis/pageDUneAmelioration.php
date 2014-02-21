@@ -115,12 +115,12 @@
 				</section>
 				
 			</section>
-			<script src = "http://localhost/Meittopi/php/javascript/class/propositionAmeliorationComplete.class.js"> </script>
+			<script src = "http://localhost/Meittopi/php/controleur/class/propositionAmeliorationComplete.class.js"> </script>
 			
-			<script src = "http://localhost/Meittopi/php/javascript/class/commantaire.class.js"> </script>
-			<script src = "http://localhost/Meittopi/php/javascript/class/listeCommantaire.class.js"> </script>
+			<script src = "http://localhost/Meittopi/php/controleur/class/commantaire.class.js"> </script>
+			<script src = "http://localhost/Meittopi/php/controleur/class/listeCommantaire.class.js"> </script>
 			
-			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/votreAvis/francais/pageDUneAmelioration.js"> </script>
+			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/pageDUneAmelioration.js"> </script>
 			
 			
 		</body>

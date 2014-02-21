@@ -1,1 +1,172 @@
 
+#partiePrincipale {
+	font-size: 115%;
+}
+#partiePrincipale > h2 {
+	font-weight: normal;
+	margin: 1.5%;
+	
+}
+#partiePrincipale > hr{
+	width: 95%;
+	margin: 0% 2.5% 0% 2.5%;
+}
+
+#partiePrincipale #partieGauche {
+	margin-top: 2%;
+}
+	#partiePrincipale #partieGauche h2{
+		text-indent: 2%;
+		color: #FF8400;
+		font-size: 120%;
+	}
+	#partiePrincipale #partieGauche ul{
+		width: 55%;
+		margin: 2%;
+		
+	}
+		#partiePrincipale #partieGauche ul li{
+			margin: 2%;
+		}
+		
+		#partiePrincipale #partieGauche ul hr{
+			margin: 2.5% 0% 2.5% 0%; 
+		}
+	
+			#partiePrincipale #partieGauche ul li img{
+				display: inline-block;
+				width: 15%;
+				vertical-align: top;
+			}
+	
+			 #partiePrincipale #partieGauche ul li article{
+				display: inline-block;
+				width: 82.5%;
+				vertical-align: top;
+				margin-left: 1%;
+			 
+			 }
+				 #partiePrincipale #partieGauche ul li article time{
+					float: right;
+					color: gray;
+				 
+				 }
+				 #partiePrincipale #partieGauche ul li article h6{
+					overflow: auto;
+					font-weight: normal;  
+				 }
+					#partiePrincipale #partieGauche ul li article h6 a:hover{
+						text-decoration: underline;
+						color: blue;
+					}
+						#partiePrincipale #partieGauche ul li article h6 a strong{
+							font-size: 14px;
+							color: blue;  
+						}
+						#partiePrincipale #partieGauche ul li article h6 a mark{
+							background-color: transparent;
+							color: blue;
+						}
+					
+
+				#partiePrincipale #partieGauche ul li article > div{
+					overflow: auto;
+					margin-top: 1%;
+					width: 40%; 
+				 }
+					#partiePrincipale #partieGauche ul li article div canvas{
+						display: inline-block;
+						margin-left: 2%;
+					}
+				 #partiePrincipale #partieGauche ul li article p{
+					text-align: justify;
+					margin: 0.5% 0% 1.5% 0%;
+				 }
+					#partiePrincipale #partieGauche ul li article section h6{
+						margin: 1% 0% 1% 0%;
+						font-weight: bold;
+					}
+					#partiePrincipale #partieGauche ul li article section div {
+						width: 60%;
+						
+					}
+						#partiePrincipale #partieGauche ul li article section div input{
+							margin: 0% 1% 0% 1%;
+							padding: 0% 1% 0% 1%;
+							display: inline-block;
+							background-color: #FBAE5B;
+							border: 1px #FF8400 outset;
+							box-shadow: 0px 0px 0px #FF8400;
+							border-radius: 5px;
+						}
+					
+				 #partiePrincipale #partieGauche ul li article article{
+					 margin: 3% 0% 0% 0%; 
+					 width: 80%;
+				 }
+					#partiePrincipale #partieGauche ul li article article input{
+						width: 100%;
+						text-indent: 1%;
+						cursor: pointer;
+					}
+					/* ce qui s'affiche quand on veut ecrire un commentaire
+					 */
+					#partiePrincipale #partieGauche ul li article article textarea{
+						width: 99.25%;
+						padding-left: 1%;
+						max-width: 110%;
+						height: 100px;
+					}
+					#partiePrincipale #partieGauche ul li article article div{
+						margin: 2% 0% 0% 0%; 
+						width: 100%;
+						text-align: right;
+						overflow: visible;
+					}
+						#partiePrincipale #partieGauche ul li article article div p{
+							display: inline-block;
+							cursor: pointer;
+						}
+						#partiePrincipale #partieGauche ul li article article div p:hover{
+							display: inline-block;
+							cursor: pointer;
+							text-decoration: underline;
+						}
+						#partiePrincipale #partieGauche ul li article article div p:active{
+							display: inline-block;
+							cursor: pointer;
+							text-decoration: underline;
+							position: relative;
+							top: 0.5px;
+							left: 0.5px;
+						}
+						#partiePrincipale #partieGauche ul li article article div input{
+							display: inline-block;
+							background-color: #FBAE5B;
+							border: 1px #FF8400 outset;
+							box-shadow: 0px 0px 0px #FF8400;
+							border-radius: 5px;
+							padding: 0.5% 0.9% 0.5% 0.9%;
+							width: 17%;
+							margin: 0% 0% 0% 3%;	
+							cursor: pointer;	
+						}
+						#partiePrincipale #partieGauche ul li article article div input:active{
+							
+							display: inline-block;
+							background-color: #FBAE5B;
+							border: 1px #FF8400 outset;
+							box-shadow: 0px 0px 0px #FF8400;
+							border-radius: 5px;
+							padding: 0.5% 0.9% 0.5% 0.9%;
+							width: 17%;
+							margin: 0% 0% 0% 3%;	
+							cursor: pointer;
+							position: relative;
+							top: 0.5px;
+							left: 0.5px;
+						
+						}
+				 
+				 
+				 

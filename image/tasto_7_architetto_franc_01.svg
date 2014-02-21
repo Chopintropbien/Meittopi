@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" id="Layer_1" style="enable-background:new 0 0 135.828 135.788" space="preserve" sodipodi:version="0.32" viewBox="0 0 135.828 135.788" version="1.1" sodipodi:docname="tasto07.svg" sodipodi:docbase="F:\openclip\svg da inviare">
+  <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" pagecolor="#ffffff"/>
+  <g id="g3">
+    <path id="path5" fill="#5A9908" d="m0 67.872c0 34.604 27.145 64.467 61.629 67.638 34.499 3.172 66.779-21.087 73.093-55.204 6.309-34.109-14.982-68.469-48.41-77.844-33.44-9.378-69.575 8.831-81.906 41.291-2.919 7.687-4.404 15.895-4.404 24.119"/>
+    <radialGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" cy="67.87" cx="67.928" r="63.124">
+      <stop id="stop8" stop-color="#D1F593" offset="0"/>
+      <stop id="stop10" stop-color="#81CE09" offset="1"/>
+    </radialGradient>
+    <path id="path12" fill="url(#XMLID_2_)" d="m4.805 67.872c0 34.4 28.723 63.122 63.124 63.122 34.4 0 63.123-28.722 63.123-63.122 0-34.401-28.721-63.125-63.123-63.125s-63.122 28.728-63.122 63.129"/>
+    <path id="path14" fill="#67BA06" d="m10.892 43.334c-5.097 29.729 12.654 59.589 41.207 69.317 30.282 10.318 64.357-4.932 77.021-34.264-6.086 35.498-42.582 58.835-77.36 49.449-35.909-9.69-55.665-50.268-40.868-84.506"/>
+    <path id="path16" fill="#B2ED21" d="m28.502 39.848c8.729 1.808 18.781-10.559 26.351-13.707 14.141-5.877 31.806-3.147 44.617 4.857 13.551 8.467 23.19 24.729 24.673 40.692 0.004 0.047 0.004 0.055 0 0.024-1.001-9.667-0.325-18.753-4.006-28.098-6.1-15.49-19.292-27.619-35.196-32.492-16.446-5.038-34.429-1.832-48.596 7.769-4.368 2.965-21.207 18.188-7.836 20.955"/>
+    <path id="path18" fill="#739B07" d="m98.494 44.133c-12.038 10.429-24.079 20.853-36.112 31.286-5.911-6.822-11.819-13.644-17.729-20.466-2.35-2.712-4.534-5.902-8.198-6.885-5.947-1.596-13.654 3.867-14.911 9.807-1.695 8.014 9.643 17.108 14.241 22.415 5.265 6.077 10.342 12.396 15.586 18.447 7.188 8.292 13.557 5.293 20.431-0.663 7.723-6.692 15.447-13.383 23.169-20.074 6.073-5.262 12.145-10.521 18.216-15.782 10.46-9.067-4.31-27.087-14.696-18.085m-35.617 33.227c6.32-5.475 12.638-10.949 18.958-16.424 5.94-5.146 12.429-13.128 19.595-16.615 6.15-2.99 14.369 4.087 13.905 10.545-0.28 3.906-3.333 6.012-6.002 8.322-8.16 7.071-16.32 14.141-24.481 21.211-6.217 5.381-12.429 10.761-18.638 16.141-7.872 6.82-13.896-3.893-18.428-9.124-7.042-8.128-14.083-16.255-21.126-24.382-2.938-3.391-5.104-7.569-2.024-11.833 3.501-4.843 10.741-8.208 15.394-2.838 2.859 3.301 20.803 26.339 22.84 24.997"/>
+    <path id="path20" fill="#fff" d="m114.06 48.424c-9.625-12.197-19.166 0.01-27.288 7.047-8.16 7.071-16.321 14.142-24.483 21.212-5.044-5.823-10.087-11.645-15.131-17.467-6.288-7.258-11.859-14.72-21.423-6.43-8.281 7.179 0.231 14.806 5.142 20.477 6.161 7.11 12.321 14.222 18.484 21.332 4.771 5.508 10.061 13.02 17.857 6.264 5.706-4.942 11.412-9.886 17.116-14.828 7.325-6.347 14.649-12.692 21.976-19.039 5.21-4.513 14.45-10.836 7.75-18.569"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Architetto -- tasto 7</dc:title>
+        <dc:date>2010-03-28T09:27:39</dc:date>
+        <dc:description>Drawing by Francesco 'Architetto' Rollandin. From OCAL 0.18 release.</dc:description>
+        <dc:source>http://openclipart.org/detail/34723/architetto----tasto-7-by-anonymous</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>button</rdf:li>
+            <rdf:li>check</rdf:li>
+            <rdf:li>circle</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>green</rdf:li>
+            <rdf:li>okay</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
