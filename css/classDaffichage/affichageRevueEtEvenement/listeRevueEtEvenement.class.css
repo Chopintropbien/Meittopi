@@ -1,0 +1,46 @@
+/* listeRevueEtEvenement */
+	
+#partiePrincipale #partieGauche ul{
+	width: 55%;
+	margin: 2%;
+	
+}
+	#partiePrincipale #partieGauche ul li{
+		margin: 2%;
+	}
+	
+	#partiePrincipale #partieGauche ul hr{
+		margin: 2.5% 0% 2.5% 0%; 
+	}
+			
+			/* pour Revue  et Evenement */
+		#partiePrincipale #partieGauche ul li img{
+			display: inline-block;
+			width: 15%;
+			vertical-align: top;
+		}
+
+		 #partiePrincipale #partieGauche ul li article{
+			display: inline-block;
+			width: 82.5%;
+			vertical-align: top;
+			margin-left: 1%;
+		 
+		 }
+			 #partiePrincipale #partieGauche ul li article > time{
+				float: right;
+				color: gray;
+			 
+			 }
+			 #partiePrincipale #partieGauche ul li article h6{
+				overflow: auto;
+				font-weight: normal;  
+			 }
+				#partiePrincipale #partieGauche ul li article h6 a:hover{
+					text-decoration: underline;
+					color: blue;
+				}
+					#partiePrincipale #partieGauche ul li article h6 a strong{
+						font-size: 14px;
+						color: blue;  
+					}

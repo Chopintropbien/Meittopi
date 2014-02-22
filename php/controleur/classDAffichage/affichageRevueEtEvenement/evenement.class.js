@@ -87,7 +87,7 @@ function Evenement(speudoPersonneQuiAFaitLEvenement, photoDeProfilPersonneQuiAFa
 				// message personnel de la personne qui a creer l'evenement a l'utilisateur
 			if(this.messagePerso != '' &&  this.messagePerso != null){
 				var strongSpeudo = '<strong>' + this.speudoPersonneQuiAFaitLEvenement + ' : ' + '</strong>';
-				this.createElement('p','articleStructurant' + placeDApparition,'','',strongSpeudo + this.messagePerso, placeDApparition);
+				this.createElement('p','articleStructurant' + placeDApparition,'','messagePerso',strongSpeudo + this.messagePerso, placeDApparition);
 			}			
 				
 						

@@ -5,6 +5,9 @@
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/affichageRevueEtEvenement/evenement.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/affichageRevueEtEvenement/revue.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/affichageRevueEtEvenement/listeRevueEtEvenement.class.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/acceuil/acceuil.css"/>
 
 			<title> Acceuil </title>
@@ -22,18 +25,9 @@
 					
 					<section id="partieGauche">
 						<h2> Activités récentes </h2>
+						
 						<ul id="listeRevueEtEvenement">
-							
-							<li>
-							
-							
-							
-							
-							
-							</li>
-							
-							
-							
+					
 <!--
 
 
@@ -103,14 +97,9 @@
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/revue.class.js"></script>
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/evenement.class.js"></script>
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/listeRevueEtEvenement.class.js"></script>
-				
-					
-
-
-<!--
+	
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/acceuilFonctionJSON.js"></script>
 				<script src="http://localhost/Meittopi/php/modele/menuPrincipal/acceuil/acceuil.php"></script>
--->
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/acceuil.js"></script>
 
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/francais/acceuil.js"></script>

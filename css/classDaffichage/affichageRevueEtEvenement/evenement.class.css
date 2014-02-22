@@ -1,0 +1,63 @@
+/* specifique evenement */		
+				
+#partiePrincipale #partieGauche ul li article section ul {
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+	padding: 0% 0% 0% 0%;
+	
+}	 
+	#partiePrincipale #partieGauche ul li article section ul li{
+		margin-bottom: 5%;
+	}
+		#partiePrincipale #partieGauche ul li article section ul li img{
+			width: 100%;
+		}
+#partiePrincipale #partieGauche ul li article section section {
+	display: inline-block;
+	width: 72%;
+	margin: 2% 0% 0% 0%;
+	vertical-align: top;
+	
+}	
+	#partiePrincipale #partieGauche ul li article section section a h1 {
+		color: blue;
+		font-size: 15px;
+	}
+	#partiePrincipale #partieGauche ul li article section section time{
+		color: gray;
+		display: block;
+		margin: 0.5% 0% 0% 0%;
+	}
+	#partiePrincipale #partieGauche ul li article section section article{
+		margin: 0% 0% 0% 0%; 
+	}
+		#partiePrincipale #partieGauche ul li article section section article span a strong {
+			color: blue;
+			font-weight: normal;
+			font-size: 12px;
+		}
+		#partiePrincipale #partieGauche ul li article section section article span span {
+			font-size: 12px;
+		}
+		#partiePrincipale #partieGauche ul li article section section p{
+			margin-top: 1.5%;
+		} 
+		
+		
+		#partiePrincipale #partieGauche ul li article .messagePerso{
+			border: 1px silver solid;
+			border-radius: 5px;
+			width: 100%;
+			padding: 1% 1% 1% 1%;
+			 
+		}
+			#partiePrincipale #partieGauche ul li article .messagePerso strong{
+				color: black;
+				font-weight: bold;
+			}
+
+
+
+
+
