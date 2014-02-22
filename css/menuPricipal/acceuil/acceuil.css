@@ -20,6 +20,13 @@
 		color: #FF8400;
 		font-size: 120%;
 	}
+	
+	
+	
+	
+	
+		/* listeRevueEtEvenement */
+	
 	#partiePrincipale #partieGauche ul{
 		width: 55%;
 		margin: 2%;
@@ -32,7 +39,8 @@
 		#partiePrincipale #partieGauche ul hr{
 			margin: 2.5% 0% 2.5% 0%; 
 		}
-	
+				
+				/* pour Revue  et Evenement */
 			#partiePrincipale #partieGauche ul li img{
 				display: inline-block;
 				width: 15%;
@@ -46,7 +54,7 @@
 				margin-left: 1%;
 			 
 			 }
-				 #partiePrincipale #partieGauche ul li article time{
+				 #partiePrincipale #partieGauche ul li article > time{
 					float: right;
 					color: gray;
 				 
@@ -63,6 +71,10 @@
 							font-size: 14px;
 							color: blue;  
 						}
+						
+						
+							/* specifique a la Revue */
+						
 						#partiePrincipale #partieGauche ul li article h6 a mark{
 							background-color: transparent;
 							color: blue;
@@ -168,5 +180,65 @@
 						
 						}
 				 
-				 
-				 
+					/* specifique evenement */		
+				
+			#partiePrincipale #partieGauche ul li article section ul {
+				display: inline-block;
+				width: 22%;
+				vertical-align: top;
+				padding: 0% 0% 0% 0%;
+				
+			}	 
+				#partiePrincipale #partieGauche ul li article section ul li{
+					margin-bottom: 5%;
+				}
+					#partiePrincipale #partieGauche ul li article section ul li img{
+						width: 100%;
+					}
+			#partiePrincipale #partieGauche ul li article section section {
+				display: inline-block;
+				width: 72%;
+				margin: 2% 0% 0% 0%;
+				vertical-align: top;
+				
+			}	
+				#partiePrincipale #partieGauche ul li article section section a h1 {
+					color: blue;
+				}
+				#partiePrincipale #partieGauche ul li article section section time{
+					color: gray;
+					display: block;
+					margin: 0.5% 0% 0% 0%;
+				}
+				#partiePrincipale #partieGauche ul li article section section article{
+					margin: 0% 0% 0% 0%; 
+				}
+					#partiePrincipale #partieGauche ul li article section section article span a strong {
+						color: blue;
+						font-weight: normal;
+						font-size: 12px;
+					}
+					#partiePrincipale #partieGauche ul li article section section article span span {
+						font-size: 12px;
+					}
+					#partiePrincipale #partieGauche ul li article section section p{
+						margin-top: 1.5%;
+					} 
+					
+					
+					#partiePrincipale #partieGauche ul li article > p{
+						border: 1px silver solid;
+						border-radius: 5px;
+						width: 100%;
+						padding: 0.5% 0.5% 0.5% 0.5%;
+						 
+					}
+						#partiePrincipale #partieGauche ul li article > p strong{
+							color: black;
+							font-weight: bold;
+						}
+
+
+
+
+

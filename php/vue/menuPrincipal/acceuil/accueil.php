@@ -23,6 +23,17 @@
 					<section id="partieGauche">
 						<h2> Activités récentes </h2>
 						<ul id="listeRevueEtEvenement">
+							
+							<li>
+							
+							
+							
+							
+							
+							</li>
+							
+							
+							
 <!--
 
 
@@ -90,13 +101,22 @@
 				</section>
 				
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/revue.class.js"></script>
+				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/evenement.class.js"></script>
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/listeRevueEtEvenement.class.js"></script>
 				
 					
+
+
+<!--
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/acceuilFonctionJSON.js"></script>
 				<script src="http://localhost/Meittopi/php/modele/menuPrincipal/acceuil/acceuil.php"></script>
+-->
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/acceuil.js"></script>
+
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/francais/acceuil.js"></script>
+
+
+				
 				
 		</body>
 	</html>

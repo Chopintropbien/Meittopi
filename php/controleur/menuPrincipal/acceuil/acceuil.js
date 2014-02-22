@@ -59,6 +59,13 @@ while(document.getElementById('blocCompliment' + i)){
 }
 
 
+var l = new ListeRevueEtEvenement();
+					
+var e = new Evenement('Andrei', 'http://localhost/Meittopi/image/restau.jpg', ['http://localhost/Meittopi/image/restau.jpg', 'http://localhost/Meittopi/image/restau.jpg', 'http://localhost/Meittopi/image/restau.jpg'], 'Encore une sortie chez j aime', 'il y a 14 min', 'dimanche', [['Lauriane', true, 'lien'], ['Mehdi', false, 'lien']], 'que pour toi', 'comme d ab', 'identificationPersonneQuiAFaitLEvenement', 'identificationEvenement');
+
+l.ajouteRevueOuEvenement(e);
+l.affiche('listeRevueEtEvenement');
+
 
 
 

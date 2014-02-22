@@ -3,6 +3,7 @@
      * identifiacationRestauCommante de même pour acceder au restaurant  * 
      */
     function Revue(speudoPersonneQuiAFaitLaRevue, photoDeProfilPersonneQuiAFaitLaRevue, restaurantCommante, dateDEcriture, noteRestau, paragrapheRevue, drole, utile, cool, identificationPersonneQuiAFaitLaRevue, identifiacationRestauCommante){
+		
         this.speudoPersonneQuiAFaitLaRevue = speudoPersonneQuiAFaitLaRevue;
         this.photoDeProfilPersonneQuiAFaitLaRevue = photoDeProfilPersonneQuiAFaitLaRevue;
         this.restaurantCommante = restaurantCommante;
@@ -78,8 +79,8 @@
                this.createElement('time', 'articleStructurant' + placeDApparition, 'time', '', this.dateDEcriture, placeDApparition);
                
 	                // titre
-	            var lienPersonneQuiACommante = "sds";
-	            var lienRestaurant = "dggggf";
+	            var lienPersonneQuiACommante = "sds"; // a voir avec Andrei 
+	            var lienRestaurant = "dggggf"; // a voir avec Andrei 
 	            this.createElement('h6', 'articleStructurant' + placeDApparition, 'titre', '', '', placeDApparition);
 					this.createElement('a', 'titre' + placeDApparition, 'lienPersonne', '', lienPersonneQuiACommante , placeDApparition);
 						this.createElement('strong', 'lienPersonne' +  placeDApparition, '', '', this.speudoPersonneQuiAFaitLaRevue, placeDApparition);
