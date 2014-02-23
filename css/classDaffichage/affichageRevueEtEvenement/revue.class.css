@@ -19,6 +19,9 @@
 	text-align: justify;
 	margin: 0.5% 0% 1.5% 0%;
  }
+ 
+ 
+ /* question sur la pertinance de cette avis */
 	#partiePrincipale #partieGauche ul li article section h6{
 		margin: 1% 0% 1% 0%;
 		font-weight: bold;
@@ -27,15 +30,23 @@
 		width: 60%;
 		
 	}
-		#partiePrincipale #partieGauche ul li article section div input{
-			margin: 0% 1% 0% 1%;
-			padding: 0% 1% 0% 1%;
+		#partiePrincipale #partieGauche ul li article section div div{
+			margin: 0% 2% 0% 0.5%;
+			padding: 0% 1.5% 0% 1.5%;
 			display: inline-block;
 			background-color: #FBAE5B;
 			border: 1px #FF8400 outset;
 			box-shadow: 0px 0px 0px #FF8400;
 			border-radius: 5px;
+			width: auto;
 		}
+			#partiePrincipale #partieGauche ul li article section div div span{
+
+			}
+			#partiePrincipale #partieGauche ul li article section div div img{
+				display: inline-block;
+				width: 17px;
+			}
 	
  #partiePrincipale #partieGauche ul li article article{
 	 margin: 3% 0% 0% 0%; 
@@ -46,6 +57,9 @@
 		text-indent: 1%;
 		cursor: pointer;
 	}
+	
+	
+	
 	/* ce qui s'affiche quand on veut ecrire un commentaire
 	 */
 	#partiePrincipale #partieGauche ul li article article textarea{
@@ -77,14 +91,15 @@
 			top: 0.5px;
 			left: 0.5px;
 		}
+			
 		#partiePrincipale #partieGauche ul li article article div input{
 			display: inline-block;
 			background-color: #FBAE5B;
 			border: 1px #FF8400 outset;
 			box-shadow: 0px 0px 0px #FF8400;
 			border-radius: 5px;
-			padding: 0.5% 0.9% 0.5% 0.9%;
-			width: 17%;
+			padding: 0.5% 1.5% 0.5% 1.5%;
+			width: 20%;
 			margin: 0% 0% 0% 3%;	
 			cursor: pointer;	
 		}
@@ -95,8 +110,8 @@
 			border: 1px #FF8400 outset;
 			box-shadow: 0px 0px 0px #FF8400;
 			border-radius: 5px;
-			padding: 0.5% 0.9% 0.5% 0.9%;
-			width: 17%;
+			padding: 0.5% 1.5% 0.5% 1.5%;
+			width: 20%;
 			margin: 0% 0% 0% 3%;	
 			cursor: pointer;
 			position: relative;

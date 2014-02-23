@@ -1,3 +1,4 @@
+
 <?php 
  
 header("Content-type: text/javascript"); 
@@ -14,8 +15,9 @@ header("Content-type: text/javascript");
  *  7°  Si la personne connecter a trouver la revue drole, mettre true sinon false
  *  8°  De même pour utile
  *  9°  De même pour cool
- *  10° Mettre les information necessaire pour retrouver le lien de la personne qui a commanter -> a discuter
- *  11° De même pour le restaurant -> a discuter
+ *  10° De meme si l'utilisateur suivis la personne ou pas
+ * 	11° Mettre les information necessaire pour retrouver le lien de la personne qui a commanter -> a discuter
+ *  12° De même pour le restaurant -> a discuter
  */
  
 /* Un document est aussi un tableau mais compose de:
@@ -58,11 +60,12 @@ echo 'var listeRevueEtEvenement = {
 						"14/02/2014",
 						"2.5",
 						"Oui, j\'ai vraime aimer. les pizza sont pas cher du tout!!!!! Et tres bonnes Ma oui mA oui!!!!",
-						"trsdue",
-						"trusdfe",
-						"trusfe",
+						true,
+						false,
+						true,
+						true,
 						"Je ne sais pas quoi",
-						"de meme",	
+						"de meme"	
 						],
 			"revue2" : [
 						"Andreï Kucharavy",	
@@ -71,15 +74,37 @@ echo 'var listeRevueEtEvenement = {
 						"14/02/2014",
 						"4.5",
 						"Oui, j\'ai vraime aimer. les pizza sont pas cher du tout!!!!! Et tres bonnes",
-						"trusdfe",
-						"falssdfe",
-						"falssfde",
+						false,
+						true,
+						true,
+						false,
 						"Je ne sais pas quoi",
-						"de meme",	
+						"de meme"	
 						]
 						
 };';
 
+echo 'var profilAcceuil = {
+			"photoProfil" : "http://localhost/Meittopi/image/restau.jpg",
+			"speudo" : "Lauriane Mollier",
+			"villeOuEstLaPersonne": "Lausanne",
+			"nbVoteCool"  : "2",
+			"nbvoteUtile"  : "8",
+			"nbVotreDrole"  : "5",
+			"nbAmis"  : "4",
+			"nbRevus"  : "4",
+			"nbEvenementOrganise"  : "5",
+			"nbCompliment"  : "1",
+			"nbFollower"  : "4",
+			"nbLienPourProfilPlusComplet"  : "ds"
+};';
+
+
 ?>
 
 afficheListeRevueEtEvenement(listeRevueEtEvenement);
+afficheProfilAcceuil(profilAcceuil);
+
+
+
+

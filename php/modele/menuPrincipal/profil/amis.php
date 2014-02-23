@@ -12,7 +12,7 @@ header("Content-type: text/javascript");
 	 */
 	 
 	  
-echo ' var listeAmis = {
+echo 'var listeAmis = {
 			"titre" : "Mes preferer",
 			"amis" : [ 
 						["Chiffa", "http://localhost/Meittopi/image/restau.jpg", "1"],

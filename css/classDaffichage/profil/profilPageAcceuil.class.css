@@ -1,0 +1,42 @@
+
+#partieDroite aside a{
+	
+}
+	#partieDroite aside div{
+		text-align: center;
+		margin-bottom: 2%;
+		
+	}
+		#partieDroite aside div a h2{
+			display: inline-block;
+		}
+		#partieDroite aside div p{
+			display: inline-block;	
+			margin-left: 2%;		
+		}
+		#partieDroite aside article img{
+			display: inline-block;
+			width: 20%;
+			vertical-align: top;
+		}
+		#partieDroite aside article table{
+			width: 76%;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 2%;
+			font-size: 14px;
+		}
+				#partieDroite aside article table tr td{
+					padding: 0% 2% 2% 0%;
+				}
+				.ligne1colone1, .ligne2colone1, .ligne3colone1{
+					width: 40%;
+				}
+				.ligne1colone2, .ligne2colone2, .ligne3colone2{
+					width: 24%;
+				}
+				.ligne1colone3, .ligne2colone3, .ligne3colone3{
+					width: 49%;
+					
+				}
+

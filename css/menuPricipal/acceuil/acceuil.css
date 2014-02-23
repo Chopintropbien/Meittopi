@@ -12,19 +12,33 @@
 	margin: 0% 2.5% 0% 2.5%;
 }
 
-#partiePrincipale #partieGauche {
+#partieGauche {
 	margin-top: 2%;
+	width: 55%;
+	display: inline-block;
+	vertical-align: top;
+	
 }
 	#partiePrincipale #partieGauche h2{
 		text-indent: 2%;
 		color: #FF8400;
 		font-size: 120%;
 	}
+#partieDroite{
+	width: 41%;
+	margin-left: 1%;
+	display: inline-block;
+	margin-top: 2%;
+	vertical-align: top;
+}
 	
-	
-	
-	
-	
+#partieDroite aside{
+	margin-left: 2%;
+	padding: 2% 0% 2% 2%;
+	border: 1px silver solid;
+	border-radius: 5px; 
+}
+
 		
 						
 						

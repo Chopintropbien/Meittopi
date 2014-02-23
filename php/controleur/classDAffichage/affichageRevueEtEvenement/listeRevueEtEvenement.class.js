@@ -1,6 +1,5 @@
 
 function ListeRevueEtEvenement(){
-	
 	this.liste = [];
 	
 	this.createElement = function(tagName, idElementParent, id){

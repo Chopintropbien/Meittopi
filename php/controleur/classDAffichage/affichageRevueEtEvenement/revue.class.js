@@ -2,7 +2,7 @@
      * identificationPersonneQuiAFaitLaRevue mettre les parametre que l'on devra passer via methode POST pour acceder au profil de la personne
      * identifiacationRestauCommante de même pour acceder au restaurant  * 
      */
-    function Revue(speudoPersonneQuiAFaitLaRevue, photoDeProfilPersonneQuiAFaitLaRevue, restaurantCommante, dateDEcriture, noteRestau, paragrapheRevue, drole, utile, cool, identificationPersonneQuiAFaitLaRevue, identifiacationRestauCommante){
+    function Revue(speudoPersonneQuiAFaitLaRevue, photoDeProfilPersonneQuiAFaitLaRevue, restaurantCommante, dateDEcriture, noteRestau, paragrapheRevue, drole, utile, cool, suivis, identificationPersonneQuiAFaitLaRevue, identifiacationRestauCommante){
 		
         this.speudoPersonneQuiAFaitLaRevue = speudoPersonneQuiAFaitLaRevue;
         this.photoDeProfilPersonneQuiAFaitLaRevue = photoDeProfilPersonneQuiAFaitLaRevue;
@@ -13,8 +13,13 @@
         this.drole = drole;
         this.utile = utile;
         this.cool = cool;
+        this.suivis = suivis;
         this.identificationPersonneQuiAFaitLaRevue = identificationPersonneQuiAFaitLaRevue; 
         this.identifiacationRestauCommante = identifiacationRestauCommante;
+        
+			// dessin check
+
+        this.check = '<img src="http://localhost/Meittopi/image/check.png">';
         
         this.createElement = function(tagName, idElementParent, id, className, inner, identifiantPlaceDApparition){
 			var nouvelElement = document.createElement(tagName);
@@ -46,7 +51,7 @@
 			nouvelElement.id = id + identifiantPlaceDApparition; 
 			nouvelElement.style.display = 'none';
 			document.getElementById(idElementParent).appendChild(nouvelElement);
-		};
+		};		
 		this.createEtoile = function(idElementParent, typeEtoile, couleur){
 			var nouvelElement = document.createElement('canvas');
 			nouvelElement.width = '23';
@@ -67,8 +72,39 @@
 			nouvelElement.type = type;
 			nouvelElement.className = className;
 			document.getElementById(idElementParent).appendChild(nouvelElement);
+		}   
+        this.addEvent = function(element, event, func) { // Une fonction pour gérer les événements sous tous les navigateurs
+			if (element.attachEvent) {
+				element.attachEvent('on' + event, func);
+			} else {
+				element.addEventListener(event, func, true);
+			}
 		}
-        
+        this.createElementAvecEvenement = function(tagName, idElementParent, id, className, inner, identifiantPlaceDApparition, fonction){
+			var nouvelElement = document.createElement(tagName);
+			if(tagName == 'img'){
+				nouvelElement.src = inner; 
+			}
+			else if(tagName == 'a'){
+				nouvelElement.href = inner;
+			}
+			else{
+				nouvelElement.innerHTML = inner; 
+			}
+			nouvelElement.className = className;
+			nouvelElement.id = id + identifiantPlaceDApparition;
+			this.addEvent(nouvelElement, 'click',fonction);
+			document.getElementById(idElementParent).appendChild(nouvelElement);
+		};
+		this.createInputAvecEvenement = function(idElementParent, id, className, type, identifiantPlaceDApparition, fonction){
+			var nouvelElement = document.createElement('input');
+			nouvelElement.id = id + identifiantPlaceDApparition; 
+			nouvelElement.type = type;
+			nouvelElement.className = className;
+			this.addEvent(nouvelElement, 'click', fonction);
+			document.getElementById(idElementParent).appendChild(nouvelElement);
+		}  
+		
         this.affiche = function (ouAfficher, placeDApparition) {
                // photo de profil
             this.createElement('img', ouAfficher, '', '', this.photoDeProfilPersonneQuiAFaitLaRevue, placeDApparition);
@@ -116,17 +152,40 @@
 				this.createElement('section','articleStructurant' + placeDApparition, 'blocPertinanceAvis', '', '' , placeDApparition);
 					this.createElement('h6',  'blocPertinanceAvis' + placeDApparition, '', 'cetteAvisEstIl', '', placeDApparition);
 					this.createElement('div',  'blocPertinanceAvis' + placeDApparition, 'boutton', '', '', placeDApparition);
-						// rejouter un symbole si true
-						this.createInput('boutton' + placeDApparition, 'utile', 'utile', 'button', placeDApparition);
-						this.createInput('boutton' + placeDApparition, 'drole', 'drole', 'button', placeDApparition);
-						this.createInput('boutton' + placeDApparition, 'cool', 'cool', 'button', placeDApparition);
-				
+					
+						// button utile
+						this.createElementAvecEvenement('div',  'boutton' + placeDApparition, 'utileButton', 'utileButton', '', placeDApparition, this.evenementButtonPertinanceAvis);
+							this.createElement('span',  'utileButton' + placeDApparition, 'utile', 'utile', '', placeDApparition);
+							if(this.utile){
+								var button = document.getElementById('utileButton' + placeDApparition);
+								button.style.border = '1px #FF8400 inset';
+								button.innerHTML += this.check;
+							}
+							
+						// button drole
+						this.createElementAvecEvenement('div',  'boutton' + placeDApparition, 'droleButton', 'droleButton', '', placeDApparition, this.evenementButtonPertinanceAvis);
+							this.createElement('span',  'droleButton' + placeDApparition, 'drole', 'drole', '', placeDApparition);
+							if(this.drole){
+								var button = document.getElementById('droleButton' + placeDApparition);
+								button.style.border = '1px #FF8400 inset';
+								button.innerHTML += this.check;
+							}
+							
+						// button cool
+						this.createElementAvecEvenement('div',  'boutton' + placeDApparition, 'coolButton', 'coolButton', '', placeDApparition, this.evenementButtonPertinanceAvis);
+							this.createElement('span',  'coolButton' + placeDApparition, 'cool', 'cool', '', placeDApparition);
+							if(this.cool){
+								var button = document.getElementById('coolButton' + placeDApparition);
+								button.style.border = '1px #FF8400 inset';
+								button.innerHTML += this.check;
+							}
+							
 					// bloc pour laisser un compliment
 				this.createElement('article', 'articleStructurant' + placeDApparition, 'blocCompliment', '', '', placeDApparition);
-					this.createInput('blocCompliment' + placeDApparition, 'ecrireCompliment', 'ecrireCompliment', 'texte', placeDApparition );
+					this.createInputAvecEvenement('blocCompliment' + placeDApparition, 'ecrireCompliment', 'ecrireCompliment', 'texte', placeDApparition, this.ecrireUnCompliment );
 					this.createElementCacher('textarea', 'blocCompliment' + placeDApparition, 'texteCompliment', '', '', placeDApparition);
 					this.createElementCacher('div', 'blocCompliment' + placeDApparition, 'buttonsCompliment', '', '', placeDApparition);
-						this.createElement('p', 'buttonsCompliment' + placeDApparition, 'annulerEcritureCompliment', 'annulerEcritureCompliment', '', placeDApparition);
+						this.createElementAvecEvenement('p', 'buttonsCompliment' + placeDApparition, 'annulerEcritureCompliment', 'annulerEcritureCompliment', '', placeDApparition, this.annulerEcritureCompliment);
 						this.createInput('buttonsCompliment' + placeDApparition, 'envoyerCompliement', 'envoyerCompliement',  'button', placeDApparition );   
 					
 			       
@@ -151,8 +210,7 @@
 				context.closePath();
 				context.stroke();
 				context.fill();	
-			} 
-		
+			} 	
 		this.demiEtoile = function(canvas, couleur){
 			var context = canvas.getContext('2d');
 			
@@ -188,6 +246,45 @@
 			context.stroke();
 			context.fill();	
 		}
+			/* fonction pour que les boutons utile drole et cool s'enfonce ou se dé-enfonce quand on clique
+			 * de plus un check vert qui apparait ou disparait
+			 * obligatoirement avec des bordure in et outset sans le css
+			 */
+		this.evenementButtonPertinanceAvis = function(){
+			var check = '<img src="http://localhost/Meittopi/image/check.png">';
+			if(this.style.border == '' || /outset/.test(this.style.border)){
+				this.style.border = '1px #FF8400 inset';
+				this.innerHTML += check; 
+			}
+			else if( /inset/.test(this.style.border)){
+				this.style.border = '1px #FF8400 outset';
+				this.innerHTML = this.innerHTML.replace(check, '');
+			}
+		}
+			// appartion de la zone de saisie pour ecrire un compliment si on clique sur "envoyer un compliement"
+		this.ecrireUnCompliment = function(){
+			this.style.display = 'none';
+			i = this.id[16];
+			var textareaAAfficher = document.getElementById('texteCompliment' + i);
+			var buttonAAfficher = document.getElementById('buttonsCompliment' + i);
+			buttonAAfficher.style.display = 'block';
+			textareaAAfficher.style.display = 'block';
+			textareaAAfficher.focus();
+			
+		}
+			// disparition de la zone de saisie pour ecrire un compliement si on clique sur annuler
+		this.annulerEcritureCompliment = function(){
+			i = this.id[25];
+			var textareaAAfficher = document.getElementById('texteCompliment' + i);
+			var buttonAAfficher = document.getElementById('buttonsCompliment' + i);
+			buttonAAfficher.style.display = 'none';
+			textareaAAfficher.style.display = 'none';
+			var ecrireUnCompliment = document.getElementById('ecrireCompliment' + i);
+			ecrireUnCompliment.style.display = 'block';
+		}
+		
+		
+		
 			
 	}
         
