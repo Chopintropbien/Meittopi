@@ -1,39 +1,4 @@
-	// dans ou ca mettre innerHTML, value, placeholder
-function ajouterLeTexte(className, texte, ouCa){
-	var ecrit = document.getElementsByClassName(className);
-	var ecritLength = ecrit.length;
-	for(var i = 0; i < ecritLength; ++i){
-		if(ouCa == 'innerHTML'){
-			ecrit[i].innerHTML = texte;
-		}
-		else if(ouCa == 'value'){
-			
-			ecrit[i].value= texte;
-		}
-		else if(ouCa == 'placeholder'){
-			ecrit[i].placeholder= texte;
-		}
-		
-	}
-}
 
-function ajouterLeTexteSansSuprimerceluiDAvant(className, texte, ouCa){
-	var ecrit = document.getElementsByClassName(className);
-	var ecritLength = ecrit.length;
-	for(var i = 0; i < ecritLength; ++i){
-		if(ouCa == 'innerHTML'){
-			ecrit[i].innerHTML += texte; // la difference est ici
-		}
-		else if(ouCa == 'value'){
-			
-			ecrit[i].value= texte;
-		}
-		else if(ouCa == 'placeholder'){
-			ecrit[i].placeholder= texte;
-		}
-		
-	}
-}
 
 	// Une Revue
 ajouterLeTexte('aEcritSur', ' à érit sur ', 'innerHTML');
@@ -53,13 +18,15 @@ ajouterLeTexte('estInvite', ' est invité(e), ', 'innerHTML');
 				
 	// le profil
 ajouterLeTexteSansSuprimerceluiDAvant('ligne1colone1', ' votes utile', 'innerHTML');
-ajouterLeTexteSansSuprimerceluiDAvant('ligne1colone2', ' amis', 'innerHTML');
-ajouterLeTexteSansSuprimerceluiDAvant('ligne1colone3', ' compliment', 'innerHTML');
-ajouterLeTexteSansSuprimerceluiDAvant('ligne2colone1', ' votes drôle', 'innerHTML');
-ajouterLeTexteSansSuprimerceluiDAvant('ligne2colone2', ' revus', 'innerHTML');
+ajouterLeTexteSansSuprimerceluiDAvant('ligne1colone2', ' votes drôle', 'innerHTML');
+ajouterLeTexteSansSuprimerceluiDAvant('ligne1colone3', ' votes cool', 'innerHTML');
+
+ajouterLeTexteSansSuprimerceluiDAvant('ligne2colone1', ' amis', 'innerHTML');
+ajouterLeTexteSansSuprimerceluiDAvant('ligne2colone2', ' compliment', 'innerHTML');
 ajouterLeTexteSansSuprimerceluiDAvant('ligne2colone3', ' followers', 'innerHTML');
-ajouterLeTexteSansSuprimerceluiDAvant('ligne3colone1', ' votes cool', 'innerHTML');
-ajouterLeTexteSansSuprimerceluiDAvant('ligne3colone2', ' sortie', 'innerHTML');
+
+ajouterLeTexteSansSuprimerceluiDAvant('ligne3colone1', ' sortie', 'innerHTML');
+ajouterLeTexteSansSuprimerceluiDAvant('ligne3colone2', ' revus', 'innerHTML');
 
 
 

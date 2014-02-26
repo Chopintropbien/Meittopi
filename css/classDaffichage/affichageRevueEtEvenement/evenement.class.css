@@ -24,6 +24,11 @@
 		color: blue;
 		font-size: 15px;
 	}
+	#partiePrincipale #partieGauche ul li article section section a h1:hover {
+		color: blue;
+		font-size: 15px;
+		text-decoration: underline;
+	}
 	#partiePrincipale #partieGauche ul li article section section time{
 		color: gray;
 		display: block;

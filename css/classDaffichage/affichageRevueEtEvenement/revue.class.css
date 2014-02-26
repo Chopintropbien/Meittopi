@@ -4,7 +4,11 @@
 			background-color: transparent;
 			color: blue;
 		}
-	
+		#partiePrincipale #partieGauche ul li article h6 a mark:hover{
+			background-color: transparent;
+			color: blue;
+			font-decoration: 
+		}
 
 #partiePrincipale #partieGauche ul li article > div{
 	overflow: auto;
@@ -39,6 +43,26 @@
 			box-shadow: 0px 0px 0px #FF8400;
 			border-radius: 5px;
 			width: auto;
+			cursor: pointer;
+			width: auto;
+			user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
+			-moz-user-select: none;
+			-khtml-user-select: none;
+			-webkit-user-select: none;
+		}
+		#partiePrincipale #partieGauche ul li article section div div:hover{
+			margin: 0% 2% 0% 0.5%;
+			padding: 0% 1.5% 0% 1.5%;
+			display: inline-block;
+			background-color: #FEA646;
+			border: 1px #FF8400 outset;
+			box-shadow: 0px 0px 0px #FF8400;
+			border-radius: 5px;
+			width: auto;
+			user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
+			-moz-user-select: none;
+			-khtml-user-select: none;
+			-webkit-user-select: none;
 		}
 			#partiePrincipale #partieGauche ul li article section div div span{
 

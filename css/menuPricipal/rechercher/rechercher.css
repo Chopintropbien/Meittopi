@@ -12,21 +12,29 @@
 	background-color: #F4F4F4;
 	width: 15%;
 	display: inline-block;
-	float: left;
 }
 
-.titreOption{
-	margin-top: 5px;
-}
-
-.avance{
-	color: blue;
-	margin-top: 5px;
-	margin-bottom: 8px;
-}
-.avance:hover{
-	text-decoration: underline;
+	.titreOption{
+		margin-top: 5px;
+	}
 	
+	.avance{
+		color: blue;
+		margin-top: 5px;
+		margin-bottom: 8px;
+	}
+	.avance:hover{
+		text-decoration: underline;
+		
+	}
+
+#rechercheRestau{
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2%;
 }
 
 #carte{
@@ -36,15 +44,7 @@
 	margin-right: 2.5%;
 }
 
-.grandeListeRestau{
-	border: 2px #EBEAEB outset; 
-	background-color: #F4F4F4;
-	width: 45%;
-	margin: 15px;
-	margin-top: 30px;
-	padding: 0px 15px 15px 15px;
-	display: inline-block;
-}
+
 
 
 

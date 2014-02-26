@@ -14,29 +14,31 @@
 			display: inline-block;	
 			margin-left: 2%;		
 		}
+		#partieDroite aside article{
+		}
 		#partieDroite aside article img{
 			display: inline-block;
 			width: 20%;
 			vertical-align: top;
 		}
-		#partieDroite aside article table{
-			width: 76%;
+		#partieDroite aside article ul{
 			display: inline-block;
 			vertical-align: top;
-			margin-left: 2%;
+			margin-left: 1%;
 			font-size: 14px;
 		}
-				#partieDroite aside article table tr td{
-					padding: 0% 2% 2% 0%;
+			#partieDroite aside article ul li{
+				margin-bottom: 5%;			
+				text-align: left;
+			}
+				#partieDroite aside article ul li img{
+					display: inline-block;
+					vertical-align: middle;
+					width: 20px;
 				}
-				.ligne1colone1, .ligne2colone1, .ligne3colone1{
-					width: 40%;
-				}
-				.ligne1colone2, .ligne2colone2, .ligne3colone2{
-					width: 24%;
-				}
-				.ligne1colone3, .ligne2colone3, .ligne3colone3{
-					width: 49%;
-					
+				#partieDroite aside article ul li p{
+					display: inline-block;
+					vertical-align: middle;
+					text-indent: 2px;
 				}
 

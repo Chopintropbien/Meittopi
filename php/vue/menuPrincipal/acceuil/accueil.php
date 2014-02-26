@@ -35,29 +35,31 @@
 					
 					<section id="partieDroite">
 						<aside id="profil">
-
+							
 						</aside>
 					</section>
 				</section>
 				
+					<!-- fonction -->
+				<script src = "http://localhost/Meittopi/php/controleur/fonction/ajouterTexte.js"> </script>
 
-				<!-- class pour la partie gauche -->
+					<!-- class pour la partie gauche -->
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/revue.class.js"></script>
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/evenement.class.js"></script>
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/affichageRevueEtEvenement/listeRevueEtEvenement.class.js"></script>
 	
-				<!-- class pour la partie droite -->
+					<!-- class pour la partie droite -->
 				<script src="http://localhost/Meittopi/php/controleur/classDAffichage/profil/profilPageAcceuil.class.js"></script>
 				
-				<!-- script de chargement du JSON  -->
+					<!-- script de chargement du JSON  -->
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/acceuilFonctionJSON.js"></script>
 				<script src="http://localhost/Meittopi/php/modele/menuPrincipal/acceuil/acceuil.php"></script>
 				
-				<!-- script pour le dinamisme de la page -->
+					<!-- script pour le dinamisme de la page -->
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/acceuil.js"></script>
 
 
-				<!-- chargement du text en francais -->
+					<!-- chargement du text en francais -->
 				<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/acceuil/francais/acceuil.js"></script>
 
 				

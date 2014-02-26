@@ -102,6 +102,9 @@ echo 'var profilAcceuil = {
 
 ?>
 
+
+
+
 afficheListeRevueEtEvenement(listeRevueEtEvenement);
 afficheProfilAcceuil(profilAcceuil);
 

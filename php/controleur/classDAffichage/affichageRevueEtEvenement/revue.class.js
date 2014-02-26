@@ -124,6 +124,7 @@
 					this.createElement('a', 'titre' + placeDApparition, 'lienRestau', '', lienRestaurant , placeDApparition);
 						this.createElement('mark', 'lienRestau' + placeDApparition, '', '', this.restaurantCommante, placeDApparition);
 					
+				
 					// canvas (étoiles)
 				this.createElement('div','articleStructurant' + placeDApparition, 'noteRestau', '', '', placeDApparition);
 					var couleur;
@@ -142,6 +143,7 @@
 						if(this.noteRestau- j == 0.5){
 							this.createEtoile('noteRestau' + placeDApparition, 'demiEtoile', couleur);
 						}
+						
 					}
 				// colorier les etoiles en en faisont une fonction 
 				
@@ -153,7 +155,7 @@
 					this.createElement('h6',  'blocPertinanceAvis' + placeDApparition, '', 'cetteAvisEstIl', '', placeDApparition);
 					this.createElement('div',  'blocPertinanceAvis' + placeDApparition, 'boutton', '', '', placeDApparition);
 					
-						// button utile
+							// button utile
 						this.createElementAvecEvenement('div',  'boutton' + placeDApparition, 'utileButton', 'utileButton', '', placeDApparition, this.evenementButtonPertinanceAvis);
 							this.createElement('span',  'utileButton' + placeDApparition, 'utile', 'utile', '', placeDApparition);
 							if(this.utile){
@@ -162,7 +164,7 @@
 								button.innerHTML += this.check;
 							}
 							
-						// button drole
+							// button drole
 						this.createElementAvecEvenement('div',  'boutton' + placeDApparition, 'droleButton', 'droleButton', '', placeDApparition, this.evenementButtonPertinanceAvis);
 							this.createElement('span',  'droleButton' + placeDApparition, 'drole', 'drole', '', placeDApparition);
 							if(this.drole){
@@ -171,7 +173,7 @@
 								button.innerHTML += this.check;
 							}
 							
-						// button cool
+							// button cool
 						this.createElementAvecEvenement('div',  'boutton' + placeDApparition, 'coolButton', 'coolButton', '', placeDApparition, this.evenementButtonPertinanceAvis);
 							this.createElement('span',  'coolButton' + placeDApparition, 'cool', 'cool', '', placeDApparition);
 							if(this.cool){
@@ -190,7 +192,45 @@
 					
 			       
         }
-			// affiche une étoile colorier en entier
+			
+			/* fonction pour que les boutons utile drole et cool s'enfonce ou se dé-enfonce quand on clique
+			 * de plus un check vert qui apparait ou disparait
+			 * obligatoirement avec des bordure in et outset sans le css
+			 */
+		this.evenementButtonPertinanceAvis = function(){
+			var check = '<img src="http://localhost/Meittopi/image/check.png">';
+			if(this.style.border == '' || /outset/.test(this.style.border)){
+				this.style.border = '1px #FF8400 inset';
+				this.innerHTML += check; 
+			}
+			else if( /inset/.test(this.style.border)){
+				this.style.border = '1px #FF8400 outset';
+				this.innerHTML = this.innerHTML.replace(check, '');
+			}
+		}
+			// appartion de la zone de saisie pour ecrire un compliment si on clique sur "envoyer un compliement"
+		this.ecrireUnCompliment = function(){
+			this.style.display = 'none';
+			i = this.id[16];
+			var textareaAAfficher = document.getElementById('texteCompliment' + i);
+			var buttonAAfficher = document.getElementById('buttonsCompliment' + i);
+			buttonAAfficher.style.display = 'block';
+			textareaAAfficher.style.display = 'block';
+			textareaAAfficher.focus();
+			
+		}
+			// disparition de la zone de saisie pour ecrire un compliement si on clique sur annuler
+		this.annulerEcritureCompliment = function(){
+			i = this.id[25];
+			var textareaAAfficher = document.getElementById('texteCompliment' + i);
+			var buttonAAfficher = document.getElementById('buttonsCompliment' + i);
+			buttonAAfficher.style.display = 'none';
+			textareaAAfficher.style.display = 'none';
+			var ecrireUnCompliment = document.getElementById('ecrireCompliment' + i);
+			ecrireUnCompliment.style.display = 'block';
+		}
+		
+		// affiche une étoile colorier en entier
         this.etoileComplete = function (canvas, couleur){
 				var context = canvas.getContext('2d');
 				context.strokeStyle = "black";
@@ -246,44 +286,6 @@
 			context.stroke();
 			context.fill();	
 		}
-			/* fonction pour que les boutons utile drole et cool s'enfonce ou se dé-enfonce quand on clique
-			 * de plus un check vert qui apparait ou disparait
-			 * obligatoirement avec des bordure in et outset sans le css
-			 */
-		this.evenementButtonPertinanceAvis = function(){
-			var check = '<img src="http://localhost/Meittopi/image/check.png">';
-			if(this.style.border == '' || /outset/.test(this.style.border)){
-				this.style.border = '1px #FF8400 inset';
-				this.innerHTML += check; 
-			}
-			else if( /inset/.test(this.style.border)){
-				this.style.border = '1px #FF8400 outset';
-				this.innerHTML = this.innerHTML.replace(check, '');
-			}
-		}
-			// appartion de la zone de saisie pour ecrire un compliment si on clique sur "envoyer un compliement"
-		this.ecrireUnCompliment = function(){
-			this.style.display = 'none';
-			i = this.id[16];
-			var textareaAAfficher = document.getElementById('texteCompliment' + i);
-			var buttonAAfficher = document.getElementById('buttonsCompliment' + i);
-			buttonAAfficher.style.display = 'block';
-			textareaAAfficher.style.display = 'block';
-			textareaAAfficher.focus();
-			
-		}
-			// disparition de la zone de saisie pour ecrire un compliement si on clique sur annuler
-		this.annulerEcritureCompliment = function(){
-			i = this.id[25];
-			var textareaAAfficher = document.getElementById('texteCompliment' + i);
-			var buttonAAfficher = document.getElementById('buttonsCompliment' + i);
-			buttonAAfficher.style.display = 'none';
-			textareaAAfficher.style.display = 'none';
-			var ecrireUnCompliment = document.getElementById('ecrireCompliment' + i);
-			ecrireUnCompliment.style.display = 'block';
-		}
-		
-		
 		
 			
 	}
