@@ -28,6 +28,9 @@ function ListePropositionAmelioration(){
 		for(var i = 0; i<length; ++i){
 			this.createElement('li', ouOnAffiche, 'proposition', '', i);
 			this.liste[i].affiche(i, i + 'proposition');
+			if(i != length - 1){
+				this.createElement('hr', ouOnAffiche, '', '', i)
+			}
 		}
 	};
 };

@@ -21,4 +21,4 @@
 			
 		</form>
 
-<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/navigateur.js"> </script>
+<script src="http://localhost/Meittopi/php/controleur/nonAuthentifier/francais/navigateur.js"> </script>

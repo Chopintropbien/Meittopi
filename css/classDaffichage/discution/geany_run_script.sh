@@ -2,7 +2,7 @@
 
 rm $0
 
-./propositionAmelioration.class
+./presentationDiscution.class
 
 echo "
 

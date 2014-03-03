@@ -1,5 +1,10 @@
 /* specifique evenement */		
-				
+
+	/* titre annonce d'un evenement */
+#partiePrincipale #partieGauche ul li article h6{
+	margin-bottom: 2%;
+}
+		
 #partiePrincipale #partieGauche ul li article section ul {
 	display: inline-block;
 	width: 22%;
@@ -13,19 +18,21 @@
 		#partiePrincipale #partieGauche ul li article section ul li img{
 			width: 100%;
 		}
+		
+	/* section en dessous du titre d'annouce et a cote des photo */
 #partiePrincipale #partieGauche ul li article section section {
 	display: inline-block;
 	width: 72%;
-	margin: 2% 0% 0% 0%;
+	margin: 0% 0% 0% 1%;
 	vertical-align: top;
 	
 }	
 	#partiePrincipale #partieGauche ul li article section section a h1 {
-		color: blue;
+		color: #305EC6;
 		font-size: 15px;
 	}
 	#partiePrincipale #partieGauche ul li article section section a h1:hover {
-		color: blue;
+		color: #305EC6;
 		font-size: 15px;
 		text-decoration: underline;
 	}
@@ -34,13 +41,21 @@
 		display: block;
 		margin: 0.5% 0% 0% 0%;
 	}
+	
+		/* liste des gens invité */
 	#partiePrincipale #partieGauche ul li article section section article{
 		margin: 0% 0% 0% 0%; 
 	}
 		#partiePrincipale #partieGauche ul li article section section article span a strong {
-			color: blue;
+			color: #305EC6;
 			font-weight: normal;
 			font-size: 12px;
+		}
+		#partiePrincipale #partieGauche ul li article section section article span a strong:hover{
+			color: #305EC6;
+			font-weight: normal;
+			font-size: 12px;
+			text-decoration: underline;
 		}
 		#partiePrincipale #partieGauche ul li article section section article span span {
 			font-size: 12px;

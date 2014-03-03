@@ -34,3 +34,19 @@
 			
 		}
 	}	
+	
+	
+	function ajouterLeTexteParId(id, texte, ouCa){
+		var ecrit = document.getElementById(id);
+		if(ouCa == 'innerHTML'){
+			ecrit.innerHTML = texte;
+		}
+		else if(ouCa == 'value'){
+			
+			ecrit.value= texte;
+		}
+		else if(ouCa == 'placeholder'){
+			ecrit.placeholder= texte;
+		}
+		
+	}

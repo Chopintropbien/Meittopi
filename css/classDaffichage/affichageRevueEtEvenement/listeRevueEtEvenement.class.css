@@ -1,8 +1,10 @@
 /* listeRevueEtEvenement */
 	
-#partiePrincipale #partieGauche ul{
+#partiePrincipale #partieGauche >ul{
 	width: 100%;
-	margin: 2%;
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	margin-top: 2%;
 	
 }
 	#partiePrincipale #partieGauche ul li{
@@ -10,8 +12,6 @@
 	}
 	
 	#partiePrincipale #partieGauche ul hr{
-		margin: 2.5% 0% 2.5% 0%; 
-		width: 98%;
 	}
 			
 			/* pour Revue  et Evenement */
@@ -39,9 +39,9 @@
 			 }
 				#partiePrincipale #partieGauche ul li article h6 a:hover{
 					text-decoration: underline;
-					color: blue;
+					color: #305EC6;
 				}
 					#partiePrincipale #partieGauche ul li article h6 a strong{
 						font-size: 14px;
-						color: blue;  
+						color: #305EC6;  
 					}

@@ -54,10 +54,15 @@
 					
 				</section>
 				
+				
+			<!-- class-->
 		<script src = "http://localhost/Meittopi/php/controleur/class/propositionAmelioration.class.js"></script>
 		<script src = "http://localhost/Meittopi/php/controleur/class/listePropositionAmelioration.class.js"></script>
-		
+<!--
 		<script src = "http://localhost/Meittopi/php/controleur/class/profilDeParticipation.class.js"></script>
+-->
+		
+			<!-- page en francais-->
 		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/votreAvis.js"></script>
 		
 	

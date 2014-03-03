@@ -45,6 +45,6 @@
 					</article>
 				</section>
 
-				<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/identificationEchouee.js"> </script>
+				<script src="http://localhost/Meittopi/php/controleur/nonAuthentifier/francais/identificationEchouee.js"> </script>
 		</body>
 	</html>

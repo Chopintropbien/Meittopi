@@ -66,9 +66,9 @@
 	</table>
 </form>
 
-<script src = "http://localhost/Meittopi/php/javascript/fonction/objetXMLHttpRequest.js"> </script>  
-<script src = "http://localhost/Meittopi/php/javascript/nonAuthentifier/inscription.js"> </script>  
-<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/formulaireInscription.js"> </script>
+<script src = "http://localhost/Meittopi/php/controleur/fonction/objetXMLHttpRequest.js"> </script>  
+<script src = "http://localhost/Meittopi/php/controleur/nonAuthentifier/inscription.js"> </script>  
+<script src="http://localhost/Meittopi/php/controleur/nonAuthentifier/francais/formulaireInscription.js"> </script>
 
 
 

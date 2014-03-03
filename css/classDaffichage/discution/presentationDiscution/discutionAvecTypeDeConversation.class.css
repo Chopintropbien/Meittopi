@@ -1,0 +1,79 @@
+#partiePrincipale table td{
+	}
+	
+	#partiePrincipale table td{
+		vertical-align: top;
+	}
+	
+			/* colonne auteur */
+		#partiePrincipale table td.auteur:first-child{
+			width: 9%;
+			text-align: center;
+			vertical-align: middle;
+			
+		}
+		#partiePrincipale table td.auteur{
+			width: 9%;
+		}
+			#partiePrincipale table td.auteur a p{
+				text-align: center;
+			}
+			#partiePrincipale table td.auteur a p:hover{
+				text-align: center;	
+				text-decoration: underline;
+			}
+
+			#partiePrincipale table td.auteur a img{
+				width: 100%;
+			}
+		
+			/* colonne conversation */
+		#partiePrincipale table td.conversationTitre{
+			text-align: center;
+			vertical-align: middle;
+			width: 57%;
+			padding-right: 1%;
+		}	
+		
+		#partiePrincipale table td.conversation{
+			padding-left: 2%;
+			width: 57%;
+			text-align: justify;
+			padding-right: 1%;
+		}
+			#partiePrincipale table td.conversation h4{
+				font-size: 115%;
+				padding-bottom: 1%;
+			}
+			#partiePrincipale table td.conversation h4:hover{
+				font-size: 115%;
+				text-decoration: underline;
+				padding-bottom: 1%;
+			}	
+			
+		
+			
+			
+		
+		
+			/* colonne categorie conversation */
+		#partiePrincipale table td.categorieConversation{
+			text-align: center;
+			vertical-align: middle;
+			width: 13%;
+		}
+		
+			/* colonne  nb reponse */
+		#partiePrincipale table td.reponse{
+			text-align: center;
+			width: 10%;
+			vertical-align: middle;
+
+		}
+			/* colonne date derniere reponse */
+
+		#partiePrincipale table td.derniereReponse{
+			width: 10%;
+			text-align: center;
+			vertical-align: middle;
+		}

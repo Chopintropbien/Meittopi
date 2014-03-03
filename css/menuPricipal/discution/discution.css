@@ -11,6 +11,8 @@
 	margin-bottom: 2%;
 
 }
+
+	/* liste des type de discution */
 #partiePrincipale ul{
 	width: 17%;
 	display: inline-block;
@@ -19,15 +21,20 @@
 	background-color: #F4F4F4;
 	margin: 1%;
 	margin-left: 3%;
+	font-size: 110%;
 }
+	#partiePrincipale ul li{
+		padding: 2% 0% 2% 0%;
+	}
 	#partiePrincipale ul li a{
 		padding: 0.2%;
-		color: blue;
+		color: #305EC6;
 	}
 	#partiePrincipale ul li a:hover{
 		text-decoration: underline;
 	}
 
+	/* liste des discution */
 #partiePrincipale table{
 	width: 61%;
 	display: inline-block;
@@ -38,40 +45,5 @@
 	padding: 1%;
 	margin-left: 3%;
 }
-	#partiePrincipale table td{
-		border-bottom: 1px silver solid;
-	}
 	
-	#partiePrincipale table td{
-		vertical-align: top;
-		padding-top: 1%;
-		padding-bottom: 1%;
-	
-	}
-		#partiePrincipale table td.auteur{
-			width: 12%;
-		}
-		#partiePrincipale table td img{
-			width: 100%;
-		}
-		#partiePrincipale table td.auteur p{
-			text-align: center;
-		}
-		#partiePrincipale table td.conversation{
-			padding-left: 2%;
-			width: 60%;
-			text-align: justify;
-		}
-		#partiePrincipale table td.reponse{
-			text-align: center;
-			width: 10%;
-			vertical-align: middle;
-		
-		}
-		#partiePrincipale table td.derniereReponse{
-			width: 15%;
-			text-align: center;
-			vertical-align: middle;
-		
-		}
 	

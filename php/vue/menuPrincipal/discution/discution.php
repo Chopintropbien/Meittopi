@@ -7,6 +7,10 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/discution.css"/>
+			
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/discution/listePresentationDiscution.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/discution/presentationDiscution/discutionSansTypeDeConversation.class.css"/>
+			
 			<title id="titre"> </title>
 		</head>
 		
@@ -22,15 +26,33 @@
 					<ul id="typeDeDiscution">
 						<li> <a id="mesDiscution"></a> </li>
 						<li> <a id="toutes"> </a> </li>
-						<li> <a id="alimentation"></a> </li>
-
+						<li> <a id="alimentationSpecifique"></a> </li>
+						<li> <a id="parentEnfant"></a> </li>
+						<li> <a id="evenement"></a> </li>
+						<li> <a id="questionSite"></a> </li>
+						<li> <a id="local"></a> </li>
+						<li> <a id="humour"></a> </li>
+						<li> <a id="information"></a> </li>
+						<li> <a id="sortir"></a> </li>
+						<li> <a id="autre"></a> </li>
 					</ul>
 					<table id = "conversation">
 						
 					</table>
 				</section>
-			<script src = "http://localhost/Meittopi/php/javascript/class/listeConversation.class.js"></script>
-			<script src = "http://localhost/Meittopi/php/javascript/class/conversation.class.js"></script>
-			<script src = "http://localhost/Meittopi/php/javascript/menuPrincipal/discution/francais/discution.js"></script>
+				
+				<!-- fonction -->
+			<script src = "http://localhost/Meittopi/php/controleur/fonction/ajouterTexte.js"> </script>
+			
+				<!-- class -->
+			<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/discution/listePresentationDiscution.class.js"></script>
+			<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/discution/presentationDiscution.class.js"></script>
+			
+				<!-- chargement du JSON -->
+			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/discution.js"></script>
+			<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/discution/discution.php"></script>
+			
+				<!-- francais -->
+			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/francais/discution.js"></script>
 		</body>
 	</html>

@@ -20,7 +20,7 @@
 					<?php include("formulaireInscription.php"); ?>
 				</section>
 				 
-				<script src="http://localhost/Meittopi/php/javascript/nonAuthentifier/francais/accueil.js"> </script>
+				<script src="http://localhost/Meittopi/php/controleur/nonAuthentifier/francais/accueil.js"> </script>
 
 		</body>
 	</html>

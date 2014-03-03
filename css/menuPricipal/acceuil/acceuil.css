@@ -8,16 +8,14 @@
 	
 }
 #partiePrincipale > hr{
-	width: 95%;
 	margin: 0% 2.5% 0% 2.5%;
 }
 
 #partieGauche {
-	margin-top: 2%;
-	width: 55%;
+	margin: 2%;
+	width: 53%;
 	display: inline-block;
 	vertical-align: top;
-	
 }
 	#partiePrincipale #partieGauche h2{
 		text-indent: 2%;
@@ -25,19 +23,19 @@
 		font-size: 120%;
 	}
 #partieDroite{
-	width: 41%;
-	margin-left: 1%;
+	width: 40%;
+	margin: 2%, 2% 1% 0%;
 	display: inline-block;
-	margin-top: 2%;
 	vertical-align: top;
 }
-	
-#partieDroite aside{
-	margin-left: 2%;
-	padding: 2% 0% 2% 2%;
-	border: 1px silver solid;
-	border-radius: 5px; 
-}
+		/* profil */
+	#partieDroite aside{
+		padding: 2% 0% 1% 2%;
+		width: 100%;
+		border: 2px #EBEAEB outset; 
+		background-color: #F4F4F4; 
+		margin-top: 12.6%;
+	}
 
 		
 						

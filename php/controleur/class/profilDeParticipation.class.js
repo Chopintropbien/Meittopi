@@ -8,22 +8,27 @@ function ProfilDeParticipation(prenom, nom, statue, photo, nbVotePlus, nbVoteMoi
 	this.nbVoteMoins = nbVoteMoins;
 	this.nbArgentDonnee = nbArgentDonnee;
 	
-	this.createElement = function(tagName, idElementParent, id,  inner){
+	this.createElement = function(tagName, idElementParent, id, className, inner, identifiantPlaceDApparition){
 		
-		var nouvelElement = document.createElement(tagName);
-		if(tagName == 'img'){
-			nouvelElement.src = inner; 
-		}
-		else if(tagName == 'a'){
-			nouvelElement.href = inner;
-		}
-		else{
-			nouvelElement.innerHTML = inner; 
-		}
-		nouvelElement.id = id; 
-		document.getElementById(idElementParent).appendChild(nouvelElement);
-		
-	};
+			var nouvelElement = document.createElement(tagName);
+			if(tagName == 'img'){
+				nouvelElement.src = inner; 
+			}
+			else if(tagName == 'a'){
+				nouvelElement.href = inner;
+			}
+			else{
+				nouvelElement.innerHTML = inner; 
+			}
+			
+			if(className != ''){ 
+				nouvelElement.className = className;
+			}
+			if(id != ''){
+				nouvelElement.id = id + identifiantPlaceDApparition; 
+			}
+			document.getElementById(idElementParent).appendChild(nouvelElement);
+		};
 	
 	this.affiche = function(ouOnAffiche){
 		this.createElement('img', ouOnAffiche,'', this.photo);

@@ -1,5 +1,5 @@
 
-#partieDroite aside a{
+#partieDroite aside {
 	
 }
 	#partieDroite aside div{
@@ -21,24 +21,30 @@
 			width: 20%;
 			vertical-align: top;
 		}
-		#partieDroite aside article ul{
+		#partieDroite aside article section{
 			display: inline-block;
-			vertical-align: top;
-			margin-left: 1%;
-			font-size: 14px;
+			width: 79%;
 		}
-			#partieDroite aside article ul li{
-				margin-bottom: 5%;			
-				text-align: left;
+			#partieDroite aside article section ul{
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 1%;
+				font-size: 14px;
 			}
-				#partieDroite aside article ul li img{
-					display: inline-block;
-					vertical-align: middle;
-					width: 20px;
+				#partieDroite aside article section ul li{
+					margin-bottom: 5%;			
+					text-align: left;
 				}
-				#partieDroite aside article ul li p{
-					display: inline-block;
-					vertical-align: middle;
-					text-indent: 2px;
-				}
-
+					#partieDroite aside article section ul li img{
+						display: inline-block;
+						vertical-align: middle;
+						width: 20px;
+					}
+						/* chiffre */
+					#partieDroite aside article section ul li p{
+						display: inline-block;
+						vertical-align: middle;
+						text-indent: 2px;
+					}
+	
+	

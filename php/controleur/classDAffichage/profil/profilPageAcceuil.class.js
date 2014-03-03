@@ -24,24 +24,27 @@ function ProfilAcceuil(photoProfil, speudo, villeOuEstLaPersonne, nbVoteCool, nb
 	
 	this.photoRevus = 'http://localhost/Meittopi/image/profil/revue.png';
 	this.photoEvenementOrganise = 'http://localhost/Meittopi/image/profil/sortie.png';
-	
-	
-	
+
 	this.createElement = function(tagName, idElementParent, id, className, inner){
-		var nouvelElement = document.createElement(tagName);
-		if(tagName == 'img'){
-			nouvelElement.src = inner; 
-		}
-		else if(tagName == 'a'){
-			nouvelElement.href = inner;
-		}
-		else{
-			nouvelElement.innerHTML = inner; 
-		}
-		nouvelElement.className = className;
-		nouvelElement.id = id; 
-		document.getElementById(idElementParent).appendChild(nouvelElement);
-	};
+			var nouvelElement = document.createElement(tagName);
+			if(tagName == 'img'){
+				nouvelElement.src = inner; 
+			}
+			else if(tagName == 'a'){
+				nouvelElement.href = inner;
+			}
+			else{
+				nouvelElement.innerHTML = inner; 
+			}
+			
+			if(className != ''){ 
+				nouvelElement.className = className;
+			}
+			if(id != ''){
+				nouvelElement.id = id; 
+			}
+			document.getElementById(idElementParent).appendChild(nouvelElement);
+		};
 	
 	this.affiche = function (ouAfficher){
 		
@@ -58,39 +61,39 @@ function ProfilAcceuil(photoProfil, speudo, villeOuEstLaPersonne, nbVoteCool, nb
 			this.createElement('img', 'photoEtNotif', '', '', this.photoProfil);
 			
 				// liste des echanges avec la personne. Tableau 3x3
-				
+			this.createElement('section', 'photoEtNotif', 'sectionNotif', '', '');
 				// première colonne
-			this.createElement('ul', 'photoEtNotif', 'colonne1', '', '');
-				this.createElement('li', 'colonne1', 'ligne1colone1', 'ligne1colone1', '');
-					this.createElement('img', 'ligne1colone1', '', '', this.photoUtile);
-					this.createElement('p', 'ligne1colone1', '', '', this.nbvoteUtile)
-				this.createElement('li', 'colonne1', 'ligne2colone1', 'ligne1colone2', '');
-					this.createElement('img', 'ligne2colone1', '', '', this.photoDrole);
-					this.createElement('p', 'ligne2colone1', '', '', this.nbVotreDrole);
-				this.createElement('li', 'colonne1', 'ligne3colone1', 'ligne1colone3', '');
-					this.createElement('img', 'ligne3colone1', '', '', this.photoCool);
-					this.createElement('p', 'ligne3colone1', '', '', this.nbVoteCool);
-					
-					// deuxieme colonne
-			this.createElement('ul', 'photoEtNotif', 'colonne2', '', '');
-				this.createElement('li', 'colonne2', 'ligne1colone2', 'ligne2colone1','');
-					this.createElement('img', 'ligne1colone2', '', '', this.photoAmis);
-					this.createElement('p', 'ligne1colone2', '', '', this.nbAmis);
-				this.createElement('li', 'colonne2', 'ligne2colone2', 'ligne2colone2','');
-					this.createElement('img', 'ligne2colone2', '', '', this.photoCompliment);
-					this.createElement('p', 'ligne2colone2', '', '', this.nbCompliment);
-				this.createElement('li', 'colonne2', 'ligne3colone2', 'ligne2colone3','');
-					this.createElement('img', 'ligne3colone2', '', '', this.photoFollower);
-					this.createElement('p', 'ligne3colone2', '', '', this.nbFollower);
-					
-					// troisieme colonne
-			this.createElement('ul', 'photoEtNotif', 'colonne3', '', '');
-				this.createElement('li', 'colonne3', 'ligne2colone3', 'ligne3colone2', '');
-					this.createElement('img', 'ligne2colone3', '', '', this.photoRevus);
-					this.createElement('p', 'ligne2colone3', '', '', this.nbRevus);
-				this.createElement('li', 'colonne3', 'ligne1colone3', 'ligne3colone1', '');
-					this.createElement('img', 'ligne1colone3', '', '', this.photoEvenementOrganise);
-					this.createElement('p', 'ligne1colone3', '', '', this.nbEvenementOrganise);
+				this.createElement('ul', 'sectionNotif', 'colonne1', '', '');
+					this.createElement('li', 'colonne1', 'ligne1colone1', 'ligne1colone1', '');
+						this.createElement('img', 'ligne1colone1', '', '', this.photoUtile);
+						this.createElement('p', 'ligne1colone1', '', '', this.nbvoteUtile)
+					this.createElement('li', 'colonne1', 'ligne2colone1', 'ligne1colone2', '');
+						this.createElement('img', 'ligne2colone1', '', '', this.photoDrole);
+						this.createElement('p', 'ligne2colone1', '', '', this.nbVotreDrole);
+					this.createElement('li', 'colonne1', 'ligne3colone1', 'ligne1colone3', '');
+						this.createElement('img', 'ligne3colone1', '', '', this.photoCool);
+						this.createElement('p', 'ligne3colone1', '', '', this.nbVoteCool);
+						
+						// deuxieme colonne
+				this.createElement('ul', 'sectionNotif', 'colonne2', '', '');
+					this.createElement('li', 'colonne2', 'ligne1colone2', 'ligne2colone1','');
+						this.createElement('img', 'ligne1colone2', '', '', this.photoAmis);
+						this.createElement('p', 'ligne1colone2', '', '', this.nbAmis);
+					this.createElement('li', 'colonne2', 'ligne2colone2', 'ligne2colone2','');
+						this.createElement('img', 'ligne2colone2', '', '', this.photoCompliment);
+						this.createElement('p', 'ligne2colone2', '', '', this.nbCompliment);
+					this.createElement('li', 'colonne2', 'ligne3colone2', 'ligne2colone3','');
+						this.createElement('img', 'ligne3colone2', '', '', this.photoFollower);
+						this.createElement('p', 'ligne3colone2', '', '', this.nbFollower);
+						
+						// troisieme colonne
+				this.createElement('ul', 'sectionNotif', 'colonne3', '', '');
+					this.createElement('li', 'colonne3', 'ligne2colone3', 'ligne3colone2', '');
+						this.createElement('img', 'ligne2colone3', '', '', this.photoRevus);
+						this.createElement('p', 'ligne2colone3', '', '', this.nbRevus);
+					this.createElement('li', 'colonne3', 'ligne1colone3', 'ligne3colone1', '');
+						this.createElement('img', 'ligne1colone3', '', '', this.photoEvenementOrganise);
+						this.createElement('p', 'ligne1colone3', '', '', this.nbEvenementOrganise);
 }
 	
 	
