@@ -56,16 +56,21 @@
 				
 				
 			<!-- class-->
-		<script src = "http://localhost/Meittopi/php/controleur/class/propositionAmelioration.class.js"></script>
-		<script src = "http://localhost/Meittopi/php/controleur/class/listePropositionAmelioration.class.js"></script>
-<!--
+		<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/propositionAmelioration/ameliorationResume.class.js"></script>
+		<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/propositionAmelioration/listeAmelioration.class.js"></script>
+		
+			<!-- charger le JSON -->
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/votreAvis/listeAmeliorationJSON.js"> </script> 
+		<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/votreAvis/votreAvis/listeAmeliorationJSON.php"> </script> 
+		
+			<!-- langue -->
 		<script src = "http://localhost/Meittopi/php/controleur/class/profilDeParticipation.class.js"></script>
--->
+
 		
 			<!-- page en francais-->
-		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/votreAvis.js"></script>
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/votreAvis/francais/votreAvis.js"></script>
 		
-	
+			<!-- specifique à la page -->
 		
 		</body>
 	</html>
