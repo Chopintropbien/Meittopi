@@ -20,8 +20,12 @@ function ListeConversation(afficherTypeConversation){
 			else{
 				nouvelElement.innerHTML = inner; 
 			}
-			nouvelElement.className = className;
-			nouvelElement.id = id; 		
+			if(className != className){
+				nouvelElement.className = className;
+			}
+			if(id != ''){
+				nouvelElement.id = id; 
+			}	
 			document.getElementById(idElementParent).appendChild(nouvelElement);
 		};
 		

@@ -29,7 +29,6 @@
 			else{
 				nouvelElement.innerHTML = inner; 
 			}
-			
 			if(className != ''){ 
 				nouvelElement.className = className;
 			}

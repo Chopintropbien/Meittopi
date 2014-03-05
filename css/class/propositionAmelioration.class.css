@@ -24,6 +24,12 @@
 					font-size: 135%;
 				
 				}
+				#propositionAmelioration li article h2:hover {
+					text-align: center;
+					font-size: 135%;
+					text-decoration: underline;
+				
+				}
 				#propositionAmelioration li article > p {
 					margin-top: 1%;
 					text-align: justify;
@@ -36,6 +42,7 @@
 				display: inline-block;
 				vertical-align: top;
 				width: 26%;
+				margin-left: 3%;
 			}
 				#propositionAmelioration li aside ul li {
 					margin-left: 2%;
@@ -46,9 +53,41 @@
 						display: inline-block;
 						vertical-align: middle;
 					}
+						/* photo */
 					#propositionAmelioration li aside ul li img{
 						display: inline-block;
 						vertical-align: middle;
-						width: 11.5%;
 						float: right;
+						
 					}
+						/* pouce */
+					#propositionAmelioration li aside ul li .pouceHaut, #propositionAmelioration li aside ul li .pouceBas{
+						width: 11.5%;
+						cursor: pointer;
+					}
+					
+						/* tirelire */
+					#propositionAmelioration li aside ul .don{
+						width: 104%;
+					
+					}
+					#propositionAmelioration li aside ul li .tirelire{
+						width: 18.5%;
+						height: 35px;
+					}
+						/* titre annule */
+					#propositionAmelioration li aside ul li h6{
+						font-size: 140%;
+						font-weight: normal;
+					}	
+						/* en cours de devellopement */
+					#propositionAmelioration li aside ul li .enDevellopementImage {
+						width: 20%;
+						position: relative;
+						left: 3%;
+					}
+					#propositionAmelioration li aside ul li .enDevellopementTitre {
+						font-size: 120%;
+					}
+
+

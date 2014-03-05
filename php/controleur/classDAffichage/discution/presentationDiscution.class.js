@@ -22,8 +22,12 @@ function Conversation(auteur, photoAuteur, titre, conversation, nbReponse, derni
 			else{
 				nouvelElement.innerHTML = inner; 
 			}
-			nouvelElement.className = className;
-			nouvelElement.id = id + identifiant; 
+			if(className != ''){
+				nouvelElement.className = className;
+			}
+			if(id != ''){
+				nouvelElement.id = id + identifiant; 
+			}
 			document.getElementById(idElementParent).appendChild(nouvelElement);
 		};
 		

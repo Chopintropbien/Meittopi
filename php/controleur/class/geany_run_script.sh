@@ -2,7 +2,7 @@
 
 rm $0
 
-./profil.class
+./propositionAmelioration.class
 
 echo "
 

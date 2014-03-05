@@ -16,7 +16,9 @@ function ListePropositionAmelioration(){
 		else{
 			nouvelElement.innerHTML = inner; 
 		}
-		nouvelElement.id =  identifiantProposition + id; 
+		if(id != ''){
+			nouvelElement.id =  identifiantProposition + id; 
+		}
 		document.getElementById(idElementParent).appendChild(nouvelElement);
 		
 	};
@@ -29,7 +31,7 @@ function ListePropositionAmelioration(){
 			this.createElement('li', ouOnAffiche, 'proposition', '', i);
 			this.liste[i].affiche(i, i + 'proposition');
 			if(i != length - 1){
-				this.createElement('hr', ouOnAffiche, '', '', i)
+				this.createElement('hr', ouOnAffiche, '', '', i);
 			}
 		}
 	};

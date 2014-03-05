@@ -47,14 +47,21 @@
 		// quand nbPersonne a attient le max, la proposition est accepté ou refusé
 	    // proposionAmelioration(photo, titre, description, nbPersonneVotePour, 
 									//nbPersonneVotreContre, nbPersonneVotePourMax, nbPersonneVotreContreMax){
-	var proposition1 = new PropositionAmelioration( 'http://localhost/Meittopi/image/restau.jpg', 'Un big changement', 
+	listeProposition.ajouteProposition(new PropositionAmelioration( 'http://localhost/Meittopi/image/restau.jpg', 'Un big changement', 
 										' qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv',
-										5, 10, 8, 15, 7, 20, true, '', 0, '');
-	listeProposition.ajouteProposition(proposition1);
-	listeProposition.ajouteProposition(proposition1);
-	listeProposition.ajouteProposition(proposition1);
-	listeProposition.ajouteProposition(proposition1);
-	listeProposition.ajouteProposition(proposition1);
+										4, 20, 20, 15, 20, 20, true, '', 0,true, false, '', ''));
+	listeProposition.ajouteProposition(new PropositionAmelioration( 'http://localhost/Meittopi/image/restau.jpg', 'Un big changement', 
+										' qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv',
+										5, 10, 8, 15, 7, 20, true, '', 0, true, false, '', ''));
+	listeProposition.ajouteProposition(new PropositionAmelioration( 'http://localhost/Meittopi/image/restau.jpg', 'Un big changement', 
+										' qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv',
+										10, 10, 10, 15, 7, 20, true, '', 0,true, false, '', ''));
+	listeProposition.ajouteProposition(new PropositionAmelioration( 'http://localhost/Meittopi/image/restau.jpg', 'Un big changement', 
+										' qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv',
+										4, 20, 20, 15, 7, 20, true, '', 0,true, false, '', ''));
+	listeProposition.ajouteProposition(new PropositionAmelioration( 'http://localhost/Meittopi/image/restau.jpg', 'Un big changement', 
+										' qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv',
+										5, 10, 8, 15, 7, 20, true, '', 0, false, true, '', ''));
 	
 	
 									
