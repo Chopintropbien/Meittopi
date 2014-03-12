@@ -45,6 +45,7 @@
 
 				</section>
 				
+				
 				<!-- fonction -->
 			<script src = "http://localhost/Meittopi/php/controleur/fonction/ajouterTexte.js"> </script>
 			

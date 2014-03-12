@@ -42,6 +42,14 @@ function UneDiscution(titreDiscution, dateDePublication, photoAuteur, speudoAute
 		}	
 		document.getElementById(idElementParent).appendChild(nouvelElement);
 	}
+	this.createInput = function(type,idElementParent, id, className, value){
+		var nouvelElement = document.createElement('input');
+		nouvelElement.type = type;
+		nouvelElement.value = value;
+		nouvelElement.className = className;
+		nouvelElement.id = id; 
+		document.getElementById(idElementParent).appendChild(nouvelElement);
+	}
 	this.ajouteReponse = function(reponse){
 		this.reponses.push(reponse);
 	}
@@ -49,13 +57,13 @@ function UneDiscution(titreDiscution, dateDePublication, photoAuteur, speudoAute
 	
 	this.affiche = function (ouOnAffiche){ 
 			// ancre vers le bas de la page
-		this.createLien('#basPage', ouOnAffiche, 'hautPage', '', 'Bas de la page'); //
+		this.createLien('#basPage', ouOnAffiche, 'hautPage', '', ''); 
 		
 		
 			// entete (premiere question) de la discution
 		this.createElement('ul', ouOnAffiche, 'discution', '', '');
 
-			this.createElement('li', 'discution', 'liEntete', '', '');
+			this.createElement('li', 'discution', 'liEntete', 'liEntete', '');
 			
 					// titre 
 				this.createElement('h3', 'liEntete', '', '', this.titreDiscution);
@@ -76,14 +84,31 @@ function UneDiscution(titreDiscution, dateDePublication, photoAuteur, speudoAute
 					
 						// avis sur la discution
 					this.createElement('section', 'ArticleEntete', 'sectionAvis', '', '');
-						this.createLien('a', 'sectionAvis', '', 'compliement', 'Envoyer un compliment');
-						this.createLien('a', 'sectionAvis', '', 'message', 'Envoyer un message');
-						this.createLien('a', 'sectionAvis', '', 'contenueIndesirable', 'Signaler un contenue inapproprié');
+						this.createLien('a', 'sectionAvis', '', 'compliement', '');
+						this.createLien('a', 'sectionAvis', '', 'message', '');
+						this.createLien('a', 'sectionAvis', '', 'contenueIndesirable', '');
 					
 					
+					
+		var reponseLength = this.reponses.length;
+		for(var i= 0; i< reponseLength; ++i){
+			this.createElement('hr', 'discution', '', '', '');
+			this.createElement('li', 'discution', 'li' + i, 'reponse', '');
+			this.reponses[i].affiche('li', i);
+		}
+		
+			//  zone d' ecriture d'une réponse
+		this.createElement('hr', 'discution', '', '', '');
+		this.createElement('li', 'discution', 'ecrireReponse', 'ecrireReponse', '');
+			this.createElement('h5', 'ecrireReponse', '', 'ecrireReponseTitre', '');
+			this.createElement('textarea', 'ecrireReponse', '', '', '');
+			this.createInput('button', 'ecrireReponse', 'repondre', 'repondre', '' );
+			
+			
+		
 		
 			// ancre vers le gaut de la page
-		this.createLien('#hautPage', ouOnAffiche, 'basPage', '', 'Haut de la page'); //
+		this.createLien('#hautPage', ouOnAffiche, 'basPage', '', ''); 
 		
 		
 		//~ this.createElement('', '', '', '', '');
