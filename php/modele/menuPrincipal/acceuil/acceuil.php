@@ -42,8 +42,8 @@ echo 'var listeRevueEtEvenement = {
 
 			"evenement0" : [
 							"Andreï Kucharavy",	
-							"http://localhost/Meittopi/image/restau.jpg",
-							["http://localhost/Meittopi/image/restau.jpg","http://localhost/Meittopi/image/restau.jpg"],
+							"http://localhost/Meittopi/image/profil_vide.png",
+							["http://localhost/Meittopi/image/profil_vide.png","http://localhost/Meittopi/image/profil_vide.png"],
 							"Sorie chez j aime comme tous les diamnche!!!!!!",
 							"il y a 2 min",
 							"14/02/2014",
@@ -55,7 +55,7 @@ echo 'var listeRevueEtEvenement = {
 							],
 			"revue1" : [
 						"Andreï Kucharavy",	
-						"http://localhost/Meittopi/image/restau.jpg",
+						"http://localhost/Meittopi/image/profil_vide.png",
 						"Chez J\'aime ",
 						"14/02/2014",
 						"2.5",
@@ -69,7 +69,7 @@ echo 'var listeRevueEtEvenement = {
 						],
 			"revue2" : [
 						"Andreï Kucharavy",	
-						"http://localhost/Meittopi/image/restau.jpg",
+						"http://localhost/Meittopi/image/profil_vide.png",
 						"Chez J\'aime ",
 						"14/02/2014",
 						"4.5",
@@ -85,7 +85,7 @@ echo 'var listeRevueEtEvenement = {
 };';
 
 echo 'var profilAcceuil = {
-			"photoProfil" : "http://localhost/Meittopi/image/restau.jpg",
+			"photoProfil" : "http://localhost/Meittopi/image/profil_vide.png",
 			"speudo" : "Lauriane Mollier",
 			"villeOuEstLaPersonne": "Lausanne",
 			"nbVoteCool"  : "2",

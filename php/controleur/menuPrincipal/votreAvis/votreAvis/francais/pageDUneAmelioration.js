@@ -15,14 +15,15 @@
 	
 		//PropositionAmeliorationComplete(photo, titre, description, nbAvisPositif, nbAvisNegatif, dons, 
 										//nbAvisPositifMax, nbAvisNegatifMax, donsMax )
-		
+
 		// passer un tableau de photo
-	var photo = ['http://localhost/Meittopi/image/restau.jpg','http://localhost/Meittopi/image/restau.jpg'];
-	var amelioration = new PropositionAmeliorationComplete(photo, 'On devrais faire ca et ca',
-															'sdfggggwwwwwwxvdf v f iqf qfg fivyudqf iv fiv qfiuv qdfivuqb viuqsb kisbv qsivb',
-															5, 7, 6, 15 ,8 ,8);
+	var photo = ['http://localhost/Meittopi/image/restau.jpg'];
 	
-	amelioration.affiche('amelioration');
+	var amelioration = new PropositionAmelioration(photo, 'On devrais faire ca et ca',
+															'sdfggggwwwwwwxvdf v f iqf qfg fivyudqf iv fiv qfiuv qdfivuqb viuqsb kisbv qsivb',
+															5, 7, 6, 15 ,8 ,8, true, false, true, '','');
+	
+	amelioration.affiche(0, 'propositionAmelioration');
 	
 	
 	// affiche les commantaires

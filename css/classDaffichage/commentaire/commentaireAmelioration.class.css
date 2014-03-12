@@ -1,0 +1,67 @@
+
+
+
+	/* partie gauche avec la photo */
+#listeCommantaire > li > section{
+	display: inline-block;
+	vertical-align: top;
+	width: 10%;
+}
+		/* photo **/
+	#listeCommantaire > li > section> img{
+		width: 100%;
+	}
+		/* personne qui a ecrit le commentaire */
+	#listeCommantaire > li > section> a>p{
+		text-align: center;
+	}
+	#listeCommantaire > li > section> a>p:hover{
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	/* texte du commentaire */
+#listeCommantaire > li > p{
+	display: inline-block;
+	vertical-align: top;
+	width: 65%;
+	margin-left: 2%;
+
+}
+
+	/* barre de progression */
+#listeCommantaire >li > aside{
+	display: inline-block;
+	vertical-align: top;
+	width: 18%;
+	margin-left: 3%;
+}
+
+	#listeCommantaire > li> aside> ul> li {
+		margin-top: 2%;
+	}	
+			/* div qui convient la barre de progression et le pour ou contre */
+		#listeCommantaire> li> aside> ul> li> div{
+			display: inline-block;
+		}
+			/* pouces*/
+		#listeCommantaire> li> aside> ul> li> img{
+			display: inline-block;
+			float: right;
+			width: 9%;
+			cursor: pointer;	
+		}
+			/* image en devellopement */
+		#listeCommantaire> li> aside> ul> li> .prisEnCompteImage{
+			width: 25%;
+		}
+			/* crois rouge annulé */
+		#listeCommantaire> li> aside> ul> li> .pasPrisEncompteImage{
+			width: 22%;
+		}
+		
+
+
+
+
+

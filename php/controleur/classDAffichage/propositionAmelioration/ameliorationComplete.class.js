@@ -1,6 +1,6 @@
 	
 	// quand nbPersonne a attient le max, la proposition est accepté ou refusé
-function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, nbPersonneVotePourMax, nbPersonneVotreContre, nbPersonneVotreContreMax, donsDonnee, nbDonsQuOnABesoin, utilisateurAime,  utlisateurAimePas, utilisateurDons, infoLienPropositionamelioration, infoLienPourDonnation){
+function AmeliorationComplete(photo, titre, description, nbPersonneVotePour, nbPersonneVotePourMax, nbPersonneVotreContre, nbPersonneVotreContreMax, donsDonnee, nbDonsQuOnABesoin, utilisateurAime,  utlisateurAimePas, utilisateurDons, personneQuiAProposerLAmelioration, infoLienPourDonnation){
 	this.photo = photo;
 	this.titre = titre;
 	this.description = description;
@@ -13,10 +13,10 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 	this.utilisateurAime = utilisateurAime;
 	this.utlisateurAimePas = utlisateurAimePas;
 	this.utilisateurDons = utilisateurDons;
-	this.infoLienPropositionamelioration = infoLienPropositionamelioration;
+	this.personneQuiAProposerLAmelioration = personneQuiAProposerLAmelioration;
 	this.infoLienPourDonnation = infoLienPourDonnation;
 	
-	this.createElement = function(tagName, idElementParent, id, className, inner, identifiantPlaceDApparition){
+	this.createElement = function(tagName, idElementParent, id, className, inner){
 			var nouvelElement = document.createElement(tagName);
 			if(tagName == 'img'){
 				nouvelElement.src = inner; 
@@ -32,7 +32,7 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 				nouvelElement.className = className;
 			}
 			if(id != ''){
-				nouvelElement.id = id + identifiantPlaceDApparition; 
+				nouvelElement.id = id; 
 			}
 			document.getElementById(idElementParent).appendChild(nouvelElement);
 		};
@@ -66,7 +66,7 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 			element.addEventListener(event, func, true);
 		}
 	}
-	this.createElementAvecEvenement = function(tagName, idElementParent, id, className, inner, identifiantPlaceDApparition, fonction){
+	this.createElementAvecEvenement = function(tagName, idElementParent, id, className, inner, fonction){
 		
 		var nouvelElement = document.createElement(tagName);
 		if(tagName == 'img'){
@@ -82,7 +82,7 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 			nouvelElement.className = className;
 		}
 		if(id != ''){
-			nouvelElement.id = id + identifiantPlaceDApparition; 
+			nouvelElement.id = id; 
 		}
 		this.addEvent(nouvelElement, 'click',fonction);
 		document.getElementById(idElementParent).appendChild(nouvelElement);
@@ -95,12 +95,10 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 		var srcPouceBasBlanc = 'http://localhost/Meittopi/image/pouce/pouceBasBlanc.png';
 		var srcPouceHautVert = 'http://localhost/Meittopi/image/pouce/pouceHautVert.png';
 		var srcPouceHautBlanc = 'http://localhost/Meittopi/image/pouce/pouceHautBlanc.png';
-		
-		var i = this.id[9];
 
 			// pour colorier le pouce en vert
 		if(this.src == srcPouceHautBlanc){
-			var pouceBas = document.getElementById('pouceBas' + i);
+			var pouceBas = document.getElementById('pouceBas');
 				// si lel pouce rouge est deja colorier, on le decolorie
 			if(pouceBas.src == srcPouceBasRouge){
 				pouceBas.src = srcPouceBasBlanc;
@@ -119,11 +117,9 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 		var srcPouceBasBlanc = 'http://localhost/Meittopi/image/pouce/pouceBasBlanc.png';
 		var srcPouceHautVert = 'http://localhost/Meittopi/image/pouce/pouceHautVert.png';
 		var srcPouceHautBlanc = 'http://localhost/Meittopi/image/pouce/pouceHautBlanc.png';
-		var i = this.id[8];
-		
 			// pour colorier le pouce en rouge
 		if(this.src == srcPouceBasBlanc){
-			var pouceHaut = document.getElementById('pouceHaut' + i);
+			var pouceHaut = document.getElementById('pouceHaut');
 				// si le poue de j'aime est deja colorier en vert, le decolorier
 			if(pouceHaut.src == srcPouceHautVert){
 				pouceHaut.src = srcPouceHautBlanc;
@@ -141,22 +137,21 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 	}
 	
 	
-	this.affiche = function(i, ouOnAffiche){
+	this.affiche = function(ouOnAffiche){
 		
-		var lienProposition = 'http://localhost/Meittopi/php/vue/menuPrincipal/votreAvis/pageDUneAmelioration.php';
- 		
-		this.createElement('a',ouOnAffiche, 'lienPropositionImage','', '', i); // rajouter le lien de la proposition complete
-			this.createElement('img', 'lienPropositionImage' + i, '', '', this.photo, i);
+		for(var j = 0; j<this.photo.length; ++j){
+			this.createElement('a',ouOnAffiche, 'lienPropositionImage' + j,'', this.photo[j][1]); // rajouter le lien de la proposition complete
+			this.createElement('img', 'lienPropositionImage' + j, '', '', this.photo[j][0]);
+		}
 		
 			// texte et titre
-		this.createElement('article', ouOnAffiche, 'article', '','' , i);
-			this.createElement('a','article' + i, 'lienProposition','', lienProposition, i); // rajouter le lien de la proposition complete
-				this.createElement('h2','lienProposition' + i, '','', this.titre, i);
-			this.createElement('p', 'article' + i, '','', this.description, i);
+		this.createElement('article', ouOnAffiche, 'article', '','');
+			this.createElement('h2','article', '','', this.titre);
+			this.createElement('p', 'article', '','', this.description);
 		
 			// liste des objectifs
-		this.createElement('aside', ouOnAffiche, 'aside','', '', i);
-		this.createElement('ul', 'aside' + i, 'ul', '','', i);
+		this.createElement('aside', ouOnAffiche, 'aside','', '');
+		this.createElement('ul', 'aside', 'ul', '','');
 	
 			// si l'amelioration est en proposition
 		if(this.nbPersonneVotePour < this.nbPersonneVotePourMax && this.nbPersonneVotreContre < this.nbPersonneVotreContreMax){
@@ -164,47 +159,53 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 			var lienPouceHaut = 'http://localhost/Meittopi/image/pouce/pouceHautBlanc.png';
 			if(this.utilisateurAime){lienPouceHaut = 'http://localhost/Meittopi/image/pouce/pouceHautVert.png'; }
 			var couleurPouceHaut = '#18D318';
-			this.createElement('li', 'ul' + i, 'pour','', '', i);
-			this.createElement('div', 'pour' + i, 'nbPour','', '', i);
-				this.createElement('p', 'nbPour' + i, '', '' , 'Pour:', i ); //
-				this.createCanvas('nbPour' + i, 'nbPour' + i, couleurPouceHaut, this.nbPersonneVotePour, this.nbPersonneVotePourMax);
-			this.createElementAvecEvenement('img', 'pour' + i, 'pouceHaut', 'pouceHaut' , lienPouceHaut, i, this.coloriePouceVert );
+			this.createElement('li', 'ul', 'pour','', '');
+			this.createElement('div', 'pour', 'nbPour','', '');
+				this.createElement('p', 'nbPour', '', 'pour' , '');
+				this.createCanvas('nbPour', 'nbPour', couleurPouceHaut, this.nbPersonneVotePour, this.nbPersonneVotePourMax);
+			this.createElementAvecEvenement('img', 'pour', 'pouceHaut', 'pouceHaut' , lienPouceHaut, this.coloriePouceVert );
 			
 				// contre
 			var lienPouceBas = 'http://localhost/Meittopi/image/pouce/pouceBasBlanc.png';
 			if(this.utilisateurAimePas) {lienPouceBas = 'http://localhost/Meittopi/image/pouce/pouceBasRouge.png'}
 			var couleurPouceBas = 'red';
-			this.createElement('li', 'ul' + i, 'contre','', '', i);
-			this.createElement('div', 'contre' + i, 'nbContre','', '', i);
-				this.createElement('p', 'nbContre' + i, '', '' , 'Contre:', i );  //
-				this.createCanvas('nbContre' + i, 'nbContre' + i, couleurPouceBas, this.nbPersonneVotreContre, this.nbPersonneVotreContreMax);
-			this.createElementAvecEvenement('img', 'contre' + i, 'pouceBas', 'pouceBas' , lienPouceBas, i, this.coloriePouceRouge);
+			this.createElement('li', 'ul', 'contre','', '');
+			this.createElement('div', 'contre', 'nbContre','', '');
+				this.createElement('p', 'nbContre', '', 'contre' , ''); 
+				this.createCanvas('nbContre', 'nbContre', couleurPouceBas, this.nbPersonneVotreContre, this.nbPersonneVotreContreMax);
+			this.createElementAvecEvenement('img', 'contre', 'pouceBas', 'pouceBas' , lienPouceBas, this.coloriePouceRouge);
 
 		}
 			// si l'amelioration est refusé
 		else if(this.nbPersonneVotreContre >= this.nbPersonneVotreContreMax && this.donsDonnee < this.nbDonsQuOnABesoin){
-			this.createElement('li', 'ul' + i, 'annule','annule', '', i);
-				this.createElement('img', 'annule' + i, '','', 'http://localhost/Meittopi/image/redCrossCancel.png', i);
-				this.createElement('h6', 'annule' + i, '','', 'Annulé', i); //
+			this.createElement('li', 'ul', 'annule','annule', '');
+				this.createElement('img', 'annule', '','', 'http://localhost/Meittopi/image/redCrossCancel.png');
+				this.createElement('h6', 'annule', '','annule', '');
 		}
 			// si l'amelioration a besoin de financement ()donc a été accepté 
 		else if(this.donsDonnee < this.nbDonsQuOnABesoin){
 			var couleurPouceHaut = 'blue';
-			this.createElement('li', 'ul' + i, 'don','don', '', i);
-			this.createElement('div', 'don' + i, 'nbDon','', '', i);
-				this.createElement('p', 'nbDon' + i, '', '' , 'Don :', i ); //
-				this.createCanvas('nbDon' + i, 'nbDon' + i, couleurPouceHaut, this.donsDonnee, this.nbDonsQuOnABesoin);
-			this.createElement('a', 'don' + i, 'nbDonLien','', '', i); // mettre lien 
-				this.createElementAvecEvenement('img', 'nbDonLien' + i, 'tirelire', 'tirelire' , 'http://localhost/Meittopi/image/PiggybankBasique.png', i, this.faireUnDon);
+			this.createElement('li', 'ul', 'don','don', '');
+			this.createElement('div', 'don', 'nbDon','', '');
+				this.createElement('p', 'nbDon', '', 'don' , ''); 
+				this.createCanvas('nbDon', 'nbDon', couleurPouceHaut, this.donsDonnee, this.nbDonsQuOnABesoin);
+			this.createElement('a', 'don', 'nbDonLien','', ''); // mettre lien 
+				this.createElementAvecEvenement('img', 'nbDonLien', 'tirelire', 'tirelire' , 'http://localhost/Meittopi/image/PiggybankBasique.png', this.faireUnDon);
 		}
 			// si l'amélioration est cours de dévellopement
 			// faire un blog pour suivre les etapes du develloppement
 			// ou au moins mettre un message 
 		else{
-			this.createElement('li', 'ul' + i, 'devellopement','', '', i);
-				this.createElement('img', 'devellopement' + i, '','enDevellopementImage', 'http://localhost/Meittopi/image/man_at_work_comic.png', i);
-				this.createElement('h6', 'devellopement' + i, '','enDevellopementTitre', 'Encours de développement', i); //
+			this.createElement('li', 'ul', 'devellopement','', '');
+				this.createElement('img', 'devellopement', '','enDevellopementImage', 'http://localhost/Meittopi/image/man_at_work_comic.png');
+				this.createElement('h6', 'devellopement', '','enDevellopementTitre', ''); 
 		}
+		
+		this.createElement('p', ouOnAffiche, 'auteur','', '');
+			this.createElement('span', 'auteur', '','auteurPresentation', '');
+			this.createElement('a', 'auteur', 'auteurLien','', this.personneQuiAProposerLAmelioration[1]);
+				this.createElement('cite', 'auteurLien', '','', this.personneQuiAProposerLAmelioration[0]);
+		
 			
 			
 		
@@ -212,4 +213,3 @@ function PropositionAmelioration(photo, titre, description, nbPersonneVotePour, 
 	
 	
 }	
-

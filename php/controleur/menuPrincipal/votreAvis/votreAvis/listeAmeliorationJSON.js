@@ -1,5 +1,5 @@
 
-function charderListeAmelioration(json){
+function chargerListeAmelioration(json){
 	var listeProposition = new ListePropositionAmelioration(); 
 	for(node in json){
 		var storageAmelioration = []; 

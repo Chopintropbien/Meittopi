@@ -1,3 +1,4 @@
+
 <?php 
 header("Content-type: text/javascript"); 
 
@@ -23,7 +24,7 @@ header("Content-type: text/javascript");
 
 echo 'var listeAmelioration = {
 			"amelioration0" : [
-								"http://localhost/Meittopi/image/restau.jpg",
+								"http://localhost/Meittopi/image/profil_vide.png",
 								"Un big changement",
 								"qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv",
 								5,
@@ -39,7 +40,7 @@ echo 'var listeAmelioration = {
 								""
 							],
 			"amelioration1" : [
-								"http://localhost/Meittopi/image/restau.jpg",
+								"http://localhost/Meittopi/image/profil_vide.png",
 								"Un big changement",
 								"qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv",
 								5,
@@ -55,7 +56,7 @@ echo 'var listeAmelioration = {
 								""
 							],
 			"amelioration2" : [
-								"http://localhost/Meittopi/image/restau.jpg",
+								"http://localhost/Meittopi/image/profil_vide.png",
 								"Un big changement",
 								"qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv",
 								10,
@@ -71,7 +72,7 @@ echo 'var listeAmelioration = {
 								""
 							],
 			"amelioration3" : [
-								"http://localhost/Meittopi/image/restau.jpg",
+								"http://localhost/Meittopi/image/profil_vide.png",
 								"Un big changement",
 								"qsdfbqjdhfb qsdb qdj djqdhjv qjv aej e  hv j vjafv qjf vjev  ev jv vja vjae jer aejhv ejv ej ejv",
 								10,
@@ -92,6 +93,4 @@ echo 'var listeAmelioration = {
 
 ?>
 
-charderListeAmelioration(listeAmelioration);
-
-
+chargerListeAmelioration(listeAmelioration);

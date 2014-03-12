@@ -7,8 +7,8 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/votreAvis/votreAvis.css"/>
 			
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/profilDeParticipation.class.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/propositionAmelioration.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/propositionAmelioration/ameliorationResume.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/propositionAmelioration/listeAmelioration.class.css"/>
 			<title id="titre"> Acceuil </title>
 		</head>
 		

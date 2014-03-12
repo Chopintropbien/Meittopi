@@ -7,9 +7,10 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/votreAvis/pageDUneAmelioration.css"/>
 			
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/commantaire.class.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/propositionAmeliorationComplete.class.css"/>
-
+			<link rel="stylesheet" href=""/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/propositionAmelioration/ameliorationComplete.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/commentaire/commentaireAmelioration.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/commentaire/listeCommentaire.class.css"/>
 			<title id="titre">  </title>
 		</head>
 		
@@ -20,94 +21,11 @@
 				</nav>
 
 				<section id="partiePrincipale">
-					<article id = "amelioration">
-						
-<!--
-						<section>
-							<img src = 'http://localhost/Meittopi/image/restau.jpg'/>
-							<img src = 'http://localhost/Meittopi/image/restau.jpg'/>
-							<img src = 'http://localhost/Meittopi/image/restau.jpg'/>
-						</section>
-	
-						<article>
-							<h1> Tritre</h1>
-							<p> ehfqzfu iq iqr eb jvb jvb jbe hy eri eui eyi eruf arylf lfv aqerf
-							 fjhq jh vjhd viz iy grig ig iyf iuf i ffiuf f  jfg euirfg ealurygfelarug 
-							  erug ergiue gmiaeu ga
-							   aerguio aergimu aerigh eaigu aegiue 
-							   coucou yemendja</p>
-						</article>
-						<aside>
-							<canvas id="pour" width="150" height="10"> 
-							
-							</canvas>
-							<canvas id="canvas" width="150" height="10"> 
-							
-							</canvas>
-							<p> 200 </p>
-							
-							<script>  
-								var canvas  = document.querySelector('#canvas');
-								var context = canvas.getContext('2d');
-								
-								context.fillStyle = "green";
-								context.fillRect(0, 0, 70, 10);
-								
-								context.fillStyle = "white";
-								context.fillRect(70, 0, 30, 10);
-								
-								context.lineWidth = "1";
-								context.strokeStyle = "silver";
-								context.strokeRect(0, 0, 100, 10);
-								
-							</script>
-							<p>Contre</p>
-							<input type = "range"/>
-							
-							<p>Dons</p>
-							<input type = "range"/>
-						</aside>
--->
-						
+					<article id = "propositionAmelioration">						
 					</article>
 				
 					
 					<ul id = "listeCommantaire"> 
-						<!--
-						<li> 
-							<img src = 'http://localhost/Meittopi/image/restau.jpg'>
-							<article>
-								<h6> Lauriane Mollier</h6>
-								<p> kefbzefi bkf r hrfb qhfb qh f f qhbf qhbf f 
-								  dhg ieg aeh gerhg aergb ekug egb eugb etogu 
-								</p>
-								
-							</article>
-							<section>
-								<p>Pour: 10</p>
-								<p> Contre: 20</p>
-								<p> <a> Commenter</p>
-							</section>
-							
-							<ul>
-								<li>
-									<img src = 'http://localhost/Meittopi/image/restau.jpg'>
-									<article>
-								<h6> Lauriane Mollier</h6>
-								<p> kefbzefi bkf r hrfb qhfb qh f f qhbf qhbf f 
-								  dhg ieg aeh gerhg aergb ekug egb eugb etogu 
-								</p>
-								
-							</article>
-							<section>
-								<p>Pour: 10</p>
-								<p> Contre: 20</p>
-								</li>
-							</ul>
-								
-						</li>
-						-->
-					
 					</ul>
 					
 					
@@ -115,12 +33,28 @@
 				</section>
 				
 			</section>
-			<script src = "http://localhost/Meittopi/php/controleur/class/propositionAmeliorationComplete.class.js"> </script>
+		
+			<!-- fonction -->
+		<script src = "http://localhost/Meittopi/php/controleur/fonction/ajouterTexte.js"> </script>
 			
-			<script src = "http://localhost/Meittopi/php/controleur/class/commantaire.class.js"> </script>
-			<script src = "http://localhost/Meittopi/php/controleur/class/listeCommantaire.class.js"> </script>
+			<!-- class-->
+		<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/propositionAmelioration/ameliorationComplete.class.js"> </script>
+		
+		<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/commentaire/listeCommmentaire.class.js"> </script>
+		<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/commentaire/commentaireAmelioration.class.js"> </script>
+		
+			<!-- charger le JSON -->
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/pageDUneAmelioration/ameliorationJSON.js"> </script> 
+		<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/votreAvis/pageDUneAmelioration/ameliorationJSON.php"> </script> 	
 			
-			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/pageDUneAmelioration.js"> </script>
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/pageDUneAmelioration/commentaireJSON.js"> </script> 
+		<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/votreAvis/pageDUneAmelioration/commentaireJSON.php"> </script> 
+
+			<!-- page en francais-->
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/pageDUneAmelioration/francais/amelioration.js"> </script>
+		
+			<!-- specifique à la page -->
+			
 			
 			
 		</body>

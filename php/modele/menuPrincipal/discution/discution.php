@@ -5,7 +5,7 @@ header("Content-type: text/javascript");
 echo ' var listeDiscution = {
 			"discution0" : [
 							"Andreï Kucharavy",	
-							"http://localhost/Meittopi/image/restau.jpg",
+							"http://localhost/Meittopi/image/profil_vide.png",
 							"Le vie c est vraime trop génial!!!",
 							"Sorie chez j aime comme tous les diamnche!!!!!!",
 							"12",
@@ -17,7 +17,7 @@ echo ' var listeDiscution = {
 							],
 			"discution1" : [
 							"Andreï Kucharavy",	
-							"http://localhost/Meittopi/image/restau.jpg",
+							"http://localhost/Meittopi/image/profil_vide.png",
 							"Le vie c est vraime trop génial!!!",
 							"Sorie chez j aime comme tous les diamnche!!!!!!",
 							"12",
