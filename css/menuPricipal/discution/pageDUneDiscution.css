@@ -1,0 +1,121 @@
+
+#partiePrincipale > a{
+	text-align: right;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+
+#partiePrincipale #discutionSection{
+	width: 61%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1%;
+	margin-left: 3%;
+	
+}
+
+	/* classe */
+
+
+#partiePrincipale #discutionSection > a{
+	float: right;
+	padding-right: 1%;
+	padding-top: 1%;
+	color: #305EC6;
+	font-size: 80%;
+}
+#partiePrincipale #discutionSection > a:hover{
+	text-decoration: underline;
+}
+
+#discutionSection #discution{
+	width: 100%;
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+}
+
+	
+	#discutionSection #discution  li{
+		padding: 1.5%;
+	}
+
+		/* titre */
+	#discution> li> h3{
+		text-align: center;
+		font-size: 120%;
+		margin-bottom: 1%;
+		margin-top: 1%;
+	}
+		
+
+
+		/* partie gauche */
+	#discution> li> div{
+		display: inline-block;
+		width: 10%;
+		vertical-align: top;
+	}
+		#discution> li> div> img{
+			width: 100%;
+		}
+		#discution> li> div> a> p{
+			text-align: center;
+		}
+		#discution> li> div> a> p:hover{
+			text-decoration: underline;
+		}
+		
+		/* parie droite */
+	#discution> li> article{
+		display: inline-block;
+		width: 87%;
+		margin-left: 2%;
+		vertical-align: top;
+	}
+		
+			/* texte avis */
+		#discution> li> article>p{
+			display: inline-block;
+			width: 87%;
+			vertical-align: top;
+			text-align: justify;
+		}	
+			/* section donner les avis */
+		#discution> li> article> section{
+			width: 100%;
+			margin-top: 3%;
+		}
+			#discution> li> article> section> a{
+				padding-right: 2%;
+				color: #305EC6;
+			}
+			#discution> li> article> section> a:hover{
+				text-decoration: underline;
+			}
+			#discution> li> article> section> a.contenueIndesirable{
+				padding-right: 0%;
+				color: gray;
+				font-size: 80%;
+				float: right;
+			}
+			#discution> li> article> section> a.contenueIndesirable:hover{
+				text-decoration: underline;
+			}
+		
+		/* date de publication */
+	#discution> li>article> time{
+		display: inline-block;
+		width: 10%;
+		color: gray;
+		margin-left: 2%;
+		font-size: 79%;
+		vertical-align: top;
+	}
+
+
+
+
+
+

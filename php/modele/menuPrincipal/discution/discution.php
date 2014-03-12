@@ -32,6 +32,6 @@ echo ' var listeDiscution = {
 
 ?>
 
-afficheConversationSansTypeConversation(listeDiscution);
+afficheConversation(listeDiscution, true);
 
 

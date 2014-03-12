@@ -32,14 +32,16 @@
 						<p> + </p>
 					</section>
 					
-					<input type = "button" value = '' class="submit" id="sauvegarder">
 					<input type = "button" value = '' class="submit" id="proposer">
+					<input type = "button" value = '' class="submit" id="sauvegarder">
+					
 					
 				</section>
 				
 			</section>
 			
-			<script src="http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/francais/proposerAmelioration.js"></script>
+			<!-- langue -->
+		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/votreAvis/proposerAmelioration/francais/proposerAmelioration.js"></script>
 			
 		</body>
 	</html>

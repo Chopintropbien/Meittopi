@@ -106,10 +106,12 @@ em{
 	margin: 3px;
 	text-decoration: none;
 	display: block;
+	font-weight: bold;
 }
 
 .ajous:hover{
 	text-decoration: underline;
 	color: #305EC6;
+	font-weight: bold;
 }
 

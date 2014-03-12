@@ -20,7 +20,7 @@ function ListeConversation(afficherTypeConversation){
 			else{
 				nouvelElement.innerHTML = inner; 
 			}
-			if(className != className){
+			if(className != ''){
 				nouvelElement.className = className;
 			}
 			if(id != ''){
@@ -32,15 +32,17 @@ function ListeConversation(afficherTypeConversation){
 	this.affiche = function(ouOnAffiche){
 		this.createElement('tr', ouOnAffiche, 'ligne', '', '');
 		
-			this.createElement('td', 'ligne', '', 'auteur', 'Auteur');
-			this.createElement('td', 'ligne', '', 'conversationTitre', 'conversation');
+				// entete de la liste
+			this.createElement('td', 'ligne', '', 'auteurTitre', '');  
+			this.createElement('td', 'ligne', '', 'conversationTitre', '');
 			if(this.afficherTypeConversation){
-				this.createElement('td', 'ligne', '', 'categorieConversation', 'Type de Conversation');
+				this.createElement('td', 'ligne', 'categorieConversation', 'categorieConversation', '');
 			}
-			this.createElement('td', 'ligne', '','reponse', 'Réponse');
-			this.createElement('td', 'ligne', '', 'derniereReponse', 'Dernière Réponse');
+			this.createElement('td', 'ligne', 'reponse','reponse', '');
+			this.createElement('td', 'ligne', 'derniereReponse', 'derniereReponse', '');
 			this.createElement('hr', ouOnAffiche, 'ligne' + i , '', '');
 		
+				// affichage des differentes discutions
 		var length = this.liste.length;
 		for(var i = 0; i < length; ++i){
 			this.createElement('tr', ouOnAffiche, 'ligne' + i , '', '');

@@ -1,0 +1,3 @@
+
+
+ajouterLeTexteParId('ajous', '+ Nouvelle discution');

@@ -5,12 +5,10 @@
 			<meta charset="utf-8"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/base.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/discution.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/pageDUneDiscution.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/listeCathegorieDiscution.css"/>
 			
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/discution/presentationDiscution/discutionAvecTypeDeConversation.class.css"/>
-			
+
 			<title id="titre"> </title>
 		</head>
 		
@@ -19,13 +17,12 @@
 				<nav id="nav">
 					<?php include("../navigateur/navigateur.php"); ?>
 				</nav>
+				
+				<section id="partiePrincipale">
+
+				<a class="ajous" id="ajous" href="http://localhost/Meittopi/php/vue/menuPrincipal/discution/ajouterDiscution.php"> </a> 
 
 				<section id="partiePrincipale">
-					<h1 id="ouSePasseLesDiscutions"> </h1>
-					
-					<a class="ajous" id="ajous" href="http://localhost/Meittopi/php/vue/menuPrincipal/discution/ajouterDiscution.php"> </a> 
-					
-					
 					<ul id="typeDeDiscution">
 						<li> <a id="mesDiscution"></a> </li>
 						<li> <a id="toutes"> </a> </li>
@@ -39,24 +36,29 @@
 						<li> <a id="sortir"></a> </li>
 						<li> <a id="autre"></a> </li>
 					</ul>
-					<table id = "conversation">
-						
-					</table>
+					
+					<section id="discutionSection">
+					
+
+					
+					</section>
+
 				</section>
 				
 				<!-- fonction -->
 			<script src = "http://localhost/Meittopi/php/controleur/fonction/ajouterTexte.js"> </script>
 			
 				<!-- class -->
-			<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/discution/listePresentationDiscution.class.js"></script>
-			<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/discution/presentationDiscution.class.js"></script>
+			<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/discution/uneDiscution.class.js"></script>
+			<script src = "http://localhost/Meittopi/php/controleur/classDAffichage/discution/uneReponseAUneDiscution.class.js"></script>
 			
 				<!-- chargement du JSON -->
-			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/discution/discutionJSON.js"></script>
-			<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/discution/discution.php"></script>
+			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/pageDUneDiscution/uneDiscutionJSON.js"></script>
+			<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/discution/pageDUneDiscution.php"></script>
 			
 				<!-- francais -->
-			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/discution/francais/discution.js"></script>
+			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/pageDUneDiscution/francais/pageDUneDiscution.js"></script>
 			<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/discution/francais/listeDiscution.js"></script>
+			
 		</body>
 	</html>

@@ -1,0 +1,21 @@
+	/* liste des type de discution */
+#partiePrincipale > ul{
+	width: 17%;
+	display: inline-block;
+	padding: 1%;
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	margin: 1%;
+	margin-left: 3%;
+	font-size: 110%;
+}
+	#partiePrincipale> ul>li{
+		padding: 2% 0% 2% 0%;
+	}
+	#partiePrincipale> ul> li >a{
+		padding: 0.2%;
+		color: #305EC6;
+	}
+	#partiePrincipale >ul> li> a:hover{
+		text-decoration: underline;
+	}

@@ -15,6 +15,6 @@
 	
 		// button de sumission
 	document.getElementById('sauvegarder').value =  'Sauvegarder';
-	document.getElementById('proposer').value =  'Sauvegarder';
+	document.getElementById('proposer').value =  'Publier';
 
 })();

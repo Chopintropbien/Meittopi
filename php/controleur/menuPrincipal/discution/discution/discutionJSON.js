@@ -1,5 +1,8 @@
-function afficheConversationSansTypeConversation(json){
-	var listeConversation = new ListeConversation();
+
+// si on veut que  le type de conversation s'affiche, mettre true
+
+function afficheConversation(json, typeDeconversation){
+	var listeConversation = new ListeConversation(typeDeconversation);
 	for(node in json){
 		var storage = [];
 		var jsonLength = json[node].length;
