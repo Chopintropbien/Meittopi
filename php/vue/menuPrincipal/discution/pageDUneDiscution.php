@@ -8,6 +8,8 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/pageDUneDiscution.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/discution/listeCathegorieDiscution.css"/>
 			
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/discution/uneDiscution.class.css"/>
+			
 
 			<title id="titre"> </title>
 		</head>

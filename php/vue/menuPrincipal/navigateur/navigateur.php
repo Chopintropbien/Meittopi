@@ -1,4 +1,4 @@
-	<a href="file:///var/www/Meittopi/php/vue/menuPrincipal/acceuil/accueil.php" id="lien">
+	<a href="http://localhost/Meittopi/php/vue/menuPrincipal/acceuil/accueil.php" id="lien">
 		<!-- mettre celui pour modifier le site -->
 		<img src="http://localhost/Meittopi/image/logoSweetTable.png" alt="SweetTable" id="logo"/>
 	</a>
