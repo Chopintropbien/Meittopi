@@ -20,7 +20,15 @@ function ListeCommentaire(){
 			if(i != listeLength -1){
 				this.createElement('hr', ouAfficher, '');
 			}
-			
 		}
+			// zone pour répondre
+		//~ this.createElement('hr', ouAfficher, '');
+		//~ this.createElement('li', ouAfficher, 'zoneReponse');
+			//~ this.createElement('h4', 'zoneReponse', 'titreReponse');
+			//~ this.createElement('textarea', 'zoneReponse', '');
+			//~ var nouvelElement = document.createElement('input');
+			//~ nouvelElement.id = ; 
+			//~ document.getElementById(idElementParent).appendChild(nouvelElement);
+		
 	};
 }

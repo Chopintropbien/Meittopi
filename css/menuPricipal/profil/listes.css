@@ -1,6 +1,17 @@
+#listeDeListe{
+	margin-bottom: 40px;
+}
 
+#liste{
+	border: 2px #EBEAEB outset; 
+	background-color: #F4F4F4;
+	width: 90%;
+	padding: 1% 1.5% 1% 1.5%;
+}
 
-
-.footerListeRestau{
+#liste li {
+	padding: 1% 0% 1% 0%;
 
 }
+	
+	

@@ -29,10 +29,9 @@ header("Content-type: text/javascript");
  */
  
 
-//~ $JSON = file_get_contents("http://localhost:5000/user/chiffa");
+//$JSON = file_get_contents("http://localhost:5000/user/chiffa");
 
-echo ' var listeRestau =  {
-
+$json = '{
 			"restau0" : [ 
 						"Chez J\'aime ",
 						"http://localhost/Meittopi/image/restau.jpg",
@@ -51,10 +50,23 @@ echo ' var listeRestau =  {
 						""
 						]
 
-};';
+}';
 
+$jsonDecode = json_decode($json);
+//~ print $jsonDecode->{'restau0'}[0];
+
+foreach ($jsonDecode as $value) {
+	echo $value[0];
+}
 ?>
-chargerListeRestau(listeRestau);
+
+
+
+
+
+
+
+
 
 
 

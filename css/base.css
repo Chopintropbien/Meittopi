@@ -103,10 +103,13 @@ em{
 .ajous{
 	font-size: 14px;
 	color: #305EC6;
-	margin: 3px;
 	text-decoration: none;
 	display: block;
 	font-weight: bold;
+	text-align: right;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
 }
 
 .ajous:hover{

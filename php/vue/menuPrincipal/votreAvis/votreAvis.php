@@ -19,14 +19,12 @@
 				</nav>
 
 				<section id="partiePrincipale">
-
+					<a href = "http://localhost/Meittopi/php/vue/menuPrincipal/votreAvis/proposerAmelioration.php">
+						<h6 class="ajous" id="ajous"> </h6>
+					</a>  
 					
 					<section id="gauche">
-						<a href = "http://localhost/Meittopi/php/vue/menuPrincipal/votreAvis/proposerAmelioration.php">
-							<h6 class="ajous" id="ajous"> </h6>
-						</a>  
-					
-					
+
 						<!-- liste des ameliorations propose -->
 						<ul id="propositionAmelioration"> 
 						

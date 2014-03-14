@@ -1,19 +1,15 @@
-.ajous{
-	text-indent: 4%;
-}
+
 #droite, #gauche{
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 3%;
 }
 #gauche{
 	width: 59%;
 }
 
 	#propositionAmelioration {
-		margin: 3%;
+		margin: 0% 3% 3% 3%;
 		border: 1px red solid;
-		margin-top: 3%;
 		border: 2px #EBEAEB outset; 
 		background-color: #F4F4F4;
 		padding: 1%;
@@ -26,11 +22,10 @@
 	width: 40%;
 }
 	#explication, #profil, #donnation{
-		margin: 3%;
+		margin: 0% 3% 5% 3%;
 		border: 2px #EBEAEB outset; 
 		background-color: #F4F4F4;
 		padding: 3%;
-		margin-bottom: 5%;
 	}
 		#explication h1{
 			text-align: center;
