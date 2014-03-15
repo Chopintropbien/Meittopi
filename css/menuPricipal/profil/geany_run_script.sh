@@ -2,7 +2,7 @@
 
 rm $0
 
-./monProfil
+./amis
 
 echo "
 
