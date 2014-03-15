@@ -12,10 +12,15 @@
 			<li class="rechercheProfil" id = "amisNav">  </li>
 		</a>
 		
-		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/sortie.php"> 
+<!--
+		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/sortie.php">   pour quand il y aura plus de trafique
 			<li class="rechercheProfil" id = "sortieNav"> </li>
 		</a>
-
+-->
+		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/evenement.php">
+			 <li class="rechercheProfil" id = "evenementNav">  </li> 
+		</a>
+		
 		<a href=" http://localhost/Meittopi/php/vue/menuPrincipal/profil/suivis.php">
 			 <li class="rechercheProfil" id = "suivisNav">  </li> 
 		</a>

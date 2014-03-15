@@ -7,7 +7,7 @@
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/navigateur/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/navigateur.css"/>
 			<link rel="stylesheet" href="http://localhost/Meittopi/css/menuPricipal/profil/monProfil.css"/>
-			<link rel="stylesheet" href="http://localhost/Meittopi/css/class/monProfil.class.css"/>
+			<link rel="stylesheet" href="http://localhost/Meittopi/css/classDaffichage/profil/profilPageAcceuil.class.css"/>
 			<title id = "titre">  </title>
 		</head>
 		
@@ -25,75 +25,221 @@
 					
 					
 					<article id="profil_profil"> 
-<!--
-						<h2> Lauriane Mollier </h2>
-						<h5> Alias: <strong> DarkChopin </strong></h5>
-							<article id="profilComplet">
-								
-									<figure id="profil"> 
-										<a href="profil.php"> <img src="../Image/profil.png" alt="Photo de profile" /> </a>
-							
-										<!-- mettre un lien pour acceder au profil facilement et suprimer la case profil-->
-<!--
-										<figcaption id="legendeProfil">
-											<a href="profil.php"> Changer de photo de profil </a> 
-											<ul id="notif">
-												<li> 0 amis </li>
-												<li> 0 avis </li>
-												<li> 0 followers </li>
-											</ul>
-										</figcaption> 
-									</figure>
-									
+						
+						
+						
+						
+						
+						
+						<aside id="profil">
+
+    <div id="nomPlusVille">
+        <a id="lienProfil" href="qsdvf">
+            <h2>
+
+                Lauriane Mollier, 
+
+            </h2>
+        </a>
+        <p id="ville">
+
+            Lausanne
+
+        </p>
+    </div>
+    <article id="photoEtNotif">
+        <img src="http://localhost/Meittopi/image/profil_vide.png"></img>
+        <section id="sectionNotif">
+            <ul id="colonne1">
+                <li id="ligne1colone1" class="ligne1colone1">
+                    <img src="http://localhost/Meittopi/image/profil/ampoule.png"></img>
+                    <p>
+
+                        8
+
+                    </p>
+
+                     votes utile
+
+                </li>
+                <li id="ligne2colone1" class="ligne1colone2">
+                    <img src="http://localhost/Meittopi/image/profil/drole.png"></img>
+                    <p>
+
+                        5
+
+                    </p>
+
+                     votes drôle
+
+                </li>
+                <li id="ligne3colone1" class="ligne1colone3">
+                    <img src="http://localhost/Meittopi/image/profil/cool.png"></img>
+                    <p>
+
+                        2
+
+                    </p>
+
+                     votes cool
+
+                </li>
+            </ul>
+            <ul id="colonne2">
+                <li id="ligne1colone2" class="ligne2colone1">
+                    <img src="http://localhost/Meittopi/image/profil/population.png"></img>
+                    <p>
+
+                        4
+
+                    </p>
+
+                     amis
+
+                </li>
+                <li id="ligne2colone2" class="ligne2colone2">
+                    <img src="http://localhost/Meittopi/image/profil/olive_wreath.png"></img>
+                    <p>
+
+                        1
+
+                    </p>
+
+                     compliment
+
+                </li>
+                <li id="ligne3colone2" class="ligne2colone3">
+                    <img src="http://localhost/Meittopi/image/profil/follower.png"></img>
+                    <p></p>
+
+                     followers
+
+                </li>
+            </ul>
+            <ul id="colonne3">
+                <li id="ligne2colone3" class="ligne3colone2">
+                    <img src="http://localhost/Meittopi/image/profil/revue.png"></img>
+                    <p>
+
+                        4
+
+                    </p>
+
+                     revus
+
+                </li>
+                <li id="ligne1colone3" class="ligne3colone1">
+                    <img src="http://localhost/Meittopi/image/profil/sortie.png"></img>
+                    <p>
+
+                        5
+
+                    </p>
+
+                     sortie
+
+                </li>
+            </ul>
+        </section>
+    </article>
+    </aside>
+						
+						
+						
+						<hr/>
+						
+						
+						
+						
+		
 									<ul id="infoPersonnelles">
-										<li class="infoPersonnelles">
-											<h6> J'habite : </h6> 
+										<li>
+											<h6> J'habite : </h6> <input type="button" value="+" class="petiteCroix"/>
 											<p> Chemin de malley, 12 </br>
 											    1007 Lausanne
 											</p>
 										</li>
-										<li class="infoPersonnelles"> 
-											<h6> Je suis :</h6>
+										<li> 
+											 <h6> Je suis :</h6> <input type="button" value="+" class="petiteCroix"/>
 											 <p> Dévelopeuse du site</p>
 										</li>
-										<li class="infoPersonnelles"> <h6> J'aime </h6> 
-											 <p> Coder en php ou être avec mon copain</p>
+										<li> <h6> J'aime : </h6> <input type="button" value="+" class="petiteCroix"/>
+										<textarea>  Coder en php ou être avec mon copain </textarea>
+											<div> Valider </div>
 										</li>
-										<li class="infoPersonnelles" id="mettreAJour"> 
-											<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/modifierMonProfil.php">Mettre à jour votre profil!</a>
+										<li> 
+											 <h6> Je suis :</h6> <input type="button" value="+" class="petiteCroix"/>
+											 <p> Dévelopeuse du site</p>
 										</li>
 										
+										<li>
+											<h5> Nouveau champ</h5>
+											<input type="text" class="nouveauTitre"/>
+											 <textarea> </textarea>
+											 <div> Valider </div>
+										</li>
+										<li>
+											<p id="ajouterUnChamp">Ajouter un  champ</p>
+										</li>
+										
+										
 									</ul>
-							</article>
--->
+						
+
+
 
 					</article> 
 					
-					<aside id="blocDeDroite">
-						<article>
-							<h2 id="changerLeSite">   </h2>
-							<p id="changerLeSiteP">
-							</p>
-						</article>
 					
-						<article> 
-							<h2 id="suggestion">  </h2>
-							<p id="suggestionP">
-								 
-							</p>
-						</article>
-						
-						<article> 
-							<h2 id="appreciation"> </h2>
-						</article>
-					</aside>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<ul id="notification">
+						<li>
+							<h1> Notification </h1>
+						</li>
+						<hr/>
+						<li>
+							<img src="http://localhost/Meittopi/image/profil_vide.png"/>
+							<article>
+								<time> il y a 2 min</time>
+								<a>Andrei</a> vous as ecrit un <a>compliement</a>
+							</article>
+						</li>
+						<hr/>
+						<li>
+							<img src="http://localhost/Meittopi/image/profil_vide.png"/>
+							<article>
+								<time> il y a 2 min</time>
+								<a>Andrei</a> vous as ecrit un <a>compliement</a>
+							</article>
+						</li>
+						<hr/>
+						<li>
+							<img src="http://localhost/Meittopi/image/profil_vide.png"/>
+							<article>
+								<time> il y a 2 min</time>
+								<a>Andrei</a> vous as ecrit un <a>compliement</a>
+							</article>
+						</li>
+					
+					</ul>
+					
 				</section> 
 		
+<!--
 		<script src = "http://localhost/Meittopi/php/controleur/class/profil.class.js"> </script>
 		
 		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/francais/monProfil.js"> </script> 
 		<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/monProfil.js"> </script> 
 		<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/profil/monProfil.php"> </script> 
+-->
 				
 		
 		</body>

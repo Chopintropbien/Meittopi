@@ -1,47 +1,50 @@
 
-#partieDroite aside {
-	
+#profil {
+
 }
-	#partieDroite aside div{
+	#profil div{
 		text-align: center;
 		margin-bottom: 2%;
 		
-	}
-		#partieDroite aside div a h2{
+	}		
+			/* titre */
+		#profile div a h2{
 			display: inline-block;
 		}
-		#partieDroite aside div p{
+		#profil div p{
 			display: inline-block;	
 			margin-left: 2%;		
 		}
-		#partieDroite aside article{
+			/* partie en dessous du titre */
+		#profil article{
 		}
-		#partieDroite aside article img{
+		#profil article img{
 			display: inline-block;
 			width: 20%;
 			vertical-align: top;
 		}
-		#partieDroite aside article section{
+			/* partie des listes des information */
+		#profil article section{
 			display: inline-block;
-			width: 79%;
+			width: 78.6%;
 		}
-			#partieDroite aside article section ul{
+			#profil article section ul{
 				display: inline-block;
 				vertical-align: top;
 				margin-left: 1%;
 				font-size: 14px;
 			}
-				#partieDroite aside article section ul li{
+				#profil article section ul li{
 					margin-bottom: 5%;			
 					text-align: left;
 				}
-					#partieDroite aside article section ul li img{
+					#profil article section ul li img{
 						display: inline-block;
 						vertical-align: middle;
 						width: 20px;
 					}
 						/* chiffre */
-					#partieDroite aside article section ul li p{
+					#profil article section ul li p{
 						display: inline-block;
 						vertical-align: middle;
 						text-indent: 2px;

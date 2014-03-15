@@ -2,7 +2,7 @@
 
 rm $0
 
-./navigateur
+./monProfil
 
 echo "
 

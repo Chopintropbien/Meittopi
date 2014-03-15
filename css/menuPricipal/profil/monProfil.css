@@ -9,27 +9,136 @@
 	margin-top: 8%;
 	overflow: auto;
 }
-#blocDeDroite{
+
+
+#infoPersonnelles{
+	margin-top: 10px;
+	width: 77%;
+	margin-left: 22%;
+	
+}
+
+#infoPersonnelles li{
+	margin: 1.5%;
+}
+#infoPersonnelles li input{
+	display: inline-block;
+}
+
+#infoPersonnelles li h6{
+	font-size: 100%;
+	text-decoration: underline;
+	margin-bottom: 0.7%;
+	display: inline-block;
+}
+
+#infoPersonnelles li p{
+	text-indent: 2%;
+}
+	/* partie pour modifier les information */
+#infoPersonnelles li h5{
+	margin: 4% 0% 0.5% 0%;
+}	
+#infoPersonnelles li input.nouveauTitre{
+	padding: 0.5%;
+}
+#infoPersonnelles li textarea{
+	display: block;
+	width: 90%;
+	max-width: 99%;
+	padding: 0.5%;
+	margin: 1% 0% 2% 0%;
+}
+	/* validation */
+#infoPersonnelles li div{
+	text-align: right;
+	margin-right: 15%;
+}
+#infoPersonnelles li div:hover{
+	text-decoration: underline;
+}
+
+
+	/* pour ajouter un champ */
+#ajouterUnChamp{
+	color: #305EC6;
+	text-align: right;
+	margin-top: 3%;
+}
+#ajouterUnChamp:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+	/* block de droite */
+
+
+
+#notification{
 	display: inline-block;
 	width: 25%;
 	margin-top: 8%;
-}
-#blocDeDroite article{
-	min-width: 250px;
-	margin-bottom: 10%; 
-	text-align: center;
 	border: 2px #EBEAEB outset; 
 	background-color: #F4F4F4;
-	padding: 10px;
-	
-} 
-#blocDeDroite article:hover{
-	background-color: #EFEFEF;
+	padding: 1%;
 }
 
-#blocDeDroite article h2{
-	margin-bottom: 5px;
-} 
+#notification li{
+	margin-top: 1%;
+}
+		/* titre notification */
+	#notification li h1{
+		text-align: center;
+		font-size: 120%;
+		margin-bottom: 3%;
+	} 
+		/* photo de profil */
+	#notification li img{
+		display: inline-block;
+		vertical-align: top;
+		width: 13%;
+		margin-right: 2%;
+	}
+		/* notification */
+	#notification li article{
+		display: inline-block;
+		vertical-align: top;
+		width: 82%;
+	}
+			/* la date de la notification */
+		#notification li article time{
+			color: gray;
+			font-size: 70%;
+			text-align: right;
+			display: block;
+		}
+		#notification li article a{
+			color: #305EC6;
+		}
+		#notification li article a:hover{
+			text-decoration: underline;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

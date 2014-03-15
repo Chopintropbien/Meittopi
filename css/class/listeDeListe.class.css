@@ -7,11 +7,19 @@
 	
 }
 		/* entete du tableau */
-	.entete h1{
-		padding: 0.5%;
+	.entete{
 		text-align: center;
-		font-size: 150%;
-	}
+	}	
+		.entete h1{
+			padding: 0.5%;
+			font-size: 150%;
+		}
+			/* demander titre lors d'une nouvelle page */
+		.entete input{
+			padding: 0.5%;
+			font-size: 150%;
+			width: 50%;
+		}
 		/* commentaire */
 	.commentaire{
 		width: 35.5%;
@@ -71,6 +79,7 @@
 		vertical-align: top;
 		text-align: center;
 		font-size: 80%;
+		cursor: pointer;
 		border: 1px #EBEAEB outset; 
 		user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
 		-moz-user-select: none;
@@ -80,12 +89,11 @@
 	.fermerElement:active{
 		position: relative;
 		top: 0.3px;
-		left: 01px; 
+		left: 1px; 
 	}
 		/* ajouter un element à la liste */
 	.ajouterALaListe{
-		width: 75%;
-		
+		width: 75%;	
 	}
 			
 		.ajouterALaListe h3{

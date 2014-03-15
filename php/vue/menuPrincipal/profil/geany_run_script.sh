@@ -2,7 +2,7 @@
 
 rm $0
 
-php "listes.php"
+php "monProfil.php"
 
 echo "
 

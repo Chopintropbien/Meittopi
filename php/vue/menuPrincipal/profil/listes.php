@@ -32,7 +32,8 @@
 					
 					<section id="grossePartie">
 					
-						<h6 class="ajous" id = "ajous"> </h6>
+						<a href="http://localhost/Meittopi/php/vue/menuPrincipal/profil/ajouterListe.php"> <h6 class="ajous" id = "ajous"> </h6> </a>
+						
 						
 							<!-- entete des differentes listes -->
 						<ul id="listeDeListe">
@@ -43,7 +44,12 @@
 							<!-- affiche des listes -->
 
 						<ul id="liste">
-							<li class="entete">  <h1> Voila mon titre </h1> </li>
+							<li class="entete">  
+<!--
+								<h1> Voila mon titre </h1>
+-->
+							<input type="texte" placeholder="Nouveau titre"/>
+							 </li>
 						<hr/>
 						<li>
 		
@@ -278,13 +284,23 @@
 								<option value="discution" id="discution"> Une discution </option>
 							</select>
 							
-							<input type="texte" id="chercherElementAjouList"/>
+							<input type="texte" id="chercherElementAjouList" placeholder="Rechercher"/>
 							
-							<div><input type="button" id="ajouterALaListe" value="Validé"/></div>
+							<div>
+								<input type="button" id="ajouterALaListe" value="Validé" />
+							</div>
 							
 						</li>
 						
-						</table>
+						</ul>
+						
+						
+						<div id="enregistrerListeEmplacement"> 
+							<span> Annuler </span>
+							<span> Supprimer cette liste </span>
+							<input type="button" value="Enregistrer" id="enregistrerListe"/> 
+						</div>
+						
 					
 					</article>
 				</section>
@@ -293,8 +309,10 @@
 				<script src = "http://localhost/Meittopi/php/controleur/class/listeRestau.class.js"> </script>
 				<script src = "http://localhost/Meittopi/php/controleur/class/restaurant.class.js"> </script>
 				<script src = "http://localhost/Meittopi/php/controleur/class/listeDeListe.class.js"> </script>
+-->
 				
 				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/francais/listes.js"> </script> 
+<!--
 				<script src = "http://localhost/Meittopi/php/controleur/menuPrincipal/profil/listes.js"> </script>  
 				<script src = "http://localhost/Meittopi/php/modele/menuPrincipal/profil/listes.php"> </script> 
 -->

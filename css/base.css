@@ -100,6 +100,7 @@ em{
 	color: #F75400;
 }
 
+	/* pour les button  d'ajous */
 .ajous{
 	font-size: 14px;
 	color: #305EC6;
@@ -117,4 +118,38 @@ em{
 	color: #305EC6;
 	font-weight: bold;
 }
+
+	/* pour les petites crois qui active des choses */
+input.petiteCroix{
+	background-color:  transparent;
+	box-shadow: none; 
+	font-size: 75%;
+	border: 1px #EBEAEB outset; 
+	float: right;
+	cursor: pointer;
+	user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	text-align: center;
+}
+input.petiteCroix:active{
+	position: relative;
+	top: 0.5%;
+	left: 0.5%;
+	user-select: none; /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	text-align: center;
+}
+
+
+
+hr{
+	color: silver;
+}
+
+
+
 
